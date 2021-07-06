@@ -10,7 +10,7 @@ const SideMenuBar = (props) => (
     <nav className="side-menu">
 
         <div className="search-widget">
-            <form action="/search" >
+            <form action="/search">
 
                 <input
                     type="text"
@@ -30,14 +30,7 @@ const SideMenuBar = (props) => (
             <MenuItem name="People" dir="/people"/>
             <MenuItem name="Operations" dir="/operations"/>
             <MenuItem name="Reports" dir="/reports"/>
-            <div style={{paddingTop: "26px",
-    paddingLeft: "19px"}}>
-                        <li>
-                            <button className="button" >
-                                <b>Sign-in</b>
-                            </button>
-                        </li>
-                    </div>
+            
         </ul>
 
     </nav>

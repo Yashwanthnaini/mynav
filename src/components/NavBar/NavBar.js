@@ -21,13 +21,7 @@ const NavBar = () => (
                 <NavItem name="Operations" dir="/operations"/>
                 <NavItem name="Report" dir="/report"/>
                 <div className="spacer"/>
-                <div>
-                    <li>
-                        <button className="button">
-                            <b>Sign-in</b>
-                        </button>
-                    </li>
-                </div>
+               
                 <div>
                     <li>
                         <a href="/"><FaSearch className="search-icon"/></a>
