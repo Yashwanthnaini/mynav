@@ -14,12 +14,12 @@ const SideMenuBar = (props) => (
 
                 <input
                     type="text"
-                    maxlength="100"
-                    size="10"
+                    maxlength="50"
+                    size="1"
                     placeholder="Search"
                     className="search-bar"/>
-                <button className="form-submit">
-                    <FaSearch className="icon"/>
+                <button className="form-submit" type="submit" href="/search">
+                    <FaSearch className="icon-small"/>
                 </button>
             </form>
         </div>

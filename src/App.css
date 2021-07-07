@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #A2DBFA;
+    background-color: #ffffff;
 }
 
 .button {
@@ -88,7 +88,18 @@ form {
 
 .icon {
     color: #005c9c;
+    height: 30px;
+    width: 18px;
+}
+.icon-small{
+    color: #005c9c;
+}
 
+
+.line{
+    background-color: #2d9ff1;
+    height: 4px;
+    width: 100%;
 }
 
 .menu-item {
@@ -145,6 +156,8 @@ form {
 
 }
 
+
+
 .nav-menu ul {
     align-items: center;
     display: flex;
@@ -154,14 +167,20 @@ form {
     padding: 0;
 
 }
-
-.search-icon {
-    color: #005c9c;
-
+.nav-search-bar{
+    
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+.nav-search-box{
+   
+    display: flex;
+    padding: 0em 0em 0.5em;
 }
 
+
 .search-widget {
-    padding: 0.5em 1em 0;
+    padding: 0.5em 1em 0.5em;
     position: relative;
 
 }
@@ -172,18 +191,21 @@ form {
     background-color: white;
     font: inherit;
     line-height: 1.2;
-    margin: 0.5em 0 0;
+   
     outline: none;
 
-    padding: 0.5em;
+    padding: 0.5em 0;
 
     width: calc(90% - 22px - 0.5em);
 
 }
+.search-widget .nav-search-bar{
+    padding: 0 0 0 0.5em;
+}
 
 .side-menu {
     background: #eef2f5;
-    
+    box-shadow: 2px 0 3px rgb(16 48 68);
     height: 100%;
     left: 0;
     max-width: 400px;
@@ -226,6 +248,10 @@ form {
         width: 66px;
         height: 60px;
     }
+    .nav-search-button{
+        padding-left: 13px;
+    padding-top: 20px;
+    }
     .side-menu a {
         font-size: 15px;
     }
@@ -244,5 +270,11 @@ form {
 @media (max-width:480px) {
     .backdrop{
         left: 80%;
+    }
+}
+
+@media (max-width:800px) {
+    .navigation-bar{
+       padding: 0;
     }
 }

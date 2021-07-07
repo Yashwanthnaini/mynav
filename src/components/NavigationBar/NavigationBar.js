@@ -43,6 +43,7 @@ function NavigationBar () {
                 <div className="backdrop" onClick={() => setSideMenuOpen(false)}></div>
 
             </nav>
+            <div className="line"></div>
         </header>
     );
 };
