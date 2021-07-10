@@ -30,9 +30,10 @@ const App = () => {
 
     //using state to set false value to sidemenuopen variable
     const [sideMenuOpen, setSideMenuOpen] = useState(false);
-    const [pageLoad ,setPageLode] = useState("");
+    
 
     return (
+        <Router>
         <div>
         <header className="header-section">
             <nav className="navigation-bar">
@@ -64,7 +65,7 @@ const App = () => {
             <div className="line"></div>
         </header>
         
-            <Router>
+            
             <div className="page-load">
                 <Switch>
                         <Route exact path="/">
@@ -90,9 +91,9 @@ const App = () => {
                             
                 </Switch>
                 </div>
-            </Router>
+            
         </div>
-   
+        </Router>
         );
     };
 

@@ -1,12 +1,13 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 //using props to recieve information from other components
 const NavItem = (props) => (
     <div className="div_hover">
                         <li>
-                            <a href={props.dir}>
+                            <Link to={props.dir}>
                                 <b onclionClick="document.location.href='../../pages/Home/Home.js';">{props.name}</b>
-                            </a>
+                            </Link>
                         </li>
     </div>
 );

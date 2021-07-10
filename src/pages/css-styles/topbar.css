@@ -46,7 +46,7 @@
 }
 
 #image{
-    padding-bottom: 50px;
+    padding-top: 30px;
 }
 .dropdown__menu,.selected {
     width: 90%;
@@ -82,9 +82,7 @@
     width: 16px;
     height: 16px;
     float: right;
-    position: absolute;
-    top: 53%;
-    left: 90%;
+    
     transform: translate(-50%, -50%);
 }
 .dropdown__menu {
