@@ -29,7 +29,7 @@ const SideMenuBar = (props) => (
             <MenuItem name="About" dir="/about"/>
             <MenuItem name="People" dir="/people"/>
             <MenuItem name="Operations" dir="/operations"/>
-            <MenuItem name="Reports" dir="/reports"/>
+            <MenuItem name="Report" dir="/report"/>
             
         </ul>
 

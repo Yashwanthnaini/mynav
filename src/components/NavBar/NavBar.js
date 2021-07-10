@@ -1,4 +1,5 @@
-import React from "react";
+import React  from "react";
+
 import "../../App.css"
 
 //importing search icon from  react icons
@@ -7,6 +8,7 @@ import {FaSearch} from "react-icons/fa";
 //import nabbar items from navitem component
 import NavItem from "./NavItem";
 
+
 const NavBar = () => (
 
     <div className="nav-menu " style={{
@@ -14,7 +16,8 @@ const NavBar = () => (
         }}>
         <ul >
             {/*using props to send information to navitem component */}
-            <NavItem name="Home" dir="/"/>
+            
+            <NavItem name="Home" dir="/" />
             <NavItem name="About" dir="/about"/>
             <NavItem name="People" dir="/people"/>
             <NavItem name="Operations" dir="/operations"/>

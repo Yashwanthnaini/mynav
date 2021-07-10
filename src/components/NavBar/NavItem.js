@@ -5,7 +5,7 @@ const NavItem = (props) => (
     <div className="div_hover">
                         <li>
                             <a href={props.dir}>
-                                <b>{props.name}</b>
+                                <b onclionClick="document.location.href='../../pages/Home/Home.js';">{props.name}</b>
                             </a>
                         </li>
     </div>
