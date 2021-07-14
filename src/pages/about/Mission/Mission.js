@@ -2,9 +2,9 @@ import React from 'react'
 
 function Mission() {
     return (
-        <div>
-            {/* <h1>Under Construction - Mission</h1> */}
-        </div>
+        <div style={{alignItems: "center"}}>
+            <center><h3>Mission</h3></center>
+         </div>
     )
 }
 

@@ -1,5 +1,6 @@
 import React  from "react";
 
+
 import "../../App.css"
 
 //importing search icon from  react icons
@@ -10,7 +11,7 @@ import NavItem from "./NavItem";
 
 
 const NavBar = () => (
-
+   
     <div className="nav-menu " style={{
             height: "100%"
         }}>

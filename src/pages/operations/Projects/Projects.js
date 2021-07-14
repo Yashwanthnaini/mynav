@@ -2,9 +2,9 @@ import React from 'react'
 
 function Projects() {
     return (
-        <div>
-            
-        </div>
+        <div style={{alignItems: "center"}}>
+            <center><h3>Projects</h3></center>
+         </div>
     )
 }
 

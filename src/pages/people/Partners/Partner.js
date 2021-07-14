@@ -2,9 +2,9 @@ import React from 'react'
 
 function Partner() {
     return (
-        <div>
-            {/* Partner */}
-        </div>
+        <div style={{alignItems: "center"}}>
+            <center><h3>Partner</h3></center>
+         </div>
     )
 }
 

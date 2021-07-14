@@ -2,9 +2,9 @@ import React from 'react'
 
 function Whoweare() {
     return (
-        <div>
-            {/* <h1>Under Construction - Whoweare</h1> */}
-        </div>
+        <div style={{alignItems: "center"}}>
+            <center><h3>Who we are</h3></center>
+         </div>
     )
 }
 

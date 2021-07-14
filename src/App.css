@@ -61,6 +61,9 @@ form {
     padding: 12px;
 }
 
+.hambutton{
+    padding-left: 22px;
+}
 .ham-button {
     background-color: #ffffff;
     border: none;

@@ -2,9 +2,9 @@ import React from 'react'
 
 function Finance() {
     return (
-        <div>
-            {/* <h1>Under Construction - Finance</h1> */}
-        </div>
+        <div style={{alignItems: "center"}}>
+            <center><h3>Finance</h3></center>
+         </div>
     )
 }
 

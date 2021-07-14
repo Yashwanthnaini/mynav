@@ -2,9 +2,9 @@ import React from 'react'
 
 function Contact() {
     return (
-        <div>
-            {/* <h1>Under Construction - contact</h1> */}
-        </div>
+        <div style={{alignItems: "center"}}>
+            <center><h3>Contact</h3></center>
+         </div>
     )
 }
 

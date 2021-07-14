@@ -2,9 +2,9 @@ import React from 'react'
 
 function Lifeatftp() {
     return (
-        <div>
-            {/* Lifeatftp */}
-        </div>
+        <div style={{alignItems: "center"}}>
+            <center><h3>Lifeatftp</h3></center>
+         </div>
     )
 }
 

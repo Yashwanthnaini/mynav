@@ -2,9 +2,9 @@ import React from 'react'
 
 function Governance() {
     return (
-        <div>
-            {/* <h1>Under Construction - Governance</h1> */}
-        </div>
+        <div style={{alignItems: "center"}}>
+            <center><h3>Governance</h3></center>
+         </div>
     )
 }
 

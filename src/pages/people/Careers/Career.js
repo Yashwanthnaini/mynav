@@ -2,9 +2,9 @@ import React from 'react'
 
 function Career() {
     return (
-        <div>
-            {/* Career */}
-        </div>
+        <div style={{alignItems: "center"}}>
+            <center><h3>Carrer</h3></center>
+         </div>
     )
 }
 

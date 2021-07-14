@@ -2,9 +2,9 @@ import React from 'react'
 
 function Events() {
     return (
-        <div>
-            
-        </div>
+        <div style={{alignItems: "center"}}>
+            <center><h3>Events</h3></center>
+         </div>
     )
 }
 

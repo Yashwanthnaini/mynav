@@ -2,9 +2,9 @@ import React from 'react'
 
 function Member() {
     return (
-        <div>
-            {/* Member */}
-        </div>
+        <div style={{alignItems: "center"}}>
+            <center><h3>Member</h3></center>
+         </div>
     )
 }
 
