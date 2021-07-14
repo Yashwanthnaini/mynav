@@ -20,43 +20,19 @@ import Home from "./pages/home/Home.js"
 
 import About from "./pages/about/About.js"
 
-import Mission from "./pages/about/Mission/Mission.js"
 
-import Contact from "./pages/about/Contact/Contact.js"
-
-import Finance from "./pages/about/Finance/Finance.js"
-
-import Governance from "./pages/about/Governance/Governance.js"
-
-import HowWeDo from "./pages/about/Howwedo/Howwedo.js"
-
-import WhatWeDo from "./pages/about/Whatwedo/Whatwedo.js"
-
-import WhoWeAre from "./pages/about/Whoweare/Whoweare.js"
 
 //People page
 
 import People from "./pages/people/People.js"
 
-import Careers from "./pages/people/Careers/Career.js"
 
-import Communities from "./pages/people/Communities/Communities.js"
-
-import LifeAtFtp from "./pages/people/Lifeatftp/Lifeatftp.js"
-
-import Members from "./pages/people/Members/Member.js"
-
-import Partners from "./pages/people/Partners/Partner.js"
 
 //Operations page
 
 import Operation from "./pages/operations/Operation.js"
 
-import Events from "./pages/operations/Events/Events.js"
 
-import Gallery from "./pages/operations/Gallery/Gallery.js"
-
-import Projects from "./pages/operations/Projects/Projects.js"
 
 //report page
 import Report from "./pages/report/Report.js"
@@ -120,31 +96,31 @@ const App = () => {
                         </Route>
 
                         <Route path="/about/mission" exact="exact">
-                            <Mission/>
+                            <About/>
                         </Route>
 
                         <Route path="/about/contact" exact="exact">
-                            <Contact/>
+                            <About/>
                         </Route>
 
                         <Route path="/about/finance" exact="exact">
-                            <Finance/>
+                            <About/>
                         </Route>
 
                         <Route path="/about/governance" exact="exact">
-                            <Governance/>
+                            <About/>
                         </Route>
 
                         <Route path="/about/howwedo" exact="exact">
-                            <HowWeDo/>
+                            <About/>
                         </Route>
 
                         <Route path="/about/whatwedo" exact="exact">
-                            <WhatWeDo/>
+                            <About/>
                         </Route>
 
                         <Route path="/about/whoweare" exact="exact">
-                            <WhoWeAre/>
+                            <About/>
                         </Route>
 
                         {/* people page */}
@@ -153,24 +129,24 @@ const App = () => {
                             <People/>
                         </Route>
 
-                        <Route path="/people/career" exact="exact">
-                            <Careers/>
+                        <Route path="/people/careers" exact="exact">
+                            <People/>
                         </Route>
 
                         <Route path="/people/community" exact="exact">
-                            <Communities/>
+                        <People/>
                         </Route>
 
                         <Route path="/people/lifeatftp" exact="exact">
-                            <LifeAtFtp/>
+                        <People/>
                         </Route>
 
-                        <Route path="/people/member" exact="exact">
-                            <Members/>
+                        <Route path="/people/members" exact="exact">
+                        <People/>
                         </Route>
 
-                        <Route path="/people/partner" exact="exact">
-                            <Partners/>
+                        <Route path="/people/partners" exact="exact">
+                        <People/>
                         </Route>
                         {/* operations page*/}
                         <Route path="/operations" exact="exact">
@@ -178,15 +154,19 @@ const App = () => {
                         </Route>
 
                         <Route path="/operations/events" exact="exact">
-                            <Events/>
+                        <Operation/>
                         </Route>
 
                         <Route path="/operations/gallery" exact="exact">
-                            <Gallery/>
+                        <Operation/>
                         </Route>
 
                         <Route path="/operations/projects" exact="exact">
-                            <Projects/>
+                        <Operation/>
+                        </Route>
+
+                        <Route path="/operations/contact" exact="exact">
+                        <Operation/>
                         </Route>
 
                         {/* report page */}

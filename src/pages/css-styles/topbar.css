@@ -9,6 +9,7 @@
     position: relative;
     /* text-align: center; */
 }
+
 .Imagebar ul{
     display: flex;
     align-items: center;
@@ -67,7 +68,7 @@
 
 }
 .dropdown__menu{
-    display: none;
+    display: block;
 }
 .selected{
     width: 80%;
@@ -120,5 +121,14 @@
     }
     .selected{
         position: unset;
+    }
+}
+
+
+@media (max-width:768px){
+    .Imagebar img{
+        max-width:100%;
+        height: 200px;
+        object-fit: fill;
     }
 }
