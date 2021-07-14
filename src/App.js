@@ -157,7 +157,7 @@ const App = () => {
                             <Careers/>
                         </Route>
 
-                        <Route path="/people/communitie" exact="exact">
+                        <Route path="/people/community" exact="exact">
                             <Communities/>
                         </Route>
 
