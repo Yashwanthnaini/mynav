@@ -118,7 +118,7 @@ const Operation = () => {
                 
             }
         }
-        className = "selected" > <span className="text">Operations</span>
+        className = "selected" > <span className="text">{imageText}</span>
         <span ><img src={arrowSymbol} alt={arrowSymbol} id="image"/></span>
     </p>
     {
@@ -128,7 +128,7 @@ const Operation = () => {
                 to="/operations/events"
                 style={{
                     textDecoration: 'none'
-                }}  onClick={() => setOpenDropdown(false)}>
+                }}  onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li onClick={() => {setImageSrc(
                        "https://static.wixstatic.com/media/nsplsh_63583276456c513561486b~mv2_d_5860_39" +
                        "12_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_63583276" +
@@ -140,7 +140,7 @@ const Operation = () => {
                 to="/operations/projects"
                 style={{
                     textDecoration: 'none'
-                }} onClick={() => setOpenDropdown(false)}>
+                }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li  onClick={() =>{ setImageSrc(
                         "https://static.wixstatic.com/media/nsplsh_6232315479333343715673~mv2_d_6000_40" +
                         "00_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_62323154" +
@@ -152,7 +152,7 @@ const Operation = () => {
                 to="/operations/gallery"
                 style={{
                     textDecoration: 'none'
-                }} onClick={() => setOpenDropdown(false)}>
+                }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li 
                 onClick={() => {setImageSrc(
                     "https://static.wixstatic.com/media/nsplsh_a16cbc9d8b944a2cb14aedf58a0afa1d~mv2" +
@@ -164,7 +164,7 @@ const Operation = () => {
                 to="/operations/contact"
                 style={{
                     textDecoration: 'none'
-                }} onClick={() => setOpenDropdown(false)}>
+                }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li 
                 onClick={() => {setImageSrc(
                     "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2" +

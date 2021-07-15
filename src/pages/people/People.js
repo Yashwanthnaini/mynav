@@ -137,7 +137,7 @@ const People = () => {
                 
             }
         }
-        className = "selected" > <span className="text">People</span>
+        className = "selected" > <span className="text">{imageText}</span>
         <span ><img src={arrowSymbol} alt={arrowSymbol} id="image"/></span>
     </p>
     {
@@ -147,7 +147,7 @@ const People = () => {
                 to="/people/members"
                 style={{
                     textDecoration: 'none'
-                }}  onClick={() => setOpenDropdown(false)}>
+                }}  onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li onClick={() => {setImageSrc(
                        "https://static.wixstatic.com/media/nsplsh_36553541456d5149616a67~mv2_d_4272_28" +
                        "48_s_4_2.jpg/v1/fill/w_1349,h_201,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_36553541" +
@@ -159,7 +159,7 @@ const People = () => {
                 to="/people/careers"
                 style={{
                     textDecoration: 'none'
-                }} onClick={() => setOpenDropdown(false)}>
+                }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li  onClick={() =>{ setImageSrc(
                          "https://static.wixstatic.com/media/nsplsh_774e7a375f354576555755~mv2_d_6016_40" +
                          "00_s_4_2.jpg/v1/fill/w_1349,h_281,al_t,q_85,usm_0.66_1.00_0.01/nsplsh_774e7a37" +
@@ -171,7 +171,7 @@ const People = () => {
                 to="/people/community"
                 style={{
                     textDecoration: 'none'
-                }} onClick={() => setOpenDropdown(false)}>
+                }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li 
                 onClick={() => {setImageSrc(
                     "https://static.wixstatic.com/media/55b9087be50e46b59051426e1cdd23cb.jpg/v1/fil" +
@@ -183,7 +183,7 @@ const People = () => {
                 to="/people/partners"
                 style={{
                     textDecoration: 'none'
-                }} onClick={() => setOpenDropdown(false)}>
+                }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li 
                 onClick={() => {setImageSrc(
                     "https://static.wixstatic.com/media/nsplsh_180cb9475d35470e81293861b8bb812d~mv2" +
@@ -196,7 +196,7 @@ const People = () => {
                 to="/people/lifeatftp"
                 style={{
                     textDecoration: 'none'
-                }} onClick={() => setOpenDropdown(false)}>
+                }} onClick={() => {setOpenDropdown(false);; setArrowSymbol(arrow)}}>
                 <li 
                  onClick={() => {setImageSrc(
                     "https://static.wixstatic.com/media/8daf94f88f524d8cb168d8004c1fe282.jpg/v1/fil" +

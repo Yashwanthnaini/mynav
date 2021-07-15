@@ -168,7 +168,7 @@ const About = () => {
                 
             }
         }
-        className = "selected" > <span className="text">Mission</span>
+        className = "selected" > <span className="text">{imageText}</span>
         <span ><img src={arrowSymbol} alt={arrowSymbol} id="image"/></span>
     </p>
     {
@@ -178,7 +178,7 @@ const About = () => {
                 to="/about/mission"
                 style={{
                     textDecoration: 'none'
-                }}  onClick={() => setOpenDropdown(false)}>
+                }}  onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li onClick={() => {setImageSrc(
                         "https://static.wixstatic.com/media/nsplsh_396378342d516f77674c63~mv2.jpg/v1/fi" +
                         "ll/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_396378342d516f77674c63~mv2" +
@@ -190,7 +190,7 @@ const About = () => {
                 to="/about/whoweare"
                 style={{
                     textDecoration: 'none'
-                }} onClick={() => setOpenDropdown(false)}>
+                }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li  onClick={() =>{ setImageSrc(
                         "https://static.wixstatic.com/media/nsplsh_fc8662d44f00446cbf9dbdefaace46e2~mv2" +
                         ".jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_fc8662d44f00446c" +
@@ -202,7 +202,7 @@ const About = () => {
                 to="/about/whatwedo"
                 style={{
                     textDecoration: 'none'
-                }} onClick={() => setOpenDropdown(false)}>
+                }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li 
                 onClick={() => {setImageSrc(
                     "https://static.wixstatic.com/media/nsplsh_a16cbc9d8b944a2cb14aedf58a0afa1d~mv2" +
@@ -214,7 +214,7 @@ const About = () => {
                 to="/about/howwedo"
                 style={{
                     textDecoration: 'none'
-                }} onClick={() => setOpenDropdown(false)}>
+                }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li 
                 onClick={() => {setImageSrc(
                     "https://static.wixstatic.com/media/nsplsh_c9b625629d2743c987629d9db3939846~mv2" +
@@ -227,7 +227,7 @@ const About = () => {
                 to="/about/governance"
                 style={{
                     textDecoration: 'none'
-                }} onClick={() => setOpenDropdown(false)}>
+                }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li 
                  onClick={() => {setImageSrc(
                     "https://static.wixstatic.com/media/nsplsh_705957754f4d687463366b~mv2_d_3008_20" +
@@ -240,7 +240,7 @@ const About = () => {
                 to="/about/finance"
                 style={{
                     textDecoration: 'none'
-                }} onClick={() => setOpenDropdown(false)}>
+                }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li
                      onClick={() => {setImageSrc(
                         "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2" +
@@ -254,7 +254,7 @@ const About = () => {
                 to="/about/contact"
                 style={{
                     textDecoration: 'none'
-                }} onClick={() => setOpenDropdown(false)}>
+                }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li 
                      onClick={() => {setImageSrc(
                         "https://static.wixstatic.com/media/nsplsh_2d0effc05f29423e8295ff8261af8c33~mv2" +
