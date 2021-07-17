@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Home= () => {
+const Blog= () => {
     return (
         <div style={{alignItems: "center"}}>
-            <center><h3>Hello World This is Home page</h3></center>
+            <center><h3>Hello World This is Blog page</h3></center>
          </div>
     )
 }
 
-export default Home;
+export default Blog;
