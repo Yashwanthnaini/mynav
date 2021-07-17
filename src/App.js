@@ -59,9 +59,9 @@ const App = () => {
 
     const [crossButtonOpen, setCrossButtonOpen] = useState(false);
 
-    const [exploreOneOpen ,setExploreOneOpen] = useState(false);
+    const [exploreOneOpen ,setExploreOneOpen] = useState(true);
 
-    const [exploreTwoOpen ,setExploreTwoOpen] = useState(false);
+    const [exploreTwoOpen ,setExploreTwoOpen] = useState(true);
 
     
       
