@@ -1,3 +1,12 @@
+.backdrop { 
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
 .menu .wef-bfltzr {
     display: flex;
     flex-direction: column;
@@ -22,12 +31,7 @@
     box-sizing: border-box;
 }
 
-*,
-*:after,
-*:before {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
+
 
 .menu {
     line-height: 1.5;

@@ -220,6 +220,12 @@
     text-decoration: none;
     color: var(--link-color);
 }
+.navigationbar .link-item:focus-within
+{
+
+    color :#005C9C;
+
+}
 .navigationbar .link-item:focus,
 .navigationbar .link-item[data-focus] {
     box-shadow: 0 0 0 3px rgba(66,153,225,0.6);

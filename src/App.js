@@ -17,6 +17,7 @@ import TogglerButton from "./components/NavBar/TogglerButton.js"
 
 //importing Menubar components
 import "./components/Menu/MenuBar.css";
+import BackDrop from "./components/Menu/BackDrop.js";
 import DropDownIcon from "./components/Menu/DropDownIcon.js";
 import DownArrowIcon from "./components/Menu/DownArrowIcon.js";
 import ExploreOne from "./components/Menu/ExploreOne.js";
@@ -189,6 +190,12 @@ const App = () => {
                                               
                             
                             :null
+                    }
+
+                    {
+                        sideMenuOpen
+                        ?<BackDrop  setSideMenuOpen={setSideMenuOpen}/>
+                        : null
                     }
                       
 {/* using onclick method to change the sidemenuopen value to 'false' when the backdrop is clicked*/}

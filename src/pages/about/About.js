@@ -146,7 +146,7 @@ const About = () => {
 
         </ul>
         <span>{imageText}</span>
-    </div>
+    </div >
 
             {/* Dropdown Bar */
         } < p onClick = {
@@ -173,7 +173,7 @@ const About = () => {
     </p>
     {
         openDropdown
-            ? <ul className="dropdown__menu">
+            ? <ul className="dropdown__menu page-links">
             <Link
                 to="/about/mission"
                 style={{
@@ -251,6 +251,7 @@ const About = () => {
             </Link>
     
             <Link
+                
                 to="/about/contact"
                 style={{
                     textDecoration: 'none'
