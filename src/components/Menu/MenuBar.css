@@ -235,8 +235,8 @@ svg:not(:root) {
 .menu .wef-6detrv {
     border-top-color: var(--border-color,#1F1F1F);
     position: relative;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-top-width: 1px;
 }
 
