@@ -235,8 +235,8 @@ svg:not(:root) {
 .menu .wef-6detrv {
     border-top-color: var(--border-color,#1F1F1F);
     position: relative;
-    padding-top: 1rem;
-    padding-bottom: 1.25rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     border-top-width: 1px;
 }
 
@@ -324,7 +324,7 @@ h4 {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    padding-bottom: 2rem;
+    padding-bottom: 0.5rem;
 }
 
 .menu .wef-dhwils {
