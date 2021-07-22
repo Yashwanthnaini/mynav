@@ -140,30 +140,10 @@ const App = () => {
                                             <div onClick={() => setSideMenuOpen(false)}><MenuCrossIcon /></div>
                                             <div className="menu-modal__body wef-1fibqux" id="menu-modal--body-1">
                                                 <div className="wef-0">
-                                                    <header  onClick={() => setExploreOneOpen(!exploreOneOpen)} className="wef-6detrv">
-                                                        <h4 className="menu-text wef-1pkwypy">
+                                                <header className="wef-6detrv" onClick={() => setExploreTwoOpen(!exploreTwoOpen)}>
+                                                        <h4 className="menu-text wef-1pkwypy" >
                                                             <div className="wef-gg4vpm">
-                                                                Explore more   
-                                                                <div>{
-                                                                        exploreOneOpen
-                                                                        ?<DropDownIcon />
-                                                                        :<DownArrowIcon />
-                                                                    }</div>
-                                                            </div>
-                                                        </h4>
-                                                    </header>
-                                                    {
-                                                        exploreOneOpen
-                                                        ? <ExploreOne setSideMenuOpen={setSideMenuOpen}/>
-                                                        :null
-                                                    }
-                                                    
-                                                </div>
-                                                <div className="wef-0">
-                                                    <header className="wef-6detrv">
-                                                        <h4 className="menu-text wef-1pkwypy" onClick={() => setExploreTwoOpen(!exploreTwoOpen)}>
-                                                            <div className="wef-gg4vpm">
-                                                                Explore
+                                                            Explore
                                                                 <div >
                                                                     {
                                                                         exploreTwoOpen
@@ -177,6 +157,27 @@ const App = () => {
                                                     {
                                                         exploreTwoOpen
                                                         ? <ExploreTwo setSideMenuOpen={setSideMenuOpen} />
+                                                        :null
+                                                    }
+                                                </div>
+                                                <div className="wef-0">
+                                                    
+                                                            <header  onClick={() => setExploreOneOpen(!exploreOneOpen)} className="wef-6detrv">
+                                                        <h4 className="menu-text wef-1pkwypy">
+                                                            <div className="wef-gg4vpm">
+                                                                
+                                                    Explore more   
+                                                                <div>{
+                                                                        exploreOneOpen
+                                                                        ?<DropDownIcon />
+                                                                        :<DownArrowIcon />
+                                                                    }</div>
+                                                            </div>
+                                                        </h4>
+                                                    </header>
+                                                    {
+                                                        exploreOneOpen
+                                                        ? <ExploreOne setSideMenuOpen={setSideMenuOpen}/>
                                                         :null
                                                     }
                                                     
