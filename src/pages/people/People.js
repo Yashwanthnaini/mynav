@@ -118,7 +118,9 @@ const People = () => {
     </div>
 
            {/* Dropdown Bar */
-        } < p onClick = {
+        } < p style={{
+            boxSizing: "unset",
+        }} onClick = {
 
             () => {
                if(openDropdown){
