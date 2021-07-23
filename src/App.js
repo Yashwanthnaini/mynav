@@ -29,25 +29,34 @@ import SocialMediaLinks from "./components/Menu/SocialMediaLinks.js";
 
 
 //Home Page
-import Home from "./pages/home/Home.js"
+import Home from "./mypages/Home/Home.js";
 
-//About Page
-import About from "./pages/about/About.js"
-
-//People page
-import People from "./pages/people/People.js"
-
-//Operations page
-import Operation from "./pages/operations/Operation.js"
 
 //report page
-import Report from "./pages/report/Report.js"
+import Report from "./mypages/Reports/Report.js"
 
-import Blog from "./pages/blog/Blog.js";
+import Blog from "./mypages/Blog/Blog.js";
 
-import Projects from "./pages/projects/Projects.js";
 
-import Events from "./pages/events/Events.js";
+
+import Events from "./mypages/Events/Events.js";
+
+import Projects from "./mypages/Projects/Projects.js";
+
+import Careers from "./mypages/Careers/Careers.js";
+
+import Communities from "./mypages/Communities/Communities.js";
+
+import ContactUs from "./mypages/ConatctUs/ContactUs.js";
+
+import Partners from "./mypages/OurPartners/OurPartners.js";
+
+import LifeAtFTP from "./mypages/LifeAtFTP/LifeAtFTP.js";
+
+import LAndG from "./mypages/LAndG/LAndG.js";
+
+import OurMission from "./mypages/OurMission/OurMission.js";
+
 
 // name: Naini Yashwanth email: nainiyashwanth@gmail.com
 
@@ -208,97 +217,202 @@ const App = () => {
                                     <Home/>
                                 </Route>
 
-                                <Route exact path="/events">
-                                    <Events/>
-                                </Route>
+                               
 
                                 <Route exact path="/blog">
                                     <Blog/>
                                 </Route>
 
+                                
+
+                               
+
+                               
+                                {/* events page*/}
+                                <Route path="/events" exact>
+                                    <Events />
+                                </Route>
+                                <Route path="/events/people" exact>
+                                    <Events />
+                                </Route>
+                                <Route path="/events/howwedo" exact>
+                                    <Events />
+                                </Route>
+                                <Route path="/events/finance" exact>
+                                    <Events />
+                                </Route>
+                                <Route path="/events/whatwedo" exact>
+                                    <Events />
+                                </Route>
+                                <Route path="/events/whoweare" exact>
+                                    <Events />
+                                </Route>
+
+                                {/* projects page */}
                                 <Route exact path="/projects">
                                     <Projects/>
                                 </Route>
-
-                                {/* about page */}
-
-                                <Route path="/about" exact>
-                                    <About/>
+                                <Route exact path="/projects/people">
+                                    <Projects/>
+                                </Route>
+                                <Route exact path="/projects/finance">
+                                    <Projects/>
+                                </Route>
+                                <Route exact path="/projects/whoweare">
+                                    <Projects/>
+                                </Route>
+                                <Route exact path="/projects/whatwedo">
+                                    <Projects/>
+                                </Route>
+                                <Route exact path="/projects/howwedo">
+                                    <Projects/>
+                                </Route>
+                                
+                                {/* career page */}
+                                <Route exact path="/careers">
+                                    <Careers/>
+                                </Route>
+                                <Route exact path="/careers/people">
+                                    <Careers/>
+                                </Route>
+                                <Route exact path="/careers/finance">
+                                    <Careers/>
+                                </Route>
+                                <Route exact path="/careers/whoweare">
+                                    <Careers/>
+                                </Route>
+                                <Route exact path="/careers/whatwedo">
+                                    <Careers/>
+                                </Route>    
+                                <Route exact path="/careers/howwedo">
+                                    <Careers/>
                                 </Route>
 
-                                <Route path="/about/mission" exact>
-                                    <About/>
+                                {/* Communities page */}
+                                <Route exact path="/communities">
+                                <Communities/>
+                                </Route>
+                                <Route exact path="/communities/people">
+                                <Communities/>
+                                </Route>
+                                <Route exact path="/communities/finance">
+                                <Communities/>
+                                </Route>
+                                <Route exact path="/communities/whoweare">
+                                <Communities/>
+                                </Route>
+                                <Route exact path="/communities/whatwedo">
+                                <Communities/>
+                                </Route>
+                                <Route exact path="/communities/howwedo">
+                                    <Communities/>
                                 </Route>
 
-                                <Route path="/about/contact" exact>
-                                    <About/>
+                                {/* Contact page */}
+                                <Route exact path="/contacts">
+                                    <ContactUs/>
+                                </Route>
+                                <Route exact path="/contacts/people">
+                                    <ContactUs/>
+                                </Route>
+                                <Route exact path="/contacts/finance">
+                                    <ContactUs/>
+                                </Route>
+                                <Route exact path="/contacts/whoweare">
+                                <ContactUs/>
+                                </Route>
+                                <Route exact path="/contacts/whatwedo">
+                                <ContactUs/>
+                                </Route>
+                                <Route exact path="/contacts/howwedo">
+                                <ContactUs/>
                                 </Route>
 
-                                <Route path="/about/finance" exact>
-                                    <About/>
+                                {/* Our partners page */}
+                                <Route exact path="/about/partners">
+                                <Partners />
+                                </Route>
+                                <Route exact path="/about/partners/people">
+                                <Partners />
+                                </Route>
+                                <Route exact path="/about/partners/finance">
+                                <Partners />
+                                </Route>
+                                <Route exact path="/about/partners/whoweare">
+                                <Partners />
+                                </Route>
+                                <Route exact path="/about/partners/whatwedo">
+                                <Partners />
+                                </Route>
+                                <Route exact path="/about/partners/howwedo">
+                                <Partners />
                                 </Route>
 
-                                <Route path="/about/governance" exact>
-                                    <About/>
+                                {/* Life at fta page */}
+                                <Route exact path="/about/lifeatftp">
+                                <LifeAtFTP />
+                                </Route>
+                                <Route exact path="/about/lifeatftp/howwedo">
+                                <LifeAtFTP />
+                                </Route>
+                                <Route exact path="/about/lifeatftp/people">
+                                <LifeAtFTP />
+                                </Route>
+                                <Route exact path="/about/lifeatftp/finance">
+                                <LifeAtFTP />
+                                </Route>
+                                <Route exact path="/about/lifeatftp/whoweare">
+                                <LifeAtFTP />
+                                </Route>
+                                <Route exact path="/about/lifeatftp/whatwedo">
+                                <LifeAtFTP />
                                 </Route>
 
-                                <Route path="/about/howwedo" exact>
-                                    <About/>
+                                {/* leadership and governance page */}
+                                <Route exact path="/about/governance">
+                                <LAndG />
+                                </Route>
+                                <Route exact path="/about/governance/people">
+                                <LAndG />
+                                </Route>
+                                <Route exact path="/about/governance/finance">
+                                <LAndG />
+                                </Route>
+                                <Route exact path="/about/governance/whoweare">
+                                <LAndG />
+                                </Route>
+                                <Route exact path="/about/governance/whatwedo">
+                                <LAndG />
+                                </Route>
+                                <Route exact path="/about/governance/howwedo">
+                                <LAndG />
+                                </Route>
+                                
+                                {/* our mission page */}
+                                <Route exact path="/about/missions">
+                                <OurMission />
                                 </Route>
 
-                                <Route path="/about/whatwedo" exact>
-                                    <About/>
+                                <Route exact path="/about/missions/people">
+                                <OurMission />
                                 </Route>
 
-                                <Route path="/about/whoweare" exact>
-                                    <About/>
+                                <Route exact path="/about/missions/finance">
+                                <OurMission />
                                 </Route>
 
-                                {/* people page */}
-
-                                <Route path="/people" exact>
-                                    <People/>
+                                <Route exact path="/about/missions/whoweare">
+                                <OurMission />
                                 </Route>
 
-                                <Route path="/people/careers" exact>
-                                    <People/>
+                                <Route exact path="/about/missions/whatwedo">
+                                <OurMission />
                                 </Route>
 
-                                <Route path="/people/community" exact>
-                                <People/>
+                                <Route exact path="/about/missions/howwedo">
+                                <OurMission />
                                 </Route>
 
-                                <Route path="/people/lifeatftp" exact>
-                                <People/>
-                                </Route>
-
-                                <Route path="/people/members" exact>
-                                <People/>
-                                </Route>
-
-                                <Route path="/people/partners" exact>
-                                <People/>
-                                </Route>
-                                {/* operations page*/}
-                                <Route path="/operations" exact>
-                                    <Operation/>
-                                </Route>
-
-                                <Route path="/operations/events" exact>
-                                <Operation/>
-                                </Route>
-
-                                <Route path="/operations/gallery" exact>
-                                <Operation/>
-                                </Route>
-
-                                <Route path="/operations/projects" exact>
-                                <Operation/>
-                                </Route>
-
-                                <Route path="/operations/contact" exact>
-                                <Operation/>
-                                </Route>
 
                                 {/* report page */}
                                 <Route path="/reports" exact>
