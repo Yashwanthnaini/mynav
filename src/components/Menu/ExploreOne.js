@@ -8,9 +8,9 @@ const ExploreOne = ({setSideMenuOpen}) => {
             aria-hidden="true"
             style={{overflow: "hidden", opacity: "1", height: "auto"}}>
             <div className="menu-stack wef-1br6ptk">
-                <Link onClick={() => setSideMenuOpen(false)} className="menu-link wef-dhwils" to="/careers">Careers</Link>
-                <Link onClick={() => setSideMenuOpen(false)} className="menu-link wef-dhwils" to="/communities">Communities</Link>
-                <Link onClick={() => setSideMenuOpen(false)} className="menu-link wef-dhwils" to="/contacts">Contact us</Link>                                                        
+                <Link onClick={() => setSideMenuOpen(false)} className="menu-link wef-dhwils" to="/people/careers">Careers</Link>
+                <Link onClick={() => setSideMenuOpen(false)} className="menu-link wef-dhwils" to="/people/communities">Communities</Link>
+                <Link onClick={() => setSideMenuOpen(false)} className="menu-link wef-dhwils" to="/about/contact">Contact us</Link>                                                        
             </div>
         </div>
         </>

@@ -5,8 +5,8 @@ const NavBarLinks = () => {
         <> 
             < div className = "links" > 
                 <nav className="navigationbar-stack my-stack-two">
-                    <Link className="navigationbar-link link-item" to="/events">Events</Link>
-                    <Link className="navigationbar-link link-item" to="/projects">Projects</Link>
+                    <Link className="navigationbar-link link-item" to="/operations/events">Events</Link>
+                    <Link className="navigationbar-link link-item" to="/operations/projects">Projects</Link>
                     <Link className="navigationbar-link link-item" to="/blog">Blog</Link>
                     <Link className="navigationbar-link link-item" to="/reports">Reports</Link>
                 </nav>
