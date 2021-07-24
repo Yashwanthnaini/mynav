@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../../forthepeoplengo2.png";
+import Logo from "./Logo/forthepeoplengo2.png";
 
 const NavBarLinks = () => {
     return(

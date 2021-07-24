@@ -9,7 +9,7 @@ import NavBar from "./components/NavBar/NavBar.js";
 
 //importing Menubar components
 import MenuBar from "./components/Menu/MenuBar.js";
-import BackDrop from "./components/Menu/BackDrop.js";
+import BackDrop from "./components/Menu/BackDrop/BackDrop.js";
 
 //importing Mypages components
 import MyPages from "./mypages/MyPages.js";

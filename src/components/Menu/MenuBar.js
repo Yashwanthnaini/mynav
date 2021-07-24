@@ -5,14 +5,14 @@ import React, {useState} from "react";
 
 //importing Menubar components
 import "./MenuBar.css";
-import BackDrop from "./BackDrop.js";
-import DropDownIcon from "./DropDownIcon.js";
-import DownArrowIcon from "./DownArrowIcon.js";
-import ExploreOne from "./ExploreOne.js";
-import ExploreTwo from "./ExploreTwo.js";
-import Forum from "./Forum.js";
-import MenuCrossIcon from "./MenuCrossIcon.js";
-import SocialMediaLinks from "./SocialMediaLinks.js";
+import BackDrop from "./BackDrop/BackDrop.js";
+import DropDownIcon from "./DropDownIcon/DropDownIcon.js";
+import DownArrowIcon from "./DownArrowIcon/DownArrowIcon.js";
+import ExploreOne from "./ExploreOne/ExploreOne.js";
+import ExploreTwo from "./ExploreTwo/ExploreTwo.js";
+import Forum from "./Forum/Forum.js";
+import MenuCrossIcon from "./MenuCrossIcon/MenuCrossIcon.js";
+import SocialMediaLinks from "./SocialMediaLinks/SocialMediaLinks";
 
 const MenuBar = ({setSideMenuOpen}) =>{
 

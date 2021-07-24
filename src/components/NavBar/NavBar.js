@@ -2,13 +2,13 @@ import React, {useState} from "react";
 
 //importing NavBar Components
 import "./NavBar.css";
-import CrossIcon from "./CrossIcon.js";
-import NavBarLinks from "./NavBarLinks.js";
-import NavBarLogo from "./NavBarLogo.js";
-import SearchBar from "./SearchBar.js";
-import SearchIcon from "./SearchIcon.js";
-import Spacer from "./Spacer.js";
-import TogglerButton from "./TogglerButton.js"
+import CrossIcon from "./CrossIcon/CrossIcon.js";
+import NavBarLinks from "./NavBarLinks/NavBarLinks.js";
+import NavBarLogo from "./NavBarLogo/NavBarLogo.js";
+import SearchBar from "./SearchBar/SearchBar.js";
+import SearchIcon from "./SearchIcon/SearchIcon.js";
+import Spacer from "./Spacer/Spacer.js";
+import TogglerButton from "./TogglerButton/TogglerButton.js"
 
 
 const NavBar = ({setSideMenuOpen}) => {

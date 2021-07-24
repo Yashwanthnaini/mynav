@@ -1,7 +1,7 @@
 import React from "react";
-import Telegram_logo from "../../Telegram_logo.svg"
-import pinterest_logo from "../../pinterest_logo.svg"
-import Reddit_logo from "../../reddit-4.svg";
+import Telegram_logo from "./Icons/Telegram_logo.svg"
+import pinterest_logo from "./Icons/pinterest_logo.svg"
+import Reddit_logo from "./Icons/reddit-4.svg";
 
 const SocialMediaLinks = ({setSideMenuOpen}) => {
     return(
