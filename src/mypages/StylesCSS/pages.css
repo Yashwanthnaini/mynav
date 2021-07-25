@@ -99,7 +99,7 @@ object-position: 50% 50%;
 /* Mobile-View */
 @media screen and (max-width: 480px) {
     .Imagebar-image{
-    
+        
         object-position: 0% 50%;
         }
     .Imagebar ul{

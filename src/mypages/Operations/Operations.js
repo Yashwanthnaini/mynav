@@ -45,7 +45,11 @@ const Operations = () => {
    
          
     return (
-        <> < div className = "Imagebar" > <img src={imageSrc} alt="background"/>
+        <> < div className = "Imagebar" > <img className="Imagebar-image" style={{width: "100%",
+        height: "286px",
+        objectFit: "cover",
+        
+            }} src={imageSrc} alt="background"/>
         <ul className="Topbar__links">
             <Link
                 to="/operations/events"
