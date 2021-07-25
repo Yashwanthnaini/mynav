@@ -5,7 +5,7 @@ import React, {useState} from "react";
 
 //importing Menubar components
 import "./MenuBar.css";
-import BackDrop from "./BackDrop/BackDrop.js";
+
 import DropDownIcon from "./DropDownIcon/DropDownIcon.js";
 import DownArrowIcon from "./DownArrowIcon/DownArrowIcon.js";
 import ExploreOne from "./ExploreOne/ExploreOne.js";

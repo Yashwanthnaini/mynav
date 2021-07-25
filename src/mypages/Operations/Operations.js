@@ -37,7 +37,9 @@ const Operations = () => {
 
     const [openDropdown , setOpenDropdown] = useState(false);
 
-    const [arrowSymbol,setArrowSymbol] = useState(arrow)
+    const [arrowSymbol,setArrowSymbol] = useState(arrow);
+
+    const [underLine,setUnderLine] = useState("events");
    
    
    
@@ -55,7 +57,17 @@ const Operations = () => {
                     onClick={() => {setImageSrc(
                         "https://static.wixstatic.com/media/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.webp"
                     );
-                    setImageText("Events");setLoadPage(<Events />)}}>Events</li>
+                    setImageText("Events");setLoadPage(<Events />);setUnderLine("events")}}>Events</li>
+                    {
+                        underLine==="events"
+                        ?<div>
+                            <hr style={{
+                                marginTop: "30px",
+                                borderTop: "5px solid #10578B"
+                            }}></hr>
+                         </div>
+                        :""
+                    }
             </Link>
             <Link
                 to="/operations/projects"
@@ -66,7 +78,17 @@ const Operations = () => {
                 <li
                     onClick={() => {setImageSrc(
                         "https://static.wixstatic.com/media/nsplsh_6232315479333343715673~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_6232315479333343715673~mv2_d_6000_4000_s_4_2.webp"
-                    ); setImageText("Projects");setLoadPage(<Projects />)}}>Projects</li>
+                    ); setImageText("Projects");setLoadPage(<Projects />);setUnderLine("projects")}}>Projects</li>
+                    {
+                        underLine==="projects"
+                        ?<div>
+                            <hr style={{
+                                marginTop: "30px",
+                                borderTop: "5px solid #10578B"
+                            }}></hr>
+                         </div>
+                        :""
+                    }
             </Link>
             <Link
                 to="/operations/gallery"
@@ -77,7 +99,17 @@ const Operations = () => {
                 <li
                     onClick={() => {setImageSrc(
                         "https://static.wixstatic.com/media/nsplsh_536d345446453778744451~mv2_d_6000_4500_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_536d345446453778744451~mv2_d_6000_4500_s_4_2.webp"
-                    ); setImageText("Gallery");setLoadPage(<Gallery />)}}>Gallery</li>
+                    ); setImageText("Gallery");setLoadPage(<Gallery />);setUnderLine("gallery")}}>Gallery</li>
+                    {
+                        underLine==="gallery"
+                        ?<div>
+                            <hr style={{
+                                marginTop: "30px",
+                                borderTop: "5px solid #10578B"
+                            }}></hr>
+                         </div>
+                        :""
+                    }
             </Link>
         
             <Link
@@ -89,7 +121,17 @@ const Operations = () => {
                 <li
                     onClick={() => {setImageSrc(
                         "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.webp"
-                    ); setImageText("Contact");setLoadPage(<Contact />)}}>Contact</li>
+                    ); setImageText("Contact");setLoadPage(<Contact />);setUnderLine("contact")}}>Contact</li>
+                    {
+                        underLine==="contact"
+                        ?<div>
+                            <hr style={{
+                                marginTop: "30px",
+                                borderTop: "5px solid #10578B"
+                            }}></hr>
+                         </div>
+                        :""
+                    }
             </Link>
             
            
@@ -138,7 +180,7 @@ const Operations = () => {
                 >
                 <li
                     onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.webp"
+                        "https://static.wixstatic.com/media/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.webp"
                     );
                     setImageText("Events");setLoadPage(<Events />)}}>Events</li>
             </Link>
@@ -152,7 +194,7 @@ const Operations = () => {
                 >
                 <li
                     onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_6232315479333343715673~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_6232315479333343715673~mv2_d_6000_4000_s_4_2.webp"
+                        "https://static.wixstatic.com/media/nsplsh_6232315479333343715673~mv2_d_6000_4000_s_4_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_6232315479333343715673~mv2_d_6000_4000_s_4_2.webp"
                     ); setImageText("Projects");setLoadPage(<Projects />)}}>Projects</li>
             </Link>
             <Link
@@ -165,7 +207,7 @@ const Operations = () => {
                 >
                 <li
                     onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_536d345446453778744451~mv2_d_6000_4500_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_536d345446453778744451~mv2_d_6000_4500_s_4_2.webp"
+                        "https://static.wixstatic.com/media/nsplsh_536d345446453778744451~mv2_d_6000_4500_s_4_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_536d345446453778744451~mv2_d_6000_4500_s_4_2.webp"
                     ); setImageText("Gallery");setLoadPage(<Gallery />)}}>Gallery</li>
             </Link>
         
@@ -178,7 +220,7 @@ const Operations = () => {
                 >
                 <li
                     onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.webp"
+                        "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.webp"
                     ); setImageText("Contact");setLoadPage(<Contact />)}}>Contact</li>
             </Link>
         </ul>
