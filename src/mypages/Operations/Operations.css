@@ -197,6 +197,13 @@
     
     }
 }
+@media (max-width: 800px){
+.Operations-Imagebar ul {
+    width: 747px;
+    position: absolute;
+    bottom: 1px;
+    left: 26px;
+}}
 @media (max-width:768px) {
     
     .Operations-Imagebar ul{
@@ -207,7 +214,20 @@
     
     }
 }
-
+@media (max-width: 720px){
+    .Operations-Imagebar ul {
+        width: 700px;
+        position: absolute;
+        bottom: 1px;
+        left: 10px;
+    }}
+@media (max-width: 605px){
+    .Operations-Imagebar ul {
+        width: 590px;
+        position: absolute;
+        bottom: 1px;
+        left: 6px;
+    }}
 
 @media (max-width: 601px){
 .Operations-Imagebar ul {

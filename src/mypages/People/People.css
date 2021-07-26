@@ -89,6 +89,20 @@
     	box-shadow: 0 0 5px 1px #cccc;
         border-radius: 3px;
 }
+@media (min-width:1680px) {
+    .People-Imagebar img{
+        width: 100%;
+        height: 286px;
+        object-fit: cover;
+        object-position: 50% 50%;
+        }
+    .People-Imagebar ul{
+        position:absolute;
+    bottom: 1px;
+    left: 15%;
+    
+    }
+}
 @media (max-width:1680px) {
     .People-Imagebar img{
         width: 100%;
@@ -161,6 +175,13 @@
     
     }
 }
+@media (max-width: 800px){
+    .People-Imagebar ul {
+        width: 747px;
+        position: absolute;
+        bottom: 1px;
+        left: 26px;
+    }}
 @media (max-width:768px) {
     
     .People-Imagebar ul{
@@ -169,6 +190,21 @@
     bottom: 1px;
     left: 24px;
     
+    }
+}
+@media (max-width: 720px){
+    .People-Imagebar ul {
+        width: 700px;
+        position: absolute;
+        bottom: 1px;
+        left: 10px;
+    }}
+@media (max-width: 605px){
+    .People-Imagebar ul {
+        width: 590px;
+        position: absolute;
+        bottom: 1px;
+        left: 6px;
     }
 }
 @media (max-width: 601px){
