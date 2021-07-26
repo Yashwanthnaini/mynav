@@ -14,7 +14,7 @@ const SocialMediaLinks = ({setSideMenuOpen}) => {
                     <svg
                         viewBox="0 0 26 26"
                         focusable="false"
-                        class="menu-icon wef-yekspl"
+                        className="menu-icon wef-yekspl"
                         aria-label="Facebook">
                         <path
                             fillRule="evenodd"

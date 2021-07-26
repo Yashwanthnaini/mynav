@@ -4,13 +4,13 @@
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
 }
-.Imagebar{
+.People-Imagebar{
     width: 100%;
     
     position: relative;
 }
 
-.Imagebar ul{
+.People-Imagebar ul{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -22,7 +22,7 @@
     left: 80px;
     
 }
-.Imagebar ul li{
+.People-Imagebar ul li{
     list-style: none;
     padding-bottom: 0.5rem;
     text-align: center;
@@ -35,7 +35,7 @@
     cursor: pointer;
 }
 
-.Imagebar span{
+.People-Imagebar span{
     font-size: 32px;
     width: auto;
     font-family: 'Helvetica', 'Arial', sans-serif;
@@ -89,45 +89,85 @@
     	box-shadow: 0 0 5px 1px #cccc;
         border-radius: 3px;
 }
-@media (min-width:1680px) {
-    .Imagebar img{
+@media (max-width:1680px) {
+    .People-Imagebar img{
         width: 100%;
         height: 286px;
         object-fit: cover;
         object-position: 50% 50%;
         }
-    .Imagebar ul{
+    .People-Imagebar ul{
         position:absolute;
     bottom: 1px;
     left: 15%;
     
     }
 }
-@media (min-width:1024px) {
-    .Imagebar img{
+@media (max-width:1440px) {
+    
+    .People-Imagebar ul{
+        width: 1200px;
+        position: absolute;
+    bottom: 1px;
+    left: 125px;
+    
+    }
+}
+@media (max-width:1366px) {
+    
+    .People-Imagebar ul{
+        width: 1080px;
+        position: absolute;
+    bottom: 1px;
+    left: 136px;
+    
+    }
+}
+@media (max-width:1280px) {
+    
+    .People-Imagebar ul{
+        width: 1070px;
+        position: absolute;
+    bottom: 1px;
+    left: 112px;
+    
+    }
+}
+@media (max-width:1024px) {
+    .People-Imagebar img{
         width: 100%;
         height: 286px;
         object-fit: cover;
         object-position: 50% 50%;
         }
-    .Imagebar ul{
-        width: 990px;
+    .People-Imagebar ul{
+        width: 900px;
         position: absolute;
     bottom: 1px;
-    left: 14px;
+    left: 64px;
+    
+    }
+}
+@media (max-width:992px) {
+    
+    .People-Imagebar ul{
+        width: 900px;
+        position: absolute;
+    bottom: 1px;
+    left: 46px;
     
     }
 }
 
 /* Mobile-View */
 @media screen and (max-width: 480px) {
-    .Imagebar-image{
+    .People-Imagebar-image{
         width: 100%;
         height: 286px;
         object-fit: cover;
         object-position: 0% 50%;
         }
-    .Imagebar ul{
+    .People-Imagebar ul{
         display: none;
     }
     .selected{
@@ -135,12 +175,8 @@
         display: block;
         /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
     }
-    /* .Imagebar img{
-        max-width:100%;
-        height: 200px;
-        object-fit: fill;
-    } */
-    .Imagebar span{
+    
+    .People-Imagebar span{
         font-size: 25px;
          position: absolute;
          top: 50%;
@@ -151,9 +187,3 @@
     
 }
 
-#comp-ka3nn8iy {
-    --lnw: 4px;
-    --brd: 4,81,132;
-    --alpha-brd: 1;
-    transform-origin: center 2px;
-}

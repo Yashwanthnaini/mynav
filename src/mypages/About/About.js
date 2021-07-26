@@ -2,7 +2,7 @@ import React , {useState}   from 'react';
 
 
 
-import "../StylesCSS/pages.css" ;
+import "./About.css" ;
 
 
 import { Link } from 'react-router-dom';
@@ -34,7 +34,7 @@ import WhoWeAre from "./WhoWeAre/WhoWeAre.js";
 const About = () => {
 
     const [imageSrc, setImageSrc] = useState(
-        "https://static.wixstatic.com/media/nsplsh_396378342d516f77674c63~mv2.jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_396378342d516f77674c63~mv2.webp"
+        "https://static.wixstatic.com/media/nsplsh_396378342d516f77674c63~mv2.jpg"
     );
     const [imageText, setImageText] = useState("Mission");
 
@@ -49,15 +49,9 @@ const About = () => {
    
          
     return (
-        <> < div className = "Imagebar"  
-        > <img  className="Imagebar-image" style={{width: "100%",
-        height: "286px",
-        objectFit: "cover",
-        
-            }}
-    
-src={imageSrc} alt="background"/>
-        <ul className="Topbar__links">
+        <> < div className = "About-Imagebar"  > 
+                <img  className="About-Imagebar-image"  src={imageSrc} alt="background"/>
+        <ul className="About-Topbar__links">
             <Link
                 to="/about/mission"
                 style={{
@@ -66,7 +60,7 @@ src={imageSrc} alt="background"/>
                 }}>
                 <li
                     onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_396378342d516f77674c63~mv2.jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_396378342d516f77674c63~mv2.webp"
+                        "https://static.wixstatic.com/media/nsplsh_396378342d516f77674c63~mv2.jpg"
                     );
                     setImageText("Mission");setLoadPage(<Mission />);setUnderLine("mission")}}>Mission</li>
                     {
@@ -90,8 +84,7 @@ src={imageSrc} alt="background"/>
                 <li
                     onClick={() => {setImageSrc(
                         "https://static.wixstatic.com/media/nsplsh_fc8662d44f00446cbf9dbdefaace46e2~mv2" +
-                        ".jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_fc8662d44f00446c" +
-                        "bf9dbdefaace46e2~mv2.webp"
+                        ".jpg"
                     ); setImageText("Who we are");setLoadPage(<WhoWeAre />);setUnderLine("whoweare")}}>Who we are</li>
                     {
                         underLine==="whoweare"
@@ -112,7 +105,7 @@ src={imageSrc} alt="background"/>
                 }}>
                 <li
                     onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_705957754f4d687463366b~mv2_d_3008_2000_s_2.jpg/v1/fill/w_1895,h_422,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_705957754f4d687463366b~mv2_d_3008_2000_s_2.webp"
+                        "https://static.wixstatic.com/media/nsplsh_705957754f4d687463366b~mv2_d_3008_2000_s_2.jpg"
                     ); setImageText("What we do");setLoadPage(<WhatWeDo />);setUnderLine("whatwedo")}}>What we do</li>
                     {
                         underLine==="whatwedo"
@@ -135,8 +128,7 @@ src={imageSrc} alt="background"/>
                 <li
                     onClick={() => {setImageSrc(
                         "https://static.wixstatic.com/media/nsplsh_a16cbc9d8b944a2cb14aedf58a0afa1d~mv2" +
-                        ".jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_a16cbc9d8b944a2c" +
-                        "b14aedf58a0afa1d~mv2.webp"
+                        ".jpg"
                     ); setImageText("How we do");setLoadPage(<HowWeDo />);setUnderLine("howwedo")}}>How we do</li>
                     {
                         underLine==="howwedo"
@@ -157,9 +149,9 @@ src={imageSrc} alt="background"/>
                 }}>
                 <li
                     onClick={() =>{ setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_c9b625629d2743c987629d9db3939846~mv2.jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_c9b625629d2743c987629d9db3939846~mv2.webp"
+                        "https://static.wixstatic.com/media/nsplsh_c9b625629d2743c987629d9db3939846~mv2.jpg"
 
-                    ); setImageText("Governance & Leadership");setLoadPage(<GovernanceAndLeadership />);setUnderLine("governance")}}>GovernanceAndLeadership</li>
+                    ); setImageText("Governance & Leadership");setLoadPage(<GovernanceAndLeadership />);setUnderLine("governance")}}>Governance & Leadership</li>
                     {
                         underLine==="governance"
                         ?<div>
@@ -179,9 +171,9 @@ src={imageSrc} alt="background"/>
                 }}>
                 <li
                     onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.webp"
+                        "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg"
 
-                    ); setImageText("Financial & Reports");setLoadPage(<Finance />);setUnderLine("finance")}}>FinancialsAndReports</li>
+                    ); setImageText("Financial & Reports");setLoadPage(<Finance />);setUnderLine("finance")}}>Financials & Reports</li>
                     {
                         underLine==="finance"
                         ?<div>
@@ -201,7 +193,7 @@ src={imageSrc} alt="background"/>
                 }}>
                 <li
                     onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_2d0effc05f29423e8295ff8261af8c33~mv2.jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_2d0effc05f29423e8295ff8261af8c33~mv2.webp"
+                        "https://static.wixstatic.com/media/nsplsh_2d0effc05f29423e8295ff8261af8c33~mv2.jpg"
  
 
                     ); setImageText("Contact Us");setLoadPage(<Contact />);setUnderLine("contact")}}>Contact Us</li>

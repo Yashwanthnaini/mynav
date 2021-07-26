@@ -1,7 +1,7 @@
 import React , {useState}   from 'react';
 
 
-import "../StylesCSS/pages.css" ;
+import "./People.css" ;
 
 
 import { Link } from 'react-router-dom';
@@ -45,12 +45,12 @@ const People = () => {
    
          
     return (
-        <> < div className = "Imagebar" > <img className="Imagebar-image" style={{width: "100%",
+        <> < div className = "People-Imagebar" > <img className="People-Imagebar-image" style={{width: "100%",
         height: "286px",
         objectFit: "cover",
         
             }} src={imageSrc} alt="background"/>
-        <ul className="Topbar__links">
+        <ul className="People-Topbar__links">
             <Link
                 to="/people/members"
                 style={{

@@ -1,7 +1,7 @@
 import React , {useState}   from 'react';
 
 
-import "../StylesCSS/pages.css" ;
+import "./Operations.css" ;
 
 
 import { Link } from 'react-router-dom';
@@ -45,12 +45,12 @@ const Operations = () => {
    
          
     return (
-        <> < div className = "Imagebar" > <img className="Imagebar-image" style={{width: "100%",
+        <> < div className = "Operations-Imagebar" > <img className="Operations-Imagebar-image" style={{width: "100%",
         height: "286px",
         objectFit: "cover",
         
             }} src={imageSrc} alt="background"/>
-        <ul className="Topbar__links">
+        <ul className="Operations-Topbar__links">
             <Link
                 to="/operations/events"
                 style={{
@@ -59,7 +59,7 @@ const Operations = () => {
                 }}>
                 <li
                     onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.webp"
+                        "https://static.wixstatic.com/media/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.jpg"
                     );
                     setImageText("Events");setLoadPage(<Events />);setUnderLine("events")}}>Events</li>
                     {
