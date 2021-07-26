@@ -14,7 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 1rem;
+    padding-top: 1rem;
     width: 1103px;
     background-color: white;
     position:absolute;
@@ -153,19 +153,61 @@
     
     }
 }
-
+/* Mobile-View */
 @media (max-width:992px) {
    
     .About-Imagebar ul{
         width: 929px;
         position: absolute;
     bottom: 1px;
-    left: 29px;
+    left: 33px;
     
     }
 }
-
-/* Mobile-View */
+@media (max-width: 768px){
+.About-Imagebar ul {
+    width: 723px;
+    position: absolute;
+    bottom: 1px;
+    left: 24px;
+}
+}
+@media (max-width: 601px){
+    .About-Imagebar ul {
+        width: 590px;
+        position: absolute;
+        bottom: 1px;
+        left: 4px;
+    }}
+    @media screen and (max-width: 504px) {
+        .About-Imagebar-image{
+            width: 100%;
+            height: 286px;
+            object-fit: cover;
+            object-position: 0% 50%;
+            }
+        .About-Imagebar ul{
+            display: none;
+        }
+        .selected{
+            margin-top: 0.5rem;
+            display: block;
+            
+        }
+        
+        .About-Imagebar span{
+            font-size: 25px;
+             position: absolute;
+             top: 50%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+             white-space:normal;
+        }
+        
+    }
+    
+    
+    
 @media screen and (max-width: 480px) {
     .About-Imagebar-image{
         width: 100%;
@@ -179,13 +221,9 @@
     .selected{
         margin-top: 0.5rem;
         display: block;
-        /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+        
     }
-    /* .About-Imagebar img{
-        max-width:100%;
-        height: 200px;
-        object-fit: fill;
-    } */
+    
     .About-Imagebar span{
         font-size: 25px;
          position: absolute;

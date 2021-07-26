@@ -66,8 +66,11 @@ const People = () => {
                         underLine==="members"
                         ?<div>
                             <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
                             }}></hr>
                          </div>
                         :""
@@ -87,8 +90,11 @@ const People = () => {
                         underLine==="careers"
                         ?<div>
                             <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
                             }}></hr>
                          </div>
                         :""
@@ -108,8 +114,11 @@ const People = () => {
                         underLine==="communities"
                         ?<div>
                             <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
                             }}></hr>
                          </div>
                         :""
@@ -130,8 +139,11 @@ const People = () => {
                         underLine==="partners"
                         ?<div>
                             <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
                             }}></hr>
                          </div>
                         :""
@@ -152,8 +164,11 @@ const People = () => {
                         underLine==="lifeatftp"
                         ?<div>
                             <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
                             }}></hr>
                          </div>
                         :""

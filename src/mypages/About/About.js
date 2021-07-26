@@ -66,9 +66,12 @@ const About = () => {
                     {
                         underLine==="mission"
                         ?<div>
-                            <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                 <hr style={{
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
                             }}></hr>
                          </div>
                         :""
@@ -89,9 +92,12 @@ const About = () => {
                     {
                         underLine==="whoweare"
                         ?<div>
-                            <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                             <hr style={{
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
                             }}></hr>
                          </div>
                         :""
@@ -110,9 +116,13 @@ const About = () => {
                     {
                         underLine==="whatwedo"
                         ?<div>
-                            <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                                
+                                                <hr style={{
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
                             }}></hr>
                          </div>
                         :""
@@ -133,10 +143,14 @@ const About = () => {
                     {
                         underLine==="howwedo"
                         ?<div>
-                            <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                 <hr style={{
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
                             }}></hr>
+
                          </div>
                         :""
                     }
@@ -155,10 +169,14 @@ const About = () => {
                     {
                         underLine==="governance"
                         ?<div>
-                            <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                 <hr style={{
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
                             }}></hr>
+
                          </div>
                         :""
                     }
@@ -177,10 +195,14 @@ const About = () => {
                     {
                         underLine==="finance"
                         ?<div>
-                            <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                 <hr style={{
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
                             }}></hr>
+
                          </div>
                         :""
                     }
@@ -199,10 +221,14 @@ const About = () => {
                     ); setImageText("Contact Us");setLoadPage(<Contact />);setUnderLine("contact")}}>Contact Us</li>
                     {
                         underLine==="contact"
+                    
                         ?<div>
-                            <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                             <hr style={{
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
                             }}></hr>
                          </div>
                         :""

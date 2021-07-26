@@ -66,8 +66,11 @@ const Operations = () => {
                         underLine==="events"
                         ?<div>
                             <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                 height: "5px",
+                                 backgroundColor: "#10578B",
+                                 borderTop: "0",
+                                 borderLeft: "0",
+                                 marginLeft: "9px",
                             }}></hr>
                          </div>
                         :""
@@ -87,8 +90,11 @@ const Operations = () => {
                         underLine==="projects"
                         ?<div>
                             <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
                             }}></hr>
                          </div>
                         :""
@@ -108,8 +114,11 @@ const Operations = () => {
                         underLine==="gallery"
                         ?<div>
                             <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                 height: "5px",
+                                 backgroundColor: "#10578B",
+                                 borderTop: "0",
+                                 borderLeft: "0",
+                                 marginLeft: "9px",
                             }}></hr>
                          </div>
                         :""
@@ -125,13 +134,17 @@ const Operations = () => {
                 <li
                     onClick={() => {setImageSrc(
                         "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.webp"
-                    ); setImageText("Contact");setLoadPage(<Contact />);setUnderLine("contact")}}>Contact</li>
+                    ); setImageText("Contact Us");setLoadPage(<Contact />);setUnderLine("contact")}}>Contact Us</li>
                     {
                         underLine==="contact"
                         ?<div>
                             <hr style={{
-                                marginTop: "30px",
-                                borderTop: "5px solid #10578B"
+                                height: "5px",
+                                backgroundColor: "#10578B",
+                                borderTop: "0",
+                                borderLeft: "0",
+                                marginLeft: "9px",
+                                
                             }}></hr>
                          </div>
                         :""
