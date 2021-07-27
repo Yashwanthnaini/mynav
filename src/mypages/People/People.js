@@ -1,5 +1,5 @@
 import React , {useState}   from 'react';
-
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 import "./People.css" ;
 
@@ -45,11 +45,161 @@ const People = () => {
    
          
     return (
-        <> < div className = "People-Imagebar" > <img className="People-Imagebar-image" style={{width: "100%",
-        height: "286px",
-        objectFit: "cover",
+        <> 
+        < div className = "People-Imagebar" > 
+           <Switch>
+                <Route exact path="/people/members">
+                    <img 
+                        className="People-Imagebar-image" 
+                        style={{width: "100%",
+                                height: "286px",
+                                objectFit: "cover",                  
+                            }}
+                        src={imageSrc} alt="background"
+                            onLoad={() =>{
+                                setImageText("Members");
+                                setLoadPage(<Members />);
+                                setUnderLine("members");
+                                if(window.innerWidth>500){
+                                    setImageSrc(
+                                        "https://static.wixstatic.com/media/nsplsh_36553541456d5149616a67~mv2_d_4272_2848_s_4_2.jpg/v1/fill/w_1349,h_201,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_36553541456d5149616a67~mv2_d_4272_2848_s_4_2.webp"
+                                    )
+                                }
+                                else{
+                                    setImageSrc(
+                                        "https://static.wixstatic.com/media/nsplsh_36553541456d5149616a67~mv2_d_4272_2848_s_4_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_36553541456d5149616a67~mv2_d_4272_2848_s_4_2.webp"
+                                    )
+                                }
+                            }}
+                    />
+                
+                
+                </Route>
+            </Switch>
+
+            <Switch>
+                <Route exact path="/people/careers">
+                    <img 
+                        className="People-Imagebar-image" 
+                        style={{width: "100%",
+                                height: "286px",
+                                objectFit: "cover",                  
+                            }}
+                        src={imageSrc} alt="background"
+                            onLoad={() =>{
+                                setImageText("Careers");
+                                setLoadPage(<Careers />);
+                                setUnderLine("careers");
+                                if(window.innerWidth>500){
+                                    setImageSrc(
+                                        "https://static.wixstatic.com/media/nsplsh_774e7a375f354576555755~mv2_d_6016_4000_s_4_2.jpg/v1/fill/w_1349,h_281,al_t,q_85,usm_0.66_1.00_0.01/nsplsh_774e7a375f354576555755~mv2_d_6016_4000_s_4_2.webp"
+                                    )
+                                }
+                                else{
+                                    setImageSrc(
+                                        "https://static.wixstatic.com/media/nsplsh_774e7a375f354576555755~mv2_d_6016_4000_s_4_2.jpg/v1/fill/w_640,h_450,al_t,q_80,usm_0.66_1.00_0.01/nsplsh_774e7a375f354576555755~mv2_d_6016_4000_s_4_2.webp"
+                                    )
+                                }
+                            }}
+                    />
+                
+                
+                </Route>
+            </Switch>
+
+            <Switch>
+                <Route exact path="/people/communities">
+                    <img 
+                        className="People-Imagebar-image" 
+                        style={{width: "100%",
+                                height: "286px",
+                                objectFit: "cover",                  
+                            }}
+                        src={imageSrc} alt="background"
+                            onLoad={() =>{
+                                setImageText("Communities");
+                                setLoadPage(<Communities />);
+                                setUnderLine("communities");
+                                if(window.innerWidth>500){
+                                    setImageSrc(
+                                        "https://static.wixstatic.com/media/55b9087be50e46b59051426e1cdd23cb.jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/55b9087be50e46b59051426e1cdd23cb.webp"
+                                    )
+                                }
+                                else{
+                                    setImageSrc(
+                                        "https://static.wixstatic.com/media/55b9087be50e46b59051426e1cdd23cb.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/55b9087be50e46b59051426e1cdd23cb.webp"
+                                    )
+                                }
+                            }}
+                    />
+                
+                
+                </Route>
+            </Switch>
+
+            <Switch>
+                <Route exact path="/people/partners">
+                    <img 
+                        className="People-Imagebar-image" 
+                        style={{width: "100%",
+                                height: "286px",
+                                objectFit: "cover",                  
+                            }}
+                        src={imageSrc} alt="background"
+                            onLoad={() =>{
+                                setImageText("Partners");
+                                setLoadPage(<Partners />);
+                                setUnderLine("partners");
+                                if(window.innerWidth>500){
+                                    setImageSrc(
+                                        "https://static.wixstatic.com/media/nsplsh_180cb9475d35470e81293861b8bb812d~mv2.jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_180cb9475d35470e81293861b8bb812d~mv2.webp"
+                                    )
+                                }
+                                else{
+                                    setImageSrc(
+                                        "https://static.wixstatic.com/media/nsplsh_180cb9475d35470e81293861b8bb812d~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_180cb9475d35470e81293861b8bb812d~mv2.webp"
+                                    )
+                                }
+                            }}
+                    />
+                
+                
+                </Route>
+            </Switch>
+
+            <Switch>
+                <Route exact path="/people/lifeatftp">
+                    <img 
+                        className="People-Imagebar-image" 
+                        style={{width: "100%",
+                                height: "286px",
+                                objectFit: "cover",                  
+                            }}
+                        src={imageSrc} alt="background"
+                            onLoad={() =>{
+                                setImageText("Life at FTP");
+                                setLoadPage(<LifeAtFTP />);
+                                setUnderLine("lifeatftp");
+                                if(window.innerWidth>500){
+                                    setImageSrc(
+                                        "https://static.wixstatic.com/media/8daf94f88f524d8cb168d8004c1fe282.jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/8daf94f88f524d8cb168d8004c1fe282.webp"
+                                    )
+                                }
+                                else{
+                                    setImageSrc(
+                                        "https://static.wixstatic.com/media/8daf94f88f524d8cb168d8004c1fe282.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/8daf94f88f524d8cb168d8004c1fe282.webp"
+                                    )
+                                }
+                            }}
+                    />
+                
+                
+                </Route>
+            </Switch> 
+            
+            
         
-            }} src={imageSrc} alt="background"/>
+            
         <ul className="People-Topbar__links">
             <Link
                 to="/people/members"
@@ -58,10 +208,7 @@ const People = () => {
                     color: 'white'
                 }}>
                 <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_36553541456d5149616a67~mv2_d_4272_2848_s_4_2.jpg/v1/fill/w_1349,h_201,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_36553541456d5149616a67~mv2_d_4272_2848_s_4_2.webp"
-                    );
-                    setImageText("Members");setLoadPage(<Members />);setUnderLine("members")}}>Members</li>
+                   >Members</li>
                     {
                         underLine==="members"
                         ?<div>
@@ -77,15 +224,13 @@ const People = () => {
                     }
             </Link>
             <Link
-                to="/people/careers"
+               to="/people/careers"
                 style={{
                     textDecoration: 'none',
                     color: 'white'
                 }}>
                 <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_774e7a375f354576555755~mv2_d_6016_4000_s_4_2.jpg/v1/fill/w_1349,h_281,al_t,q_85,usm_0.66_1.00_0.01/nsplsh_774e7a375f354576555755~mv2_d_6016_4000_s_4_2.webp"
-                    ); setImageText("Careers");setLoadPage(<Careers />);setUnderLine("careers")}}>Careers</li>
+                    >Careers</li>
                     {
                         underLine==="careers"
                         ?<div>
@@ -107,9 +252,7 @@ const People = () => {
                     color: 'white'
                 }}>
                 <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/55b9087be50e46b59051426e1cdd23cb.jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/55b9087be50e46b59051426e1cdd23cb.webp"
-                    ); setImageText("Communities");setLoadPage(<Communities />);setUnderLine("communities")}}>Communities</li>
+                    >Communities</li>
                     {
                         underLine==="communities"
                         ?<div>
@@ -132,9 +275,7 @@ const People = () => {
                     color: 'white'
                 }}>
                 <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_180cb9475d35470e81293861b8bb812d~mv2.jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_180cb9475d35470e81293861b8bb812d~mv2.webp"
-                    ); setImageText("Partners");setLoadPage(<Partners />);setUnderLine("partners")}}>Partners</li>
+                    >Partners</li>
                     {
                         underLine==="partners"
                         ?<div>
@@ -156,10 +297,7 @@ const People = () => {
                     color: 'white'
                 }}>
                 <li
-                    onClick={() =>{ setImageSrc(
-                        "https://static.wixstatic.com/media/8daf94f88f524d8cb168d8004c1fe282.jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/8daf94f88f524d8cb168d8004c1fe282.webp"
-
-                    ); setImageText("Life at FTP");setLoadPage(<LifeAtFTP />);setUnderLine("lifeatftp")}}>Life at FTP</li>
+                    >Life at FTP</li>
                     {
                         underLine==="lifeatftp"
                         ?<div>
@@ -219,10 +357,7 @@ const People = () => {
                 onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
                 >
                 <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_36553541456d5149616a67~mv2_d_4272_2848_s_4_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_36553541456d5149616a67~mv2_d_4272_2848_s_4_2.webp"
-                    );
-                    setImageText("Members");setLoadPage(<Members />)}}>Members</li>
+                   >Members</li>
             </Link>
             <Link
                 to="/people/careers"
@@ -233,9 +368,7 @@ const People = () => {
                 onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
                 >
                 <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_774e7a375f354576555755~mv2_d_6016_4000_s_4_2.jpg/v1/fill/w_640,h_450,al_t,q_80,usm_0.66_1.00_0.01/nsplsh_774e7a375f354576555755~mv2_d_6016_4000_s_4_2.webp"
-                    ); setImageText("Careers");setLoadPage(<Careers />)}}>Careers</li>
+                    >Careers</li>
             </Link>
             <Link
                 to="/people/communities"
@@ -246,9 +379,7 @@ const People = () => {
                 onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
                 >
                 <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/55b9087be50e46b59051426e1cdd23cb.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/55b9087be50e46b59051426e1cdd23cb.webp"
-                    ); setImageText("Communities");setLoadPage(<Communities />)}}>Communities</li>
+                    >Communities</li>
             </Link>
         
             <Link
@@ -260,9 +391,7 @@ const People = () => {
                 onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
                 >
                 <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_180cb9475d35470e81293861b8bb812d~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_180cb9475d35470e81293861b8bb812d~mv2.webp"
-                    ); setImageText("Partners");setLoadPage(<Partners />)}}>Partners</li>
+                    >Partners</li>
             </Link>
             <Link
                 to="/people/lifeatftp"
@@ -273,10 +402,7 @@ const People = () => {
                 onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
                 >
                 <li
-                    onClick={() =>{ setImageSrc(
-                        "https://static.wixstatic.com/media/8daf94f88f524d8cb168d8004c1fe282.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/8daf94f88f524d8cb168d8004c1fe282.webp"
-
-                    ); setImageText("Life at FTP");setLoadPage(<LifeAtFTP />)}}>Life at FTP</li>
+                    >Life at FTP</li>
             </Link>
             
             

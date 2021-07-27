@@ -1,5 +1,5 @@
 import React , {useState}   from 'react';
-
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
 
 import "./About.css" ;
@@ -49,26 +49,238 @@ const About = () => {
    
          
     return (
-        <> < div className = "About-Imagebar"  > 
-                <img  className="About-Imagebar-image"  src={imageSrc} alt="background"/>
-        <ul className="About-Topbar__links">
-            <Link
-                to="/about/mission"
-                style={{
-                    textDecoration: 'none',
-                    color: 'white'
-                }}>
-                <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_396378342d516f77674c63~mv2.jpg"
-                    );
-                    setImageText("Mission");setLoadPage(<Mission />);setUnderLine("mission")}}>Mission</li>
-                    {
-                        underLine==="mission"
-                        ?<div>
-                                 <hr style={{
-                                height: "5px",
-                                backgroundColor: "#10578B",
+        <>
+        < div className = "About-Imagebar"  > 
+            <Switch>
+                <Route exact path="/about/mission">
+                    <img 
+                        className="About-Imagebar-image" 
+                        style={{width: "100%",
+                                height: "286px",
+                                objectFit: "cover",                  
+                                }}
+                        src={imageSrc} alt="background"
+                        onLoad={() =>{
+                            setImageText("Mission");
+                            setLoadPage(<Mission />);
+                            setUnderLine("mission");
+                            if(window.innerWidth>500){
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/nsplsh_396378342d516f77674c63~mv2.jpg"
+                                )
+                            }
+                            else{
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/nsplsh_396378342d516f77674c63~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_396378342d516f77674c63~mv2.webp"
+                                )
+                            }
+                            }}
+                    />
+                
+                
+                </Route>
+            </Switch>
+
+            <Switch>
+                <Route exact path="/about/whoweare">
+                    <img 
+                        className="About-Imagebar-image" 
+                        style={{width: "100%",
+                                height: "286px",
+                                objectFit: "cover",                  
+                            }}
+                        src={imageSrc} alt="background"
+                        onLoad={() =>{
+                            setImageText("Who we are");
+                            setLoadPage(<WhoWeAre />);
+                            setUnderLine("whoweare");
+                            if(window.innerWidth>500){
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/nsplsh_fc8662d44f00446cbf9dbdefaace46e2~mv2.jpg"
+                                )
+                            }
+                            else{
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/nsplsh_fc8662d44f00446cbf9dbdefaace46e2~mv2" +
+                                    ".jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_fc8662d44f00446c" +
+                                    "bf9dbdefaace46e2~mv2.webp"
+                                )
+                            }
+                            }}
+                    />
+                
+                
+                </Route>
+            </Switch>
+
+            <Switch>
+                <Route exact path="/about/whatwedo">
+                    <img 
+                        className="About-Imagebar-image" 
+                        style={{width: "100%",
+                                height: "286px",
+                                objectFit: "cover",                  
+                            }}
+                        src={imageSrc} alt="background"
+                        onLoad={() =>{
+                            setImageText("What we do");
+                            setLoadPage(<WhatWeDo />);
+                            setUnderLine("whatwedo");
+                            if(window.innerWidth>500){
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/nsplsh_705957754f4d687463366b~mv2_d_3008_2000_s_2.jpg"
+                                )
+                            }
+                            else{
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/nsplsh_705957754f4d687463366b~mv2_d_3008_2000_s_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_705957754f4d687463366b~mv2_d_3008_2000_s_2.webp"
+                                )
+                            }
+                            }}
+                    />
+                
+                
+                </Route>
+            </Switch>
+
+            <Switch>
+                <Route exact path="/about/howwedo">
+                    <img 
+                        className="About-Imagebar-image" 
+                        style={{width: "100%",
+                                height: "286px",
+                                objectFit: "cover",                  
+                            }}
+                        src={imageSrc} alt="background"
+                        onLoad={() =>{
+                            setImageText("How we do");
+                            setLoadPage(<HowWeDo />);
+                            setUnderLine("howwedo");
+                            if(window.innerWidth>500){
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/nsplsh_a16cbc9d8b944a2cb14aedf58a0afa1d~mv2.jpg"
+                                )
+                            }
+                            else{
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/nsplsh_a16cbc9d8b944a2cb14aedf58a0afa1d~mv2" +
+                    ".jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_a16cbc9d8b944a2c" +
+                    "b14aedf58a0afa1d~mv2.webp"
+                                )
+                            }
+                            }}
+                    />
+                
+                
+                </Route>
+            </Switch>
+
+            <Switch>
+                <Route exact path="/about/governance">
+                    <img 
+                        className="About-Imagebar-image" 
+                        style={{width: "100%",
+                                height: "286px",
+                                objectFit: "cover",                  
+                            }}
+                        src={imageSrc} alt="background"
+                        onLoad={() =>{
+                            setImageText("Governance & Leadership");
+                            setLoadPage(<GovernanceAndLeadership />);
+                            setUnderLine("governance");
+                            if(window.innerWidth>500){
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/nsplsh_c9b625629d2743c987629d9db3939846~mv2.jpg" 
+                                )
+                            }
+                            else{
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/nsplsh_c9b625629d2743c987629d9db3939846~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_c9b625629d2743c987629d9db3939846~mv2.webp"
+                                )
+                            }
+                            }}
+                    />
+                
+                
+                </Route>
+            </Switch>
+
+            <Switch>
+                <Route exact path="/about/finance">
+                    <img 
+                        className="About-Imagebar-image" 
+                        style={{width: "100%",
+                                height: "286px",
+                                objectFit: "cover",                  
+                            }}
+                        src={imageSrc} alt="background"
+                        onLoad={() =>{
+                            setImageText("Financial & Reports");
+                            setLoadPage(<Finance />);
+                            setUnderLine("finance");
+                            if(window.innerWidth>500){
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg" 
+                                )
+                            }
+                            else{
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.webp"
+                                )
+                            }
+                            
+                            }}
+                    />
+                
+                
+                </Route>
+            </Switch>
+
+            <Switch>
+                <Route exact path="/about/contact">
+                    <img 
+                        className="About-Imagebar-image" 
+                        style={{width: "100%",
+                                height: "286px",
+                                objectFit: "cover",                  
+                            }}
+                        src={imageSrc}  alt="background"
+                        onLoad={() =>{
+                            setImageText("Contact Us");
+                            setLoadPage(<Contact />);
+                            setUnderLine("contact");
+                            if(window.innerWidth>500){
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/nsplsh_2d0effc05f29423e8295ff8261af8c33~mv2.jpg"
+                                )
+                            }
+                            else{
+                                setImageSrc(
+                                    "https://static.wixstatic.com/media/nsplsh_2d0effc05f29423e8295ff8261af8c33~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_2d0effc05f29423e8295ff8261af8c33~mv2.webp"
+                                )
+                            }
+                            }}
+                    />
+                
+                
+                </Route>
+            </Switch>
+        
+            <ul className="About-Topbar__links">
+                <Link
+                    to="/about/mission"
+                    style={{
+                        textDecoration: 'none',
+                        color: 'white'
+                    }}>
+                    <li
+                        >Mission</li>
+                        {
+                            underLine==="mission"
+                            ?<div>
+                                    <hr style={{
+                                    height: "5px",
+                                    backgroundColor: "#10578B",
                                 borderTop: "0",
                                 borderLeft: "0",
                                 marginLeft: "9px",
@@ -77,18 +289,15 @@ const About = () => {
                         :""
                     }
                     
-            </Link>
-            <Link
-                to="/about/whoweare"
-                style={{
-                    textDecoration: 'none',
-                    color: 'white'
-                }}>
-                <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_fc8662d44f00446cbf9dbdefaace46e2~mv2" +
-                        ".jpg"
-                    ); setImageText("Who we are");setLoadPage(<WhoWeAre />);setUnderLine("whoweare")}}>Who we are</li>
+                </Link>
+                <Link
+                    to="/about/whoweare"
+                    style={{
+                        textDecoration: 'none',
+                        color: 'white'
+                    }}>
+                    <li
+                        >Who we are</li>
                     {
                         underLine==="whoweare"
                         ?<div>
@@ -102,123 +311,108 @@ const About = () => {
                          </div>
                         :""
                     }
-            </Link>
-            <Link
-                to="/about/whatwedo"
-                style={{
-                    textDecoration: 'none',
-                    color: 'white'
-                }}>
-                <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_705957754f4d687463366b~mv2_d_3008_2000_s_2.jpg"
-                    ); setImageText("What we do");setLoadPage(<WhatWeDo />);setUnderLine("whatwedo")}}>What we do</li>
-                    {
-                        underLine==="whatwedo"
-                        ?<div>
-                                                
-                                                <hr style={{
-                                height: "5px",
-                                backgroundColor: "#10578B",
-                                borderTop: "0",
-                                borderLeft: "0",
-                                marginLeft: "9px",
-                            }}></hr>
-                         </div>
-                        :""
-                    }
-            </Link>
+                </Link>
+                <Link
+                    to="/about/whatwedo"
+                    style={{
+                        textDecoration: 'none',
+                        color: 'white'
+                    }}>
+                    <li
+                       >What we do</li>
+                        {
+                            underLine==="whatwedo"
+                            ?<div>
+                                                    
+                                <hr style={{
+                                    height: "5px",
+                                    backgroundColor: "#10578B",
+                                    borderTop: "0",
+                                    borderLeft: "0",
+                                    marginLeft: "9px",
+                                }}></hr>
+                            </div>
+                            :""
+                        }
+                </Link>
         
-            <Link
-                to="/about/howwedo"
-                style={{
-                    textDecoration: 'none',
-                    color: 'white'
-                }}>
-                <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_a16cbc9d8b944a2cb14aedf58a0afa1d~mv2" +
-                        ".jpg"
-                    ); setImageText("How we do");setLoadPage(<HowWeDo />);setUnderLine("howwedo")}}>How we do</li>
-                    {
-                        underLine==="howwedo"
-                        ?<div>
-                                 <hr style={{
-                                height: "5px",
-                                backgroundColor: "#10578B",
-                                borderTop: "0",
-                                borderLeft: "0",
-                                marginLeft: "9px",
-                            }}></hr>
+                <Link
+                    to="/about/howwedo"
+                    style={{
+                        textDecoration: 'none',
+                        color: 'white'
+                    }}>
+                    <li
+                        >How we do</li>
+                        {
+                            underLine==="howwedo"
+                            ?<div>
+                                    <hr style={{
+                                    height: "5px",
+                                    backgroundColor: "#10578B",
+                                    borderTop: "0",
+                                    borderLeft: "0",
+                                    marginLeft: "9px",
+                                }}></hr>
 
-                         </div>
+                            </div>
                         :""
                     }
-            </Link>
-            <Link
-                to="/about/governance"
-                style={{
-                    textDecoration: 'none',
-                    color: 'white'
-                }}>
-                <li
-                    onClick={() =>{ setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_c9b625629d2743c987629d9db3939846~mv2.jpg"
+                </Link>
+                <Link
+                    to="/about/governance"
+                    style={{
+                        textDecoration: 'none',
+                        color: 'white'
+                    }}>
+                    <li
+                        >Governance & Leadership</li>
+                        {
+                            underLine==="governance"
+                            ?<div>
+                                    <hr style={{
+                                    height: "5px",
+                                    backgroundColor: "#10578B",
+                                    borderTop: "0",
+                                    borderLeft: "0",
+                                    marginLeft: "9px",
+                                }}></hr>
 
-                    ); setImageText("Governance & Leadership");setLoadPage(<GovernanceAndLeadership />);setUnderLine("governance")}}>Governance & Leadership</li>
-                    {
-                        underLine==="governance"
-                        ?<div>
-                                 <hr style={{
-                                height: "5px",
-                                backgroundColor: "#10578B",
-                                borderTop: "0",
-                                borderLeft: "0",
-                                marginLeft: "9px",
-                            }}></hr>
+                            </div>
+                            :""
+                        }
+                </Link>
+                <Link
+                    to="/about/finance"
+                    style={{
+                        textDecoration: 'none',
+                        color: 'white'
+                    }}>
+                    <li
+                       >Financials & Reports</li>
+                        {
+                            underLine==="finance"
+                            ?<div>
+                                    <hr style={{
+                                    height: "5px",
+                                    backgroundColor: "#10578B",
+                                    borderTop: "0",
+                                    borderLeft: "0",
+                                    marginLeft: "9px",
+                                }}></hr>
 
-                         </div>
-                        :""
-                    }
-            </Link>
-            <Link
-                to="/about/finance"
-                style={{
-                    textDecoration: 'none',
-                    color: 'white'
-                }}>
-                <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg"
-
-                    ); setImageText("Financial & Reports");setLoadPage(<Finance />);setUnderLine("finance")}}>Financials & Reports</li>
-                    {
-                        underLine==="finance"
-                        ?<div>
-                                 <hr style={{
-                                height: "5px",
-                                backgroundColor: "#10578B",
-                                borderTop: "0",
-                                borderLeft: "0",
-                                marginLeft: "9px",
-                            }}></hr>
-
-                         </div>
-                        :""
-                    }
-            </Link>
-            <Link
-                to="/about/contact"
-                style={{
-                    textDecoration: 'none',
-                    color: 'white'
-                }}>
-                <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_2d0effc05f29423e8295ff8261af8c33~mv2.jpg"
- 
-
-                    ); setImageText("Contact Us");setLoadPage(<Contact />);setUnderLine("contact")}}>Contact Us</li>
+                            </div>
+                            :""
+                        }
+                </Link>
+                <Link
+                    to="/about/contact"
+                    style={{
+                        textDecoration: 'none',
+                        color: 'white'
+                    }}>
+                    <li
+                        >Contact Us</li>
                     {
                         underLine==="contact"
                     
@@ -233,14 +427,10 @@ const About = () => {
                          </div>
                         :""
                     }
-            </Link>
-           
-            
-            
-            
-        </ul>
-        <span>{imageText}</span>
-    </div>
+                </Link>            
+            </ul>
+            <span>{imageText}</span>
+        </div>
 
            {/* Dropdown Bar */
         } < p style={{
@@ -275,10 +465,7 @@ const About = () => {
                 style={{
                     textDecoration: 'none'
                 }}  onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
-                <li onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_396378342d516f77674c63~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_396378342d516f77674c63~mv2.webp"
-                        );
-                        setImageText("Mission");setLoadPage(<Mission />)}}>Mission</li>
+                <li >Mission</li>
             </Link>
             <Link
                 to="/about/whoweare"
@@ -286,11 +473,7 @@ const About = () => {
                     textDecoration: 'none'
                 }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li 
-                onClick={() => {setImageSrc(
-                    "https://static.wixstatic.com/media/nsplsh_fc8662d44f00446cbf9dbdefaace46e2~mv2" +
-                        ".jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_fc8662d44f00446c" +
-                        "bf9dbdefaace46e2~mv2.webp"
-                );  setImageText("Who we are");setLoadPage(<WhoWeAre />)}}>Who we are</li>
+                    >Who we are</li>
             </Link>
             <Link
                  to="/about/whatwedo"
@@ -298,9 +481,7 @@ const About = () => {
                     textDecoration: 'none'
                 }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li 
-                onClick={() => {setImageSrc(
-                    "https://static.wixstatic.com/media/nsplsh_705957754f4d687463366b~mv2_d_3008_2000_s_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_705957754f4d687463366b~mv2_d_3008_2000_s_2.webp"
-                );  setImageText("What we do");setLoadPage(<WhatWeDo />)}}>What we do</li>
+                    >What we do</li>
             </Link>
             <Link
                 to="/about/howwedo"
@@ -308,11 +489,7 @@ const About = () => {
                     textDecoration: 'none'
                 }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li 
-                onClick={() => {setImageSrc(
-                    "https://static.wixstatic.com/media/nsplsh_a16cbc9d8b944a2cb14aedf58a0afa1d~mv2" +
-                    ".jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_a16cbc9d8b944a2c" +
-                    "b14aedf58a0afa1d~mv2.webp"
-                );  setImageText("How we do");setLoadPage(<HowWeDo />)}}>How we do</li>
+                    >How we do</li>
             </Link>
             <Link
                 to="/about/governance"
@@ -320,10 +497,7 @@ const About = () => {
                     textDecoration: 'none'
                     
                 }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
-                <li  onClick={() =>{ setImageSrc(
-                         "https://static.wixstatic.com/media/nsplsh_c9b625629d2743c987629d9db3939846~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_c9b625629d2743c987629d9db3939846~mv2.webp"
-
-                         ); setImageText("Governance & Leadership");setLoadPage(<GovernanceAndLeadership />)}}>GovernanceAndLeadership</li>
+                <li >GovernanceAndLeadership</li>
                  </Link>
             <Link
                 to="/about/finance"
@@ -331,10 +505,7 @@ const About = () => {
                     textDecoration: 'none'
                 }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li 
-                onClick={() => {setImageSrc(
-                    "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.webp"
-
-                    ); setImageText("Financial & Reports");setLoadPage(<Finance />)}}>FinancialsAndReports</li>
+                    >FinancialsAndReports</li>
             </Link>
             <Link
                 to="/about/contact"
@@ -343,11 +514,7 @@ const About = () => {
                     
                 }}onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li
-                    onClick={() => {setImageSrc(
-                        "https://static.wixstatic.com/media/nsplsh_2d0effc05f29423e8295ff8261af8c33~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_2d0effc05f29423e8295ff8261af8c33~mv2.webp"
- 
-
-                    ); setImageText("Contact Us");setLoadPage(<Contact />)}}>Contact Us</li>
+                    >Contact Us</li>
             </Link>
             
             
