@@ -429,7 +429,7 @@ const About = () => {
                     }
                 </Link>            
             </ul>
-            <span>{imageText}</span>
+            <span >{imageText}</span>
         </div>
 
            {/* Dropdown Bar */

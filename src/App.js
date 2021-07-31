@@ -11,6 +11,10 @@ import NavBar from "./components/NavBar/NavBar.js";
 import MenuBar from "./components/Menu/MenuBar.js";
 import BackDrop from "./components/Menu/BackDrop/BackDrop.js";
 
+//import Footer Components 
+
+import Footer from "./components/Footer/Footer.js";
+
 //importing Mypages components
 import MyPages from "./mypages/MyPages.js";
 
@@ -44,7 +48,7 @@ const App = () => {
                 <div className="page-load">
                     <MyPages />
                 </div>
-
+                <Footer />
             </div>
         </Router>
     );
