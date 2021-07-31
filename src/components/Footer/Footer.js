@@ -125,15 +125,15 @@ const Footer = () => {
 
                         <a
                             className="chakra-link wef-7j5z8a"
-                           href="people/communities">Communities</a>
+                           href="/people/communities">Communities</a>
                         
                         <a
                             className="chakra-link wef-7j5z8a"
-                           href="people/partners">Partners</a>
+                           href="/people/partners">Partners</a>
 
                         <a
                             className="chakra-link wef-7j5z8a"
-                           href="people/lifeatftp">Life at FTP</a>
+                           href="/people/lifeatftp">Life at FTP</a>
 
                     </div>
 
