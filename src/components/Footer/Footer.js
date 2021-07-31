@@ -2,7 +2,7 @@ import React from "react";
 
 import "./Footer.css";
 
-import {Link} from 'react-router-dom';
+
 
 import Logo from "./Logo/forthepeoplengo.png";
 
@@ -83,25 +83,25 @@ const Footer = () => {
 
                     <div className="chakra-stack wef-vjz5tp">
 
-                        <Link
+                        <a
                             className="chakra-link wef-7j5z8a"
-                            to="/about/mission">Our Mission</Link>
-                        <Link
+                           href="/about/mission">Our Mission</a>
+                        <a
                             className="chakra-link wef-7j5z8a"
-                            to="/about/whoweare">Who we are</Link>
-                        <Link className="chakra-link wef-7j5z8a" 
-                            to="/about/whatwedo">What we do</Link>
-                        <Link
+                           href="/about/whoweare">Who we are</a>
+                        <a className="chakra-link wef-7j5z8a" 
+                           href="/about/whatwedo">What we do</a>
+                        <a
                             className="chakra-link wef-7j5z8a"
-                            to="/about/howwedo">How we do</Link>
-                        <Link className="chakra-link wef-7j5z8a" 
-                            to="/about/governance">Governance & Leadership</Link>
-                        <Link
+                           href="/about/howwedo">How we do</a>
+                        <a className="chakra-link wef-7j5z8a" 
+                           href="/about/governance">Governance & Leadership</a>
+                        <a
                             className="chakra-link wef-7j5z8a"
-                            to="/about/finance">Financials & Reports</Link>
-                        <Link
+                           href="/about/finance">Financials & Reports</a>
+                        <a
                             className="chakra-link wef-7j5z8a"
-                            to="/about/contact">Contact Us</Link>
+                           href="/about/contact">Contact Us</a>
                                                 
                     </div>
 
@@ -117,23 +117,23 @@ const Footer = () => {
 
                     <div className="chakra-stack wef-vjz5tp">
 
-                        <Link className="chakra-link wef-7j5z8a" 
-                            to="/people/members">Members</Link>
+                        <a className="chakra-link wef-7j5z8a" 
+                           href="/people/members">Members</a>
 
-                        <Link className="chakra-link wef-7j5z8a" 
-                            to="/people/careers">Careers</Link>
+                        <a className="chakra-link wef-7j5z8a" 
+                           href="/people/careers">Careers</a>
 
-                        <Link
+                        <a
                             className="chakra-link wef-7j5z8a"
-                            to="people/communities">Communities</Link>
+                           href="people/communities">Communities</a>
                         
-                        <Link
+                        <a
                             className="chakra-link wef-7j5z8a"
-                            to="people/partners">Partners</Link>
+                           href="people/partners">Partners</a>
 
-                        <Link
+                        <a
                             className="chakra-link wef-7j5z8a"
-                            to="people/lifeatftp">Life at FTP</Link>
+                           href="people/lifeatftp">Life at FTP</a>
 
                     </div>
 
@@ -148,14 +148,14 @@ const Footer = () => {
 
                     <div className="chakra-stack wef-vjz5tp">
 
-                        <Link className="chakra-link wef-7j5z8a" 
-                            to="/operations/events">Events</Link>
-                        <Link className="chakra-link wef-7j5z8a" 
-                            to="/operations/projects">Projects</Link>
-                        <Link className="chakra-link wef-7j5z8a" 
-                            to="/operations/gallery">Gallery</Link>
-                        <Link className="chakra-link wef-7j5z8a" 
-                            to="/operations/contact">Contact Us</Link>
+                        <a className="chakra-link wef-7j5z8a" 
+                           href="/operations/events">Events</a>
+                        <a className="chakra-link wef-7j5z8a" 
+                           href="/operations/projects">Projects</a>
+                        <a className="chakra-link wef-7j5z8a" 
+                           href="/operations/gallery">Gallery</a>
+                        <a className="chakra-link wef-7j5z8a" 
+                           href="/operations/contact">Contact Us</a>
                     </div>
 
                 </section>
@@ -192,7 +192,7 @@ const Footer = () => {
                 <p className="footer-text wef-1aifeqs">© 2021 For The People NGO
                 </p>
 
-                <Link className="chakra-link wef-7j5z8a" to="/about/privacy-and-terms-of-use">Privacy Policy &amp; Terms of Service</Link>
+                <a className="chakra-link wef-7j5z8a"href="/about/privacy-and-terms-of-use">Privacy Policy &amp; Terms of Service</a>
 
             </div>
 
