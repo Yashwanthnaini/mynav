@@ -58,7 +58,7 @@ const Explore = () => {
                             }
                             else{
                                 setImageSrc(
-                                    "https://static.wixstatic.com/media/nsplsh_36587739774d4a79487573~mv2_d_2947_2121_s_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_396378342d516f77674c63~mv2.webp"
+                                    "https://static.wixstatic.com/media/nsplsh_36587739774d4a79487573~mv2.jpg/v1/fill/w_640,h_974,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_36587739774d4a79487573~mv2.webp"
                                 )
                             }
                             }}
@@ -88,8 +88,7 @@ const Explore = () => {
                             }
                             else{
                                 setImageSrc(
-                                    "https://static.wixstatic.com/media/nsplsh_71777443654a35634c5973~mv2" +
-                                    ".jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_71777443654a35634c5973~mv2_d_2947_2121_s_2.webp"
+                                    "https://static.wixstatic.com/media/nsplsh_71777443654a35634c5973~mv2_d_2947_2121_s_2.jpg/v1/fill/w_640,h_400,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_71777443654a35634c5973~mv2_d_2947_2121_s_2.webp"
                                 )
                             }
                             }}
