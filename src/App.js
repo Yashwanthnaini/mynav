@@ -18,7 +18,7 @@ import Footer from "./components/Footer/Footer.js";
 //importing Mypages components
 import MyPages from "./mypages/MyPages.js";
 
-// name: Naini Yashwanth email: nainiyashwanth@gmail.com
+
 
 const App = () => {
 

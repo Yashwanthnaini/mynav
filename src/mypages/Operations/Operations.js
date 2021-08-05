@@ -7,8 +7,8 @@ import "./Operations.css" ;
 import { Link } from 'react-router-dom';
 
 
-import arrow from "../StylesCSS/images/arrow.png";
-import rotated from '../StylesCSS/images/rotated.png';
+import arrow from "../Images/arrow.png";
+import rotated from '../Images/rotated.png';
 
 
 import Events from "./Events/Events.js";
@@ -17,7 +17,7 @@ import Projects from "./Projects/Projects.js";
 
 import Gallery from "./Gallery/Gallery.js";
 
-import Contact from "./ContactUs/Contact.js";
+
 
 
 
@@ -30,7 +30,7 @@ const Operations = () => {
 
     const [imageSrc, setImageSrc] = useState(
         
-        "https://static.wixstatic.com/media/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.jpg"
+        "https://static.wixstatic.com/media/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.jpg/v1/fill/w_1895,h_425,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.webp"
     );
     const [imageText, setImageText] = useState("Events");
 
@@ -61,7 +61,7 @@ const Operations = () => {
                         setUnderLine("events");
                         if(window.innerWidth>500){
                             setImageSrc(
-                                "https://static.wixstatic.com/media/nsplsh_396378342d516f77674c63~mv2.jpg"
+                                "https://static.wixstatic.com/media/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.jpg/v1/fill/w_1895,h_425,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_63583276456c513561486b~mv2_d_5860_3912_s_4_2.webp"
                             )
                         }
                         else{
@@ -116,39 +116,12 @@ const Operations = () => {
                         setUnderLine("gallery");
                         if(window.innerWidth>500){
                             setImageSrc(
-                                "https://static.wixstatic.com/media/nsplsh_536d345446453778744451~mv2_d_6000_4500_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_536d345446453778744451~mv2_d_6000_4500_s_4_2.webp"
+                                "https://static.wixstatic.com/media/nsplsh_536d345446453778744451~mv2_d_6000_4500_s_4_2.jpg/v1/fill/w_1895,h_425,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_536d345446453778744451~mv2_d_6000_4500_s_4_2.webp"
                             )
                         }
                         else{
                             setImageSrc(
                                 "https://static.wixstatic.com/media/nsplsh_536d345446453778744451~mv2_d_6000_4500_s_4_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_536d345446453778744451~mv2_d_6000_4500_s_4_2.webp"
-                            )
-                        }
-                      }}
-                />
-                
-            </Route>
-        </Switch> 
-        <Switch>
-            <Route exact path="/operations/contact">
-                <img className="Operations-Imagebar-image" 
-                    style={{width: "100%",
-                            height: "286px",
-                            objectFit: "cover",                    
-                    }}
-                     src={imageSrc} alt="background"
-                     onLoad={() =>{
-                        setImageText("Contact Us");
-                        setLoadPage(<Contact />);
-                        setUnderLine("contact");
-                        if(window.innerWidth>500){
-                            setImageSrc(
-                                "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_1349,h_283,al_c,q_85,usm_0.66_1.00_0.01/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.webp"
-                            )
-                        }
-                        else{
-                            setImageSrc(
-                                "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.webp"
                             )
                         }
                       }}
@@ -224,33 +197,7 @@ const Operations = () => {
                          </div>
                         :""
                     }
-            </Link>
-        
-            <Link
-                to="/operations/contact"
-                style={{
-                    textDecoration: 'none',
-                    color: 'white'
-                }}>
-                <li
-                   >Contact Us</li>
-                    {
-                        underLine==="contact"
-                        ?<div>
-                            <hr style={{
-                                height: "5px",
-                                backgroundColor: "#10578B",
-                                borderTop: "0",
-                                borderLeft: "0",
-                                marginLeft: "9px",
-                                
-                            }}></hr>
-                         </div>
-                        :""
-                    }
-            </Link>
-            
-           
+            </Link>   
             
             
             
@@ -320,16 +267,7 @@ const Operations = () => {
                     >Gallery</li>
             </Link>
         
-            <Link
-                to="/operations/contact"
-                style={{
-                    textDecoration: 'none',
-                }}
-                onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
-                >
-                <li
-                    >Contact</li>
-            </Link>
+            
         </ul>
         : null
 

@@ -1,12 +1,14 @@
 import React from "react";
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 
+import "./MyPages.css";
+
 import Home from "./Home/Home.js";
-import About from "./About/About.js";
-import People from "./People/People.js";
 import Operations from "./Operations/Operations.js";
-import Report from "./Reports/Report.js";
-import Blog from "./Blog/Blog.js";
+import Explore from "./Explore/Explore.js";
+import BecomeAPart from "./BecomeAPart/BecomeAPart.js"
+import About from "./AboutUs/About.js";
+
 
 const MyPages = () =>{
     return(
@@ -18,9 +20,7 @@ const MyPages = () =>{
             </Route>
 
             {/* About Page */}
-            <Route exact path="/about">
-                <About/>
-            </Route>
+           
             <Route exact path="/about/mission">
                 <About/>
             </Route>
@@ -36,37 +36,44 @@ const MyPages = () =>{
             <Route exact path="/about/governance">
                 <About/>
             </Route>
-            <Route exact path="/about/finance">
+            <Route exact path="/about/lifeatftp">
                 <About/>
             </Route>
-            <Route exact path="/about/contact">
-                <About/>
-            </Route>
+            
 
-            {/* People Page */}
-            <Route exact path="/people">
-                <People/>
+            {/* Become a part  Page */}
+           
+            <Route exact path="/becomeapart/partners">
+                <BecomeAPart />
             </Route>
-            <Route exact path="/people/members">
-                <People/>
+            <Route exact path="/becomeapart/communities">
+                <BecomeAPart />
             </Route>
-            <Route exact path="/people/careers">
-                <People/>
+            <Route exact path="/becomeapart/careers">
+                <BecomeAPart />
             </Route>
-            <Route exact path="/people/communities">
-                <People/>
+            
+
+            {/* Explore  Page */}
+            
+            <Route exact path="/explore/blog">
+                <Explore />
             </Route>
-            <Route exact path="/people/partners">
-                <People/>
+            <Route exact path="/explore/reports">
+                <Explore />
             </Route>
-            <Route exact path="/people/lifeatftp">
-                <People/>
+            <Route exact path="/explore/finance">
+                <Explore />
             </Route>
+            <Route exact path="/explore/contact">
+                <Explore />
+            </Route>
+            
+            
+
 
             {/* Operations Page */}
-            <Route exact path="/operations">
-                <Operations />
-            </Route>
+            
             <Route exact path="/operations/events">
                 <Operations />
             </Route>
@@ -76,21 +83,7 @@ const MyPages = () =>{
             <Route exact path="/operations/gallery">
                 <Operations />
             </Route>
-            <Route exact path="/operations/contact">
-                <Operations />
-            </Route>
-
-            {/* Report Page */}
-            <Route exact path="/reports">
-                <Report />
-            </Route>
-
-            {/* Blog Page */}
-            <Route exact path="/blog">
-                <Blog />
-            </Route>
-
-
+           
         </Switch>
         </>
     )

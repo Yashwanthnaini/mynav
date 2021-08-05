@@ -1,13 +1,13 @@
 import React from 'react';
 
-function Members() {
+function GovernanceAndLeadership() {
     return (
         <div style={{alignItems: "center",
         padding: "50px"
         }}>
-            <center><h3> Members Page</h3></center>
+            <center><h3>  Governance & Leadership Page</h3></center>
          </div>
     )
 };
 
-export default Members;
+export default GovernanceAndLeadership;

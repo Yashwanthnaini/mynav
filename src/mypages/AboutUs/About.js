@@ -8,17 +8,15 @@ import "./About.css" ;
 import { Link } from 'react-router-dom';
 
 
-import arrow from "../StylesCSS/images/arrow.png";
-import rotated from '../StylesCSS/images/rotated.png';
+import arrow from "../Images/arrow.png";
+import rotated from '../Images/rotated.png';
 
 
-import Mission from "./Mission/Mission.js";
+import Mission from "./OurMission/Mission.js";
 
-import Finance from "./FinancialsAndReports/F&R.js";
+import LifeAtFTP from "./LifeAtFTP/LifeAtFTP.js"
 
 import GovernanceAndLeadership from "./GovernanceAndLeadership/G&L.js";
-
-import Contact from "./ContactUs/Contact.js";
 
 import HowWeDo from "./HowWeDo/HowWeDo.js";
 
@@ -206,38 +204,7 @@ const About = () => {
             </Switch>
 
             <Switch>
-                <Route exact path="/about/finance">
-                    <img 
-                        className="About-Imagebar-image" 
-                        style={{width: "100%",
-                                height: "286px",
-                                objectFit: "cover",                  
-                            }}
-                        src={imageSrc} alt="background"
-                        onLoad={() =>{
-                            setImageText("Financial & Reports");
-                            setLoadPage(<Finance />);
-                            setUnderLine("finance");
-                            if(window.innerWidth>500){
-                                setImageSrc(
-                                    "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg" 
-                                )
-                            }
-                            else{
-                                setImageSrc(
-                                    "https://static.wixstatic.com/media/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/84770f_5251001816154d3d9e793f346f9eca55~mv2_d_5472_3648_s_4_2.webp"
-                                )
-                            }
-                            
-                            }}
-                    />
-                
-                
-                </Route>
-            </Switch>
-
-            <Switch>
-                <Route exact path="/about/contact">
+                <Route exact path="/about/lifeatftp">
                     <img 
                         className="About-Imagebar-image" 
                         style={{width: "100%",
@@ -246,17 +213,17 @@ const About = () => {
                             }}
                         src={imageSrc}  alt="background"
                         onLoad={() =>{
-                            setImageText("Contact Us");
-                            setLoadPage(<Contact />);
-                            setUnderLine("contact");
+                            setImageText("Life at FTP");
+                            setLoadPage(<LifeAtFTP />);
+                            setUnderLine("lifeatftp");
                             if(window.innerWidth>500){
                                 setImageSrc(
-                                    "https://static.wixstatic.com/media/nsplsh_2d0effc05f29423e8295ff8261af8c33~mv2.jpg"
+                                    "https://static.wixstatic.com/media/8daf94f88f524d8cb168d8004c1fe282.jpg/v1/fill/w_1349,h_281,al_c,q_85,usm_0.66_1.00_0.01/8daf94f88f524d8cb168d8004c1fe282.webp"
                                 )
                             }
                             else{
                                 setImageSrc(
-                                    "https://static.wixstatic.com/media/nsplsh_2d0effc05f29423e8295ff8261af8c33~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_2d0effc05f29423e8295ff8261af8c33~mv2.webp"
+                                    "https://static.wixstatic.com/media/8daf94f88f524d8cb168d8004c1fe282.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/8daf94f88f524d8cb168d8004c1fe282.webp"
                                 )
                             }
                             }}
@@ -382,39 +349,17 @@ const About = () => {
                             :""
                         }
                 </Link>
+                
                 <Link
-                    to="/about/finance"
+                    to="/about/lifeatftp"
                     style={{
                         textDecoration: 'none',
                         color: 'white'
                     }}>
                     <li
-                       >Financials & Reports</li>
-                        {
-                            underLine==="finance"
-                            ?<div>
-                                    <hr style={{
-                                    height: "5px",
-                                    backgroundColor: "#10578B",
-                                    borderTop: "0",
-                                    borderLeft: "0",
-                                    marginLeft: "9px",
-                                }}></hr>
-
-                            </div>
-                            :""
-                        }
-                </Link>
-                <Link
-                    to="/about/contact"
-                    style={{
-                        textDecoration: 'none',
-                        color: 'white'
-                    }}>
-                    <li
-                        >Contact Us</li>
+                        >Life at FTP</li>
                     {
-                        underLine==="contact"
+                        underLine==="lifeatftp"
                     
                         ?<div>
                              <hr style={{
@@ -499,22 +444,15 @@ const About = () => {
                 }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li >GovernanceAndLeadership</li>
                  </Link>
+            
             <Link
-                to="/about/finance"
-                style={{
-                    textDecoration: 'none'
-                }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
-                <li 
-                    >FinancialsAndReports</li>
-            </Link>
-            <Link
-                to="/about/contact"
+                to="/about/lifeatftp"
                 style={{
                     textDecoration: 'none',
                     
                 }}onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
                 <li
-                    >Contact Us</li>
+                    >Life at FTP</li>
             </Link>
             
             

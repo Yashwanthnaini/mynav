@@ -8,17 +8,23 @@ import "./MenuBar.css";
 
 import DropDownIcon from "./DropDownIcon/DropDownIcon.js";
 import DownArrowIcon from "./DownArrowIcon/DownArrowIcon.js";
-import ExploreOne from "./ExploreOne/ExploreOne.js";
-import ExploreTwo from "./ExploreTwo/ExploreTwo.js";
-import Forum from "./Forum/Forum.js";
 import MenuCrossIcon from "./MenuCrossIcon/MenuCrossIcon.js";
 import SocialMediaLinks from "./SocialMediaLinks/SocialMediaLinks";
+import ExploreLinks from "./ExploreLinks/ExploreLinks";
+import AboutUsLinks from "./AboutUsLinks/AboutUsLinks";
+import OperationLinks from "./OperationLinks/OperationLinks";
+import BecomeAPartLinks from "./BecomeAPartLinks/BecomeAPartLinks";
+
 
 const MenuBar = ({setSideMenuOpen}) =>{
 
-    const [exploreOneOpen ,setExploreOneOpen] = useState(true);
+    const [OperationLinksOpen ,setOperationsLinksOpen] = useState(true);
 
-    const [exploreTwoOpen ,setExploreTwoOpen] = useState(true);
+    const [ExploreLinksOpen , setExploreLinksOpen] = useState(true);
+
+    const [AboutUsLinksOpen , setAboutUsLinksOpen] = useState(true);
+
+    const [BecomeAPartLinksOpen , setBecomeAPartLinksOpen] = useState(true);
 
     return(
         <>
@@ -35,13 +41,13 @@ const MenuBar = ({setSideMenuOpen}) =>{
                     <div onClick={() => setSideMenuOpen(false)}><MenuCrossIcon /></div>
                     <div className="menu-modal__body wef-1fibqux" id="menu-modal--body-1">
                         <div className="wef-0">
-                            <header className="wef-6detrv" onClick={() => setExploreTwoOpen(!exploreTwoOpen)}>
+                            <header className="wef-6detrv" onClick={() => setOperationsLinksOpen(!OperationLinksOpen)}>
                                 <h4 className="menu-text wef-1pkwypy" >
                                     <div className="wef-gg4vpm">
-                                    Explore
+                                    Operations
                                         <div >
                                             {
-                                                exploreTwoOpen
+                                                OperationLinksOpen
                                                 ?<DropDownIcon />
                                                 :<DownArrowIcon />
                                             }
@@ -50,19 +56,19 @@ const MenuBar = ({setSideMenuOpen}) =>{
                                 </h4>
                             </header>
                             {
-                                exploreTwoOpen
-                                ? <ExploreTwo setSideMenuOpen={setSideMenuOpen} />
+                                OperationLinksOpen
+                                ? <OperationLinks setSideMenuOpen={setSideMenuOpen} />
                                 :null
                             }
                         </div>
                         <div className="wef-0">
                     
-                            <header  onClick={() => setExploreOneOpen(!exploreOneOpen)} className="wef-6detrv">
+                            <header  onClick={() => setExploreLinksOpen(!ExploreLinksOpen)} className="wef-6detrv">
                                 <h4 className="menu-text wef-1pkwypy">
                                     <div className="wef-gg4vpm">                                    
-                                        Explore more   
+                                        Explore   
                                         <div>{
-                                                exploreOneOpen
+                                                ExploreLinksOpen
                                                 ?<DropDownIcon />
                                                 :<DownArrowIcon />
                                             }
@@ -71,14 +77,61 @@ const MenuBar = ({setSideMenuOpen}) =>{
                                 </h4>
                             </header>
                             {
-                                exploreOneOpen
-                                ? <ExploreOne setSideMenuOpen={setSideMenuOpen}/>
+                                ExploreLinksOpen
+                                ? <ExploreLinks setSideMenuOpen={setSideMenuOpen}/>
                                 :null
                             }
                     
                         </div>
-                        <Forum setSideMenuOpen={setSideMenuOpen} />
-                        <SocialMediaLinks setSideMenuOpen={setSideMenuOpen} />
+                        <div className="wef-0">
+                    
+                            <header  onClick={() => setBecomeAPartLinksOpen(!BecomeAPartLinksOpen)} className="wef-6detrv">
+                                <h4 className="menu-text wef-1pkwypy">
+                                    <div className="wef-gg4vpm">                                    
+                                        Become a Part   
+                                        <div>{
+                                                BecomeAPartLinksOpen
+                                                ?<DropDownIcon />
+                                                :<DownArrowIcon />
+                                            }
+                                        </div>
+                                    </div>
+                                </h4>
+                            </header>
+                            {
+                                BecomeAPartLinksOpen
+                                ? <BecomeAPartLinks setSideMenuOpen={setSideMenuOpen}/>
+                                :null
+                            }
+                    
+                        </div>
+
+                        <div className="wef-0">
+                    
+                            <header  onClick={() => setAboutUsLinksOpen(!AboutUsLinksOpen)} className="wef-6detrv">
+                                <h4 className="menu-text wef-1pkwypy">
+                                    <div className="wef-gg4vpm">                                    
+                                        About Us   
+                                        <div>{
+                                                AboutUsLinksOpen
+                                                ?<DropDownIcon />
+                                                :<DownArrowIcon />
+                                            }
+                                        </div>
+                                    </div>
+                                </h4>
+                            </header>
+                            {
+                                AboutUsLinksOpen
+                                ? <AboutUsLinks setSideMenuOpen={setSideMenuOpen}/>
+                                :null
+                            }
+                    
+                        </div>
+                        <div style={{paddingTop: "15px" }}>
+                        <SocialMediaLinks setSideMenuOpen={setSideMenuOpen}  />
+                        </div>
+                        
                     </div>
                 </div>
             </ div> 

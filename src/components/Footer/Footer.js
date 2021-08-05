@@ -72,97 +72,104 @@ const Footer = () => {
             </div>
 
             <div className="wef-1vip485 footer-links  ">
-
-                <section className="wef-0 ">
-
-                    <header className="wef-1501xib">
-
-                        <h4 className="chakra-text wef-hrf8xs">About</h4>
-
-                    </header>
-
-                    <div className="chakra-stack wef-vjz5tp">
-
-                        <a
-                            className="chakra-link wef-7j5z8a"
-                           href="/about/mission">Our Mission</a>
-                        <a
-                            className="chakra-link wef-7j5z8a"
-                           href="/about/whoweare">Who we are</a>
-                        <a className="chakra-link wef-7j5z8a" 
-                           href="/about/whatwedo">What we do</a>
-                        <a
-                            className="chakra-link wef-7j5z8a"
-                           href="/about/howwedo">How we do</a>
-                        <a className="chakra-link wef-7j5z8a" 
-                           href="/about/governance">Governance & Leadership</a>
-                        <a
-                            className="chakra-link wef-7j5z8a"
-                           href="/about/finance">Financials & Reports</a>
-                        <a
-                            className="chakra-link wef-7j5z8a"
-                           href="/about/contact">Contact Us</a>
-                                                
-                    </div>
-
-                </section>
-
-                <section className="wef-0 ">
-
-                    <header className="wef-1501xib">
-
-                        <h4 className="chakra-text wef-hrf8xs">People</h4>
-
-                    </header>
-
-                    <div className="chakra-stack wef-vjz5tp">
-
-                        <a className="chakra-link wef-7j5z8a" 
-                           href="/people/members">Members</a>
-
-                        <a className="chakra-link wef-7j5z8a" 
-                           href="/people/careers">Careers</a>
-
-                        <a
-                            className="chakra-link wef-7j5z8a"
-                           href="/people/communities">Communities</a>
+            <section className="wef-0">
                         
-                        <a
-                            className="chakra-link wef-7j5z8a"
-                           href="/people/partners">Partners</a>
+                        <header className="wef-1501xib">
 
-                        <a
-                            className="chakra-link wef-7j5z8a"
-                           href="/people/lifeatftp">Life at FTP</a>
+                        <h4 className="chakra-text wef-hrf8xs">About Us</h4>
 
-                    </div>
+                        </header>
 
-                </section>
+                        <div className="chakra-stack wef-vjz5tp">
 
+                            <a
+                                className="chakra-link wef-7j5z8a"
+                            href="/about/mission">Our Mission</a>
+                            <a
+                                className="chakra-link wef-7j5z8a"
+                            href="/about/whoweare">Who we are</a>
+                            <a className="chakra-link wef-7j5z8a" 
+                            href="/about/whatwedo">What we do</a>
+                            <a
+                                className="chakra-link wef-7j5z8a"
+                            href="/about/howwedo">How we do</a>
+                            <a className="chakra-link wef-7j5z8a" 
+                            href="/about/governance">Governance & Leadership</a>
+                            <a
+                                className="chakra-link wef-7j5z8a"
+                            href="/about/lifeatftp">Life at FTP</a>
+                                                
+                        </div>
+                    </section>
+                    <section className="wef-0 ">
+
+                        <header className="wef-1501xib">
+                            <h4 className="chakra-text wef-hrf8xs">Operations</h4>
+                        </header>
+
+                        <div className="chakra-stack wef-vjz5tp">
+
+                            <a className="chakra-link wef-7j5z8a" 
+                            href="/operations/events">Events</a>
+                            <a className="chakra-link wef-7j5z8a" 
+                            href="/operations/projects">Projects</a>
+                            <a className="chakra-link wef-7j5z8a" 
+                            href="/operations/gallery">Gallery</a>
+                            
+                        </div>
+
+                    </section>
 
                 <section className="wef-0 ">
 
                     <header className="wef-1501xib">
-                        <h4 className="chakra-text wef-hrf8xs">Operations</h4>
+                        <h4 className="chakra-text wef-hrf8xs">Explore</h4>
                     </header>
 
                     <div className="chakra-stack wef-vjz5tp">
 
                         <a className="chakra-link wef-7j5z8a" 
-                           href="/operations/events">Events</a>
+                        href="/explore/blog">Blog</a>
                         <a className="chakra-link wef-7j5z8a" 
-                           href="/operations/projects">Projects</a>
+                        href="/explore/reports">Reports</a>
                         <a className="chakra-link wef-7j5z8a" 
-                           href="/operations/gallery">Gallery</a>
+                        href="/explore/finance">Financials & Reports</a>
                         <a className="chakra-link wef-7j5z8a" 
-                           href="/operations/contact">Contact Us</a>
+                        href="/explore/contact">Contact Us</a>
+                        
                     </div>
 
                 </section>
+
+               
+
+               
 
                 <div className="chakra-stack wef-173m771">
 
-                    <section className="wef-0">
+                
+                <section className="wef-0 ">
+
+                    <header className="wef-1501xib">
+                        <h4 className="chakra-text wef-hrf8xs">Become a Part</h4>
+                    </header>
+
+                    <div className="chakra-stack wef-vjz5tp">
+
+                        <a className="chakra-link wef-7j5z8a" 
+                        href="/becomeapart/partners">Partners</a>
+                        <a className="chakra-link wef-7j5z8a" 
+                        href="/becomeapart/communities">Communities</a>
+                        <a className="chakra-link wef-7j5z8a" 
+                        href="/becomeapart/careers">Careers</a>
+                        
+                    </div>
+
+                </section>
+                                        
+
+                    
+                    <section className="wef-0" style={{paddingTop: "20px"}}>
 
                         <header className="wef-1501xib">
 
@@ -170,16 +177,16 @@ const Footer = () => {
 
                         </header>
 
-                       
+
                             <div className="chakra-stack wef-1ls42ek" data-gtm-subcontext="social-links">
 
                                 
                                 <SocialLinks />
 
-                            </div>
+                            </div>                      
 
-                    </section>
-                        
+
+                    </section>  
                     
 
 

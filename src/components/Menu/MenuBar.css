@@ -566,3 +566,8 @@ body {
     transform: rotate(90deg);
     margin-left: auto;
 }
+
+.menu-link{
+    font-size: 14px;
+    line-height: 1rem;
+}
