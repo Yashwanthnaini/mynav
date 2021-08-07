@@ -32,10 +32,14 @@ const App = () => {
 {/*  using conditional statement to open sidemenubar when sidemenuopen value is'true'*/}
                 {
                     sideMenuOpen
-                    ?<MenuBar 
+                    ?
+                    <MenuBar 
                         setSideMenuOpen={setSideMenuOpen} 
                      />
+                     
                     :null
+                    
+                     
                 }
                 {
                     sideMenuOpen

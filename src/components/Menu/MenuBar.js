@@ -30,7 +30,7 @@ const MenuBar = ({setSideMenuOpen}) =>{
         <>
             <div  className="menu">
                 <div 
-                    className="menu-slide menu-modal__content wef-bfltzr"
+                    className="menu-slide menu-modal__content wef-bfltzr "
                     role="dialog"
                     id="menu-modal-1"
                     tabIndex="-1"

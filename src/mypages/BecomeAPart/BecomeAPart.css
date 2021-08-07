@@ -51,6 +51,7 @@
     visibility: hidden;
     transform: translateY(-1rem);
     transition: all 100ms;
+    height: 0;
     
 
 }
