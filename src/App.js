@@ -32,15 +32,39 @@ const App = () => {
 {/*  using conditional statement to open sidemenubar when sidemenuopen value is'true'*/}
                 {
                     sideMenuOpen
-                    ?
-                    <MenuBar 
-                        setSideMenuOpen={setSideMenuOpen} 
-                     />
-                     
-                    :null
-                    
-                     
-                }
+                    ?<div  className="menu  "  >
+                        <div 
+                            className="menu-slide open menu-modal__content wef-bfltzr "
+                            role="dialog"
+                            id="menu-modal-1"
+                            tabIndex="-1"
+                            aria-modal="true"
+                            aria-describedby="menu-modal--body-1"
+                            style={{position: "fixed", width: "100%" ,height: "100vh", left: "0px", top: "0px", transform: "translateX(0%) translateZ(0px)"}}
+                        >
+                            <MenuBar 
+                                setSideMenuOpen={setSideMenuOpen}
+                        
+                            />
+                        </div>
+                     </div>
+                    :<div  className="menu  "  >
+                        <div 
+                            className="menu-slide close menu-modal__content wef-bfltzr "
+                            role="dialog"
+                            id="menu-modal-1"
+                            tabIndex="-1"
+                            aria-modal="true"
+                            aria-describedby="menu-modal--body-1"
+                            style={{position: "fixed", width: "100%" ,height: "100vh", left: "0px", top: "0px", transform: "translateX(0%) translateZ(0px)"}}
+                        >
+                            <MenuBar 
+                                setSideMenuOpen={setSideMenuOpen}
+                        
+                            />
+                        </div>
+                    </div>
+                } 
                 {
                     sideMenuOpen
                     ?<BackDrop  setSideMenuOpen={setSideMenuOpen}/>

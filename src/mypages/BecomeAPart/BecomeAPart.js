@@ -38,12 +38,12 @@ const BecomeAPart = () => {
          
     return (
     <> 
-        < div className = "Become-Imagebar" > 
+        < div className = "Become-Imagebar"  > 
            
             <Switch>
                 <Route exact path="/becomeapart/partners">
                     <img 
-                        className="Become-Imagebar-image" 
+                        className="Become-Imagebar-image  " 
                         style={{width: "100%",
                                 height: "286px",
                                 objectFit: "cover",                  

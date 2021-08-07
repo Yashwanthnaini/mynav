@@ -16,7 +16,7 @@ import OperationLinks from "./OperationLinks/OperationLinks";
 import BecomeAPartLinks from "./BecomeAPartLinks/BecomeAPartLinks";
 
 
-const MenuBar = ({setSideMenuOpen}) =>{
+const MenuBar = ({setSideMenuOpen},{sideMenuOpen}) =>{
 
     const [OperationLinksOpen ,setOperationsLinksOpen] = useState(true);
 
@@ -28,16 +28,9 @@ const MenuBar = ({setSideMenuOpen}) =>{
 
     return(
         <>
-            <div  className="menu">
-                <div 
-                    className="menu-slide menu-modal__content wef-bfltzr "
-                    role="dialog"
-                    id="menu-modal-1"
-                    tabIndex="-1"
-                    aria-modal="true"
-                    aria-describedby="menu-modal--body-1"
-                    style={{position: "fixed", width: "100%" ,height: "100vh", left: "0px", top: "0px", transform: "translateX(0%) translateZ(0px)"}}
-                    >
+            
+                
+                
                     <div onClick={() => setSideMenuOpen(false)}><MenuCrossIcon /></div>
                     <div className="menu-modal__body wef-1fibqux" id="menu-modal--body-1">
                         <div className="wef-0">
@@ -133,8 +126,8 @@ const MenuBar = ({setSideMenuOpen}) =>{
                         </div>
                         
                     </div>
-                </div>
-            </ div> 
+                
+ 
             
               
 

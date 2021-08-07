@@ -24,6 +24,20 @@
     max-width: 28rem;
 }
 
+.menu-slide.close{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(1rem) ;
+    transition: all 300ms;
+    width: 0;
+}
+.menu-slide.open{
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0) ;
+    transition: 500ms;
+}
+
 
 .menu *,
 .menu *::after,
@@ -97,7 +111,7 @@ body {
     left: 1.25rem;
 }
 .menu .wef-1c5qjkw:focus, .menu .wef-1c5qjkw[data-focus] {
-    box-shadow: rgb(66 153 225 / 60%) 0px 0px 0px 3px;
+    box-shadow: #0074c7 0px 0px 0px 3px;
 }
 
 .menu .wef-1c5qjkw:active, .menu .wef-1c5qjkw[data-active] {
@@ -199,6 +213,7 @@ input {
     flex-shrink: 0;
     color: currentColor;
     vertical-align: middle;
+    
 }
 
 .menu audio,

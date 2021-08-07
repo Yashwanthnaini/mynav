@@ -3,13 +3,7 @@ import React from "react";
 const SearchBar = () => {
     return (
         <> 
-            < div   
-                
-                className = "search-bar-container" 
-                >
-                <div 
-                    className="search-bar-child search-bar-animate-open" 
-                    >
+            
 
                     <form action="/search" method="get" 
                         className="search-form"
@@ -45,8 +39,7 @@ const SearchBar = () => {
                                 </div>
                         </div>
                     </form>
-                </div>
-            </div>
+             
         </>
     )
 };

@@ -42,8 +42,16 @@ const NavBar = ({setSideMenuOpen}) => {
                                         <div className="search-bar-div">
                                             {
                                                searchBarOpen
-                                                ? <SearchBar />
-                                                : null
+                                                ?< div className = "search-bar-container" >
+                                                    <div className="search-bar-child open" >
+                                                        <SearchBar />
+                                                    </div>
+                                                </div>
+                                                :< div className = "search-bar-container" >
+                                                    <div className="search-bar-child close" >
+                                                        <SearchBar />
+                                                    </div>
+                                                </div>
                                             }
                                             {
                                                 crossButtonOpen
