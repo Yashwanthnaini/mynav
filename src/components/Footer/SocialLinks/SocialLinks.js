@@ -9,7 +9,7 @@ const SocialLinks = () => {
             <div className="menu-stack wef-1ls42ek" data-gtm-subcontext="social-links">
                 <a
                     
-                    className="menu-link wef-bp2r9n"
+                    className="menu-link wef-bp2r9n social-icon"
                     href="https://www.facebook.com/forthepeoplengo/">
                     <svg
                         viewBox="0 0 26 26"
@@ -20,12 +20,14 @@ const SocialLinks = () => {
                             fillRule="evenodd"
                             clipRule="evenodd"
                             d="M0 23.8334C0 25.0305 0.969647 26 2.16656 26H23.8334C25.0305 26 26 25.0305 26 23.8334V2.16656C26 0.969587 25.0305 0 23.8334 0H2.16662C0.969647 0 5.97002e-05 0.969647 5.97002e-05 2.16656V23.8334H0ZM13.5417 22.75V14.0834H11.375V10.8333H13.5417C13.5417 5.2487 13.7798 4.875 20.5835 4.875V8.12503C16.9974 8.12503 17.3334 8.32547 17.3334 10.8333H20.5835V14.0834H17.3334V22.75H13.5417V22.75Z"
-                            fill="currentColor"></path>
+                            fill="currentColor">
+
+                        </path>
                     </svg>
                 </a>
                 <a
                     
-                    className="menu-link wef-1e6xawk"
+                    className="menu-link wef-1e6xawk social-icon"
                     href="https://twitter.com/forthepeoplengo">
                     <svg
                         viewBox="0 0 32 26"
@@ -40,7 +42,7 @@ const SocialLinks = () => {
                 </a>
                 <a
                     
-                    className="menu-link wef-y705st"
+                    className="menu-link wef-y705st social-icon"
                     href="https://www.linkedin.com/company/nonprofit-forthepeople">
                     <svg
                         viewBox="0 0 32 26"
@@ -55,19 +57,20 @@ const SocialLinks = () => {
                 </a>
                 <a
                     
-                    className="menu-link wef-1845p8s"
+                    className="menu-link wef-1845p8s social-icon"
                     href="https://t.me/forthepeoplengo">
                     <img className="menu-icon wef-yekspl" src={Telegram_logo} alt="telegram logo" />
+                    
                 </a>
                 <a
                     
-                    className="menu-link wef-erlri7"
+                    className="menu-link wef-erlri7 social-icon"
                     href="https://www.pinterest.com/forthepeoplengo/">
                     <img src={pinterest_logo} className="menu-icon wef-yekspl"  alt="pinterest logo"/>
                 </a>
                 <a
                     
-                    className="menu-link wef-fxxg6w"
+                    className="menu-link wef-fxxg6w social-icon"
                     
                     href="https://www.instagram.com/forthepeoplengo/">
                     <svg
@@ -90,7 +93,7 @@ const SocialLinks = () => {
                 </a>
                 <a
                     
-                    className="menu-link wef-fxxg6w"
+                    className="menu-link wef-fxxg6w social-icon"
                     href="https://www.reddit.com/user/forthepeoplengo">
                     <img src={Reddit_logo} className="menu-icon wef-yekspl"  alt="reddit logo" />
                 </a>

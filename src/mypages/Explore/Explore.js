@@ -80,7 +80,7 @@ const Explore = () => {
                         onLoad={() =>{
                             setImageText("Reports");
                             setLoadPage(<Report />);
-                            setUnderLine("Reports");
+                            setUnderLine("reports");
                             if(window.innerWidth>500){
                                 setImageSrc(
                                     "https://static.wixstatic.com/media/nsplsh_71777443654a35634c5973~mv2_d_2947_2121_s_2.jpg/v1/fill/w_1895,h_435,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_71777443654a35634c5973~mv2_d_2947_2121_s_2.webp"
@@ -194,7 +194,7 @@ const Explore = () => {
                     <li
                         >Reports</li>
                     {
-                        underLine==="report"
+                        underLine==="reports"
                         ?<div>
                              <hr style={{
                                 height: "5px",
@@ -292,31 +292,47 @@ const Explore = () => {
                 style={{
                     textDecoration: 'none'
                 }}  onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
-                <li >Blog</li>
+                
+                {
+                    underLine === "blog"
+                    ?<li style={{color: "#000"}}>Blog</li>
+                    :<li >Blog</li>
+                }
             </Link>
             <Link
                 to="/explore/reports"
                 style={{
                     textDecoration: 'none'
                 }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
-                <li 
-                    >Reports</li>
+               {
+                    underLine === "reports"
+                    ?<li style={{color: "#000"}}>Reports</li>
+                    :<li >Reports</li>
+                }
             </Link>
             <Link
                  to="/explore/finance"
                 style={{
                     textDecoration: 'none'
                 }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
-                <li 
-                    >Financials & Reports</li>
+                
+                {
+                    underLine === "finance"
+                    ?<li style={{color: "#000"}}>Financials & Reports</li>
+                    :<li >Financials & Reports</li>
+                }
             </Link>
             <Link
                 to="/explore/contact"
                 style={{
                     textDecoration: 'none'
                 }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
-                <li 
-                    >Contact Us</li>
+                
+                {
+                    underLine === "contact"
+                    ?<li style={{color: "#000"}}>Contact Us</li>
+                    :<li >Contact Us</li>
+                }
             </Link>
         
     

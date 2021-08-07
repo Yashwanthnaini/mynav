@@ -254,8 +254,12 @@ const BecomeAPart = () => {
                 }}
                 onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
                 >
-                <li
-                    >Partners</li>
+                
+                {
+                    underLine === "partners"
+                    ?<li style={{color: "#000"}}>Partners</li>
+                    :<li >Partners</li>
+                }
             </Link>
 
             <Link
@@ -266,8 +270,12 @@ const BecomeAPart = () => {
                 }}
                 onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
                 >
-                <li
-                    >Communities</li>
+                
+                {
+                    underLine === "communities"
+                    ?<li style={{color: "#000"}}>Communities</li>
+                    :<li >Communities</li>
+                }
             </Link>
 
             <Link
@@ -278,8 +286,12 @@ const BecomeAPart = () => {
                 }}
                 onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
                 >
-                <li
-                    >Careers</li>
+                
+                {
+                    underLine === "careers"
+                    ?<li style={{color: "#000"}}>Careers</li>
+                    :<li >Careers</li>
+                }
             </Link>
     
         </ul>

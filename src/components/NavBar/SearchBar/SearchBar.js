@@ -8,7 +8,7 @@ const SearchBar = () => {
                 className = "search-bar-container" 
                 >
                 <div 
-                    className="search-bar-child"
+                    className="search-bar-child search-bar-animate-open" 
                     >
 
                     <form action="/search" method="get" 

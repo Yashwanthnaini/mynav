@@ -46,12 +46,14 @@
     left: 110px;
     white-space: nowrap;
 }
+
 .dropdown__menu,.selected {
     width: 90%;
     margin: 0 auto;
     border: none;
     background-color: white;
 }
+
 .dropdown__menu li,.selected{
     border: none;
     border-bottom: 1px solid #D3D3D3;
@@ -143,7 +145,7 @@
         width: 1070px;
         position: absolute;
     bottom: 1px;
-    left: 112px;
+    left: 97px;
     
     }
 }

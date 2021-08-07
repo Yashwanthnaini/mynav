@@ -241,8 +241,12 @@ const Operations = () => {
                 }}
                 onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
                 >
-                <li
-                    >Events</li>
+                
+                {
+                    underLine === "events"
+                    ?<li style={{color: "#000"}}>Events</li>
+                    :<li >Events</li>
+                }
             </Link>
             <Link
                 to="/operations/projects"
@@ -252,8 +256,12 @@ const Operations = () => {
                 }}
                 onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
                 >
-                <li
-                    >Projects</li>
+                
+                {
+                    underLine === "projects"
+                    ?<li style={{color: "#000"}}>Projects</li>
+                    :<li >Projects</li>
+                }
             </Link>
             <Link
                 to="/operations/gallery"
@@ -263,8 +271,12 @@ const Operations = () => {
                 }}
                 onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
                 >
-                <li
-                    >Gallery</li>
+                
+                {
+                    underLine === "gallery"
+                    ?<li style={{color: "#000"}}>Gallery</li>
+                    :<li >Gallery</li>
+                }
             </Link>
         
             

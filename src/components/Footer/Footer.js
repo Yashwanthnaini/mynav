@@ -169,7 +169,7 @@ const Footer = () => {
                                         
 
                     
-                    <section className="wef-0" style={{paddingTop: "20px"}}>
+                    <section className="wef-0" style={{paddingTop: "0.5rem"}}>
 
                         <header className="wef-1501xib">
 
@@ -178,7 +178,7 @@ const Footer = () => {
                         </header>
 
 
-                            <div className="chakra-stack wef-1ls42ek" data-gtm-subcontext="social-links">
+                            <div className="chakra-stack wef-1ls42ek" data-gtm-subcontext="social-links" style={{paddingTop: "0.5rem"}}>
 
                                 
                                 <SocialLinks />

@@ -410,31 +410,48 @@ const About = () => {
                 style={{
                     textDecoration: 'none'
                 }}  onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
-                <li >Mission</li>
+                
+                {
+                    underLine === "mission"
+                    ?<li style={{color: "#000"}}>Mission</li>
+                    :<li >Mission</li>
+                }
             </Link>
             <Link
                 to="/about/whoweare"
                 style={{
                     textDecoration: 'none'
                 }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
-                <li 
-                    >Who we are</li>
+                
+                {
+                    underLine === "whoweare"
+                    ?<li style={{color: "#000"}}>Who we are</li>
+                    :<li >Who we are</li>
+                }
             </Link>
             <Link
                  to="/about/whatwedo"
                 style={{
                     textDecoration: 'none'
                 }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
-                <li 
-                    >What we do</li>
+                
+                {
+                    underLine === "whatwedo"
+                    ?<li style={{color: "#000"}}>What we do</li>
+                    :<li >What we do</li>
+                }
             </Link>
             <Link
                 to="/about/howwedo"
                 style={{
                     textDecoration: 'none'
                 }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
-                <li 
-                    >How we do</li>
+               
+                {
+                    underLine === "howwedo"
+                    ?<li style={{color: "#000"}}>How we do</li>
+                    :<li >How we do</li>
+                }
             </Link>
             <Link
                 to="/about/governance"
@@ -442,8 +459,13 @@ const About = () => {
                     textDecoration: 'none'
                     
                 }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
-                <li >GovernanceAndLeadership</li>
-                 </Link>
+                
+                {
+                    underLine === "governance"
+                    ?<li style={{color: "#000"}}>Governance & Leadership</li>
+                    :<li >Governance & Leadership</li>
+                }
+            </Link>
             
             <Link
                 to="/about/lifeatftp"
@@ -451,8 +473,12 @@ const About = () => {
                     textDecoration: 'none',
                     
                 }}onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
-                <li
-                    >Life at FTP</li>
+                
+                {
+                    underLine === "lifeatftp"
+                    ?<li style={{color: "#000"}}>Life at FTP</li>
+                    :<li >Life at FTP</li>
+                }
             </Link>
             
             
