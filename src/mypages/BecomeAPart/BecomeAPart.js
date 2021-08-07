@@ -37,10 +37,10 @@ const BecomeAPart = () => {
    
          
     return (
-        <> 
+    <> 
         < div className = "Become-Imagebar" > 
            
-        <Switch>
+            <Switch>
                 <Route exact path="/becomeapart/partners">
                     <img 
                         className="Become-Imagebar-image" 
@@ -136,116 +136,159 @@ const BecomeAPart = () => {
             
         
             
-        <ul className="Become-Topbar__links">
-        <Link
+            <ul className="Become-Topbar__links">
+                <Link
+                    to="/becomeapart/partners"
+                    style={{
+                        textDecoration: 'none',
+                        color: 'white'
+                    }}>
+                    <li
+                        >Partners</li>
+                        {
+                            underLine==="partners"
+                            ?<div>
+                                <hr style={{
+                                    height: "5px",
+                                    backgroundColor: "#10578B",
+                                    borderTop: "0",
+                                    borderLeft: "0",
+                                    marginLeft: "9px",
+                                }}></hr>
+                            </div>
+                            :""
+                        }
+                </Link>
+
+
+                <Link
+                    to="/becomeapart/communities"
+                    style={{
+                        textDecoration: 'none',
+                        color: 'white'
+                    }}>
+                    <li
+                        >Communities</li>
+                        {
+                            underLine==="communities"
+                            ?<div>
+                                <hr style={{
+                                    height: "5px",
+                                    backgroundColor: "#10578B",
+                                    borderTop: "0",
+                                    borderLeft: "0",
+                                    marginLeft: "9px",
+                                }}></hr>
+                            </div>
+                            :""
+                        }
+                </Link>
+
+                <Link
+                to="/becomeapart/careers"
+                    style={{
+                        textDecoration: 'none',
+                        color: 'white'
+                    }}>
+                    <li
+                        >Careers</li>
+                        {
+                            underLine==="careers"
+                            ?<div>
+                                <hr style={{
+                                    height: "5px",
+                                    backgroundColor: "#10578B",
+                                    borderTop: "0",
+                                    borderLeft: "0",
+                                    marginLeft: "9px",
+                                }}></hr>
+                            </div>
+                            :""
+                        }
+                </Link>
+
+            </ul>
+            <span>{imageText}</span>
+        </div>
+
+           {/* Dropdown Bar */} 
+        < p style={{
+            boxSizing: "unset",
+            }} onClick = {
+
+                () => {
+                if(openDropdown){
+                    setOpenDropdown(false);
+                    }
+                    else{
+                        setOpenDropdown(true);
+                    };
+                    if(openDropdown){
+                        setArrowSymbol(arrow);
+                    }
+                    else{
+                        setArrowSymbol(rotated);
+                    }
+                    
+                    
+                }
+            }
+            className = "selected" > 
+            <span className="text">{imageText}</span>
+            <span ><img src={arrowSymbol} alt={arrowSymbol} id="image"/></span>
+        </p>
+            {
+            !openDropdown
+            ?<ul className="dropdown_menu close">
+                <Link
                 to="/becomeapart/partners"
                 style={{
                     textDecoration: 'none',
-                    color: 'white'
-                }}>
-                <li
-                    >Partners</li>
-                    {
-                        underLine==="partners"
-                        ?<div>
-                            <hr style={{
-                                height: "5px",
-                                backgroundColor: "#10578B",
-                                borderTop: "0",
-                                borderLeft: "0",
-                                marginLeft: "9px",
-                            }}></hr>
-                         </div>
-                        :""
-                    }
+                    
+                }}
+                onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
+                >
+                
+                {
+                    underLine === "partners"
+                    ?<li style={{color: "#000"}}>Partners</li>
+                    :<li >Partners</li>
+                }
             </Link>
-
 
             <Link
                 to="/becomeapart/communities"
                 style={{
                     textDecoration: 'none',
-                    color: 'white'
-                }}>
-                <li
-                    >Communities</li>
-                    {
-                        underLine==="communities"
-                        ?<div>
-                            <hr style={{
-                                height: "5px",
-                                backgroundColor: "#10578B",
-                                borderTop: "0",
-                                borderLeft: "0",
-                                marginLeft: "9px",
-                            }}></hr>
-                         </div>
-                        :""
-                    }
+                
+                }}
+                onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
+                >
+                
+                {
+                    underLine === "communities"
+                    ?<li style={{color: "#000"}}>Communities</li>
+                    :<li >Communities</li>
+                }
             </Link>
 
             <Link
-               to="/becomeapart/careers"
+                to="/becomeapart/careers"
                 style={{
                     textDecoration: 'none',
-                    color: 'white'
-                }}>
-                <li
-                    >Careers</li>
-                    {
-                        underLine==="careers"
-                        ?<div>
-                            <hr style={{
-                                height: "5px",
-                                backgroundColor: "#10578B",
-                                borderTop: "0",
-                                borderLeft: "0",
-                                marginLeft: "9px",
-                            }}></hr>
-                         </div>
-                        :""
-                    }
+                
+                }}
+                onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
+                >
+                
+                {
+                    underLine === "careers"
+                    ?<li style={{color: "#000"}}>Careers</li>
+                    :<li >Careers</li>
+                }
             </Link>
-           
-        
-            
-            
-           
-            
-            
-            
-        </ul>
-        <span>{imageText}</span>
-    </div>
-
-           {/* Dropdown Bar */
-        } < p style={{
-            boxSizing: "unset",
-        }} onClick = {
-
-            () => {
-               if(openDropdown){
-                setOpenDropdown(false);
-                }
-                else{
-                    setOpenDropdown(true);
-                };
-                if(openDropdown){
-                    setArrowSymbol(arrow);
-                }
-                else{
-                    setArrowSymbol(rotated);
-                }
-                
-                
-            }
-        }
-        className = "selected" > <span className="text">{imageText}</span>
-        <span ><img src={arrowSymbol} alt={arrowSymbol} id="image"/></span>
-    </p>
-    {
-        openDropdown
-            ? <ul className="dropdown__menu">
+            </ul>           
+            :<ul className="dropdown_menu open">
             <Link
                 to="/becomeapart/partners"
                 style={{
@@ -266,7 +309,7 @@ const BecomeAPart = () => {
                 to="/becomeapart/communities"
                 style={{
                     textDecoration: 'none',
-                   
+                
                 }}
                 onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
                 >
@@ -282,7 +325,7 @@ const BecomeAPart = () => {
                 to="/becomeapart/careers"
                 style={{
                     textDecoration: 'none',
-                   
+                
                 }}
                 onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
                 >
@@ -295,14 +338,16 @@ const BecomeAPart = () => {
             </Link>
     
         </ul>
-        : null
-
-    }
+          
+            
+                }
+                
+            
             <div>
         {loadPage}
-    </div>
-        </>
-    )
-}
+            </div>
+    </>
+    )}
+
 
 export default BecomeAPart;

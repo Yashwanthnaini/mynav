@@ -231,8 +231,8 @@ const Operations = () => {
         <span ><img src={arrowSymbol} alt={arrowSymbol} id="image"/></span>
     </p>
     {
-        openDropdown
-            ? <ul className="dropdown__menu">
+        !openDropdown
+            ? <ul className="dropdown_menu close">
              <Link
                 to="/operations/events"
                 style={{
@@ -281,7 +281,55 @@ const Operations = () => {
         
             
         </ul>
-        : null
+        : <ul className="dropdown_menu open">
+        <Link
+           to="/operations/events"
+           style={{
+               textDecoration: 'none',
+               
+           }}
+           onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
+           >
+           
+           {
+               underLine === "events"
+               ?<li style={{color: "#000"}}>Events</li>
+               :<li >Events</li>
+           }
+       </Link>
+       <Link
+           to="/operations/projects"
+           style={{
+               textDecoration: 'none',
+           
+           }}
+           onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
+           >
+           
+           {
+               underLine === "projects"
+               ?<li style={{color: "#000"}}>Projects</li>
+               :<li >Projects</li>
+           }
+       </Link>
+       <Link
+           to="/operations/gallery"
+           style={{
+               textDecoration: 'none',
+               
+           }}
+           onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}
+           >
+           
+           {
+               underLine === "gallery"
+               ?<li style={{color: "#000"}}>Gallery</li>
+               :<li >Gallery</li>
+           }
+       </Link>
+   
+       
+   </ul>
 
     }
             <div>

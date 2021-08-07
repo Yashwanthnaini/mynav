@@ -403,8 +403,8 @@ const About = () => {
         <span ><img src={arrowSymbol} alt={arrowSymbol} id="image"/></span>
     </p>
     {
-        openDropdown
-            ? <ul className="dropdown__menu">
+        !openDropdown
+            ? <ul className="dropdown_menu close">
             <Link
                 to="/about/mission"
                 style={{
@@ -480,13 +480,84 @@ const About = () => {
                     :<li >Life at FTP</li>
                 }
             </Link>
-            
-            
-            
-            
-    
         </ul>
-        : null
+        : <ul className="dropdown_menu open">
+        <Link
+            to="/about/mission"
+            style={{
+                textDecoration: 'none'
+            }}  onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
+            
+            {
+                underLine === "mission"
+                ?<li style={{color: "#000"}}>Mission</li>
+                :<li >Mission</li>
+            }
+        </Link>
+        <Link
+            to="/about/whoweare"
+            style={{
+                textDecoration: 'none'
+            }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
+            
+            {
+                underLine === "whoweare"
+                ?<li style={{color: "#000"}}>Who we are</li>
+                :<li >Who we are</li>
+            }
+        </Link>
+        <Link
+             to="/about/whatwedo"
+            style={{
+                textDecoration: 'none'
+            }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
+            
+            {
+                underLine === "whatwedo"
+                ?<li style={{color: "#000"}}>What we do</li>
+                :<li >What we do</li>
+            }
+        </Link>
+        <Link
+            to="/about/howwedo"
+            style={{
+                textDecoration: 'none'
+            }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
+           
+            {
+                underLine === "howwedo"
+                ?<li style={{color: "#000"}}>How we do</li>
+                :<li >How we do</li>
+            }
+        </Link>
+        <Link
+            to="/about/governance"
+            style={{
+                textDecoration: 'none'
+                
+            }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
+            
+            {
+                underLine === "governance"
+                ?<li style={{color: "#000"}}>Governance & Leadership</li>
+                :<li >Governance & Leadership</li>
+            }
+        </Link>
+        
+        <Link
+            to="/about/lifeatftp"
+            style={{
+                textDecoration: 'none',
+                
+            }}onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
+            
+            {
+                underLine === "lifeatftp"
+                ?<li style={{color: "#000"}}>Life at FTP</li>
+                :<li >Life at FTP</li>
+            }
+        </Link>
+    </ul>
 
     }
             <div>

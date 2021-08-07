@@ -285,8 +285,8 @@ const Explore = () => {
         <span ><img src={arrowSymbol} alt={arrowSymbol} id="image"/></span>
     </p>
     {
-        openDropdown
-            ? <ul className="dropdown__menu">
+        !openDropdown
+            ? <ul className="dropdown_menu close">
             <Link
                 to="/explore/blog"
                 style={{
@@ -337,7 +337,57 @@ const Explore = () => {
         
     
         </ul>
-        : null
+        : <ul className="dropdown_menu open">
+        <Link
+            to="/explore/blog"
+            style={{
+                textDecoration: 'none'
+            }}  onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
+            
+            {
+                underLine === "blog"
+                ?<li style={{color: "#000"}}>Blog</li>
+                :<li >Blog</li>
+            }
+        </Link>
+        <Link
+            to="/explore/reports"
+            style={{
+                textDecoration: 'none'
+            }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
+           {
+                underLine === "reports"
+                ?<li style={{color: "#000"}}>Reports</li>
+                :<li >Reports</li>
+            }
+        </Link>
+        <Link
+             to="/explore/finance"
+            style={{
+                textDecoration: 'none'
+            }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
+            
+            {
+                underLine === "finance"
+                ?<li style={{color: "#000"}}>Financials & Reports</li>
+                :<li >Financials & Reports</li>
+            }
+        </Link>
+        <Link
+            to="/explore/contact"
+            style={{
+                textDecoration: 'none'
+            }} onClick={() => {setOpenDropdown(false); setArrowSymbol(arrow)}}>
+            
+            {
+                underLine === "contact"
+                ?<li style={{color: "#000"}}>Contact Us</li>
+                :<li >Contact Us</li>
+            }
+        </Link>
+    
+
+    </ul>
 
     }
             <div>
