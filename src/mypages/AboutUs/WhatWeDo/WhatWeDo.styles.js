@@ -20,7 +20,7 @@ font-size:16px;
 font-size:14.5px;
  margin:20px 0px;
  padding-left:30px;
- 
+ padding-top:1rem;
 
 }
 `;
@@ -75,7 +75,7 @@ padding:12.5px;
     margin-left: auto;
     margin-right: auto;  
     margin-bottom :30px;
-    width: 86.5%;
+    width: 102%;
     height:auto ;
 
 }
@@ -86,7 +86,7 @@ width:100%;
 margin-left: auto;
 margin-right: auto;
 @media only screen and (max-width: 600px) {
-   
+    height:190px;
    
 
 }
