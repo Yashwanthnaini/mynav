@@ -73,7 +73,7 @@ const App = () => {
                       
 {/* using onclick method to change the sidemenuopen value to 'false' when the backdrop is clicked*/}
                                                        
-                <div className="page-load">
+                <div className="page-load" >
                     <MyPages />
                 </div>
                 <Footer />

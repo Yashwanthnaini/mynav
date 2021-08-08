@@ -5,7 +5,7 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import "./About.css" ;
 
 
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 
 import arrow from "../Images/arrow.png";

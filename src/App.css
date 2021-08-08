@@ -1,6 +1,10 @@
-/* .menu-transition .close{
-    width: 0;
+.page-load{
+    padding-bottom: 3rem;
 }
-.menu-transition .open{
 
-} */
+@media (max-width:600px) {
+    .page-load{
+        padding-bottom: 3rem;
+    }
+    
+}
