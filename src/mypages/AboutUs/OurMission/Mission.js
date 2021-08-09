@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container,CentralContainer,CentralContent1,CentralContent2 ,BoldContent,Innercontainer,Images,ImagesMobile,ContentOnImage,Imagecaption,Moreitems,Items,Symbol,ContentBox,Content,Content1,SideContent} from "./Mission.styles";
+import {Container,CentralContainer,CentralContent1,CentralContent2 ,BoldContent,ContentBox,Content,Content1} from "./Mission.styles";
 
 
 
