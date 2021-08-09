@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-export const Container = styled.body`
+export const Container = styled.div`
 margin: 0px;
 height:auto;
 width:100%;
