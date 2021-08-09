@@ -30,7 +30,7 @@ margin-left: auto;
     margin-right: auto;
     margin-bottom:93px;
     width: 86.5%;
-    height: 385px;
+    height: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -66,7 +66,7 @@ export const Display = styled.div`
 `;
 export const InnerBox1 = styled.div`
 background-color: var(--bg-overlay-color);
-height:384px;
+height:auto;
 width:25%;
 border:1px solid rgb(196 201 229);
 box-shadow: 0 1px 4px 0 rgb(196 201 229);

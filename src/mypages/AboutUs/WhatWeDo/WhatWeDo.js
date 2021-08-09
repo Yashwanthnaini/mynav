@@ -115,7 +115,7 @@ const  WhatWeDo = () => {
             <Box>
             <InnerBox1>
                 
-                <Images src={"https://static.wixstatic.com/media/cc959ab171974ae3826592a76e5815fa.jpg/v1/fill/w_320,h_180,al_c,q_80,usm_0.66_1.00_0.01/Image-empty-state.webp"}></Images>
+                <Images src={"https://static.wixstatic.com/media/cc959ab171974ae3826592a76e5815fa.jpg/v1/fill/w_423,h_270,al_c,q_80,usm_0.66_1.00_0.01/Image-empty-state.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle >
                     Holistic Health and Nutrition
@@ -127,7 +127,7 @@ const  WhatWeDo = () => {
             </InnerBox1>
 
             <InnerBox1>
-            <Images src={"https://static.wixstatic.com/media/36fd244f102744f4acc109fb237e24f2.jpg/v1/fill/w_271,h_180,al_c,q_80,usm_0.66_1.00_0.01/Image-empty-state.webp"}></Images>
+            <Images src={"https://static.wixstatic.com/media/36fd244f102744f4acc109fb237e24f2.jpg/v1/fill/w_423,h_270,al_c,q_80,usm_0.66_1.00_0.01/Image-empty-state.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle>
                     
@@ -139,7 +139,7 @@ const  WhatWeDo = () => {
                 </Imagecontent>
             </InnerBox1>
             <InnerBox1>
-            <Images src={"https://static.wixstatic.com/media/nsplsh_577675546e587a31685363~mv2_d_3000_1976_s_2.jpg/v1/fill/w_273,h_180,al_c,q_80,usm_0.66_1.00_0.01/Image-empty-state.webp"}></Images>
+            <Images src={"https://static.wixstatic.com/media/nsplsh_577675546e587a31685363~mv2_d_3000_1976_s_2.jpg/v1/fill/w_423,h_270,al_c,q_80,usm_0.66_1.00_0.01/Image-empty-state.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle>
                     
