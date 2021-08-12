@@ -21,6 +21,9 @@ export const CentralContent1 = styled.span`
 text-align:center;
 font-size:40px;
 font-family: 'Poppins', sans-serif;
+@media only screen and (max-width: 1000px) {
+    font-size:30px;
+ }
 @media only screen and (max-width: 800px) {
     font-size:25px;
  }
@@ -58,6 +61,9 @@ width:100%;
 padding-bottom:1rem;
 font-size:40px;
 font-family: 'Poppins', sans-serif;
+@media only screen and (max-width: 1000px) {
+    font-size:30px;
+ }
 @media only screen and (max-width: 800px) {
     font-size:23px;
  }

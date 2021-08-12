@@ -44,6 +44,12 @@ margin-left: auto;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    @media only screen and (max-width: 1030px) {
+        width:95%
+    }
+    @media only screen and (max-width: 800px) {
+        width:98%
+    }
     @media only screen and (max-width: 600px) {
         flex-direction: column;
         margin-left: auto;
@@ -71,6 +77,12 @@ width:25%;
 border:1px solid rgb(196 201 229);
 box-shadow: 0 1px 4px 0 rgb(196 201 229);
 padding:12.5px;
+@media only screen and (max-width: 1030px){
+    width:28%
+}
+@media only screen and (max-width: 800px){
+    width:32%
+}
 @media only screen and (max-width: 600px) {
     margin-left: auto;
     margin-right: auto;  
@@ -85,8 +97,14 @@ height:160px;
 width:100%;
 margin-left: auto;
 margin-right: auto;
+@media only screen and (max-width: 800px) {
+    
+    
+   
+
+}
 @media only screen and (max-width: 600px) {
-    height:190px;
+    height:auto;
    
 
 }

@@ -8,8 +8,8 @@ function Box11() {
             
             <Container>
                 <Innercontainer>
-                    <ImagesMobile src={"https://static.wixstatic.com/media/nsplsh_3630704c43427a35766959~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_271,h_203,al_c,q_80,usm_0.66_1.00_0.01/Image-empty-state.webp"}></ImagesMobile>  
-                    <Images src={"https://static.wixstatic.com/media/nsplsh_3630704c43427a35766959~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_1287,h_411,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_3630704c43427a35766959~mv2_d_4032_3024_s_4_2.webp"}></Images>
+                    <ImagesMobile src={"https://static.wixstatic.com/media/nsplsh_3630704c43427a35766959~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/Image-empty-state.webp"}></ImagesMobile>  
+                    <Images src={"https://static.wixstatic.com/media/nsplsh_3630704c43427a35766959~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/Image-empty-state.webp"}></Images>
                     <ContentOnImage>Sustainability, Environment & Inclusion</ContentOnImage>
                     <Imagecaption >Operations<Symbol><ArrowForwardIosIcon style={{height:'14px',width:'25px'}}/></Symbol>Sustainability, Environment & Inclusion</Imagecaption>
                 </Innercontainer>

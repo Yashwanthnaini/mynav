@@ -8,8 +8,8 @@ function Box3() {
             
             <Container>
                 <Innercontainer>
-                    <ImagesMobile src={"https://static.wixstatic.com/media/nsplsh_6d704e37786a4b515f4e73~mv2.jpg/v1/fill/w_271,h_203,al_c,q_80,usm_0.66_1.00_0.01/Image-empty-state.webp"}></ImagesMobile>  
-                    <Images src={"https://static.wixstatic.com/media/nsplsh_6d704e37786a4b515f4e73~mv2.jpg/v1/fill/w_1287,h_411,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_6d704e37786a4b515f4e73~mv2.webp"}></Images>
+                    <ImagesMobile src={"https://static.wixstatic.com/media/nsplsh_6d704e37786a4b515f4e73~mv2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_6d704e37786a4b515f4e73~mv2.webp"}></ImagesMobile>  
+                    <Images src={"https://static.wixstatic.com/media/nsplsh_6d704e37786a4b515f4e73~mv2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_6d704e37786a4b515f4e73~mv2.webp"}></Images>
                     <ContentOnImage>Economic Development and Standard of Living</ContentOnImage>
                     <Imagecaption >Operations<Symbol><ArrowForwardIosIcon style={{height:'14px',width:'25px'}}/></Symbol>Economic Development and Standard of Living</Imagecaption>
                 </Innercontainer>

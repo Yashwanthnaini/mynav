@@ -72,7 +72,20 @@ padding-bottom:1rem;
 font-size:34px;
 color:#005C9C;
 font-family: 'Poppins', sans-serif;
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 190px;
+ }
+ @media only screen and (max-width: 800px) {
+    text-align: unset;
+    vertical-align: unset;
+    line-height: unset;
+    width:100%;
+    font-size:25px;
+    margin: 0;
+ }
+@media only screen and (max-width: 600px) {
     width:100%;
     font-size:25px;
     margin: 0;
@@ -83,6 +96,12 @@ margin: -38px 20px 15px 55px;
 width:1px;
 height:180px;
 background-color:#000;
+@media only screen and (max-width: 1000px) {
+    height:auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 190px;
+ }
 @media only screen and (max-width: 800px) {      
     width:0;
     height:0;
@@ -94,6 +113,12 @@ margin: -38px 20px 15px 30px;
 width:1px;
 height:180px;
 background-color:#000;
+@media only screen and (max-width: 1000px) {
+    height:auto;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 190px;
+ }
 @media only screen and (max-width: 800px) {      
     width:0;
     height:0;
@@ -112,6 +137,11 @@ padding:0px;
 
 color: #141414;
 line-height: 1.8rem;
+@media only screen and (max-width: 1000px) {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 1.8rem;
+ }
 @media only screen and (max-width: 800px) {      
     font-size:17px;
     line-height: 1.5rem;

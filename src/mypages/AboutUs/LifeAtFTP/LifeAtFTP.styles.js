@@ -29,7 +29,18 @@ export const HeadContent = styled.span`
     height:auto;
     padding-bottom:1rem;
     color:#383232f7;
-    @media only screen and (max-width: 800px) {
+    @media only screen and (max-width: 1030px) {
+        font-size:30px;
+        width:76%;
+}
+    @media only screen and (max-width: 1000px) {
+        font-size:30px;
+        width:70%;
+}
+@media only screen and (max-width: 800px) {
+   
+}
+    @media only screen and (max-width: 600px) {
         font-size:17px;
         width:100%;
         
@@ -73,6 +84,10 @@ padding:0px;
 padding-bottom:1.6rem;
 color: #141414;
 line-height: 1.8rem;
+@media only screen and (max-width: 1000px) {      
+    font-size:18px;
+   
+}
 @media only screen and (max-width: 800px) {      
     font-size:17px;
     line-height: 1.5rem;
@@ -147,6 +162,9 @@ display: -webkit-box;
     -ms-flex-positive: 1;
     flex-grow: 1;
     padding-bottom:0px;
+    @media only screen and (max-width: 800px) {
+        height:auto;
+    }
     @media only screen and (max-width: 600px) {
         height:auto;
 }
@@ -206,6 +224,13 @@ fill: #FF4040;
 position: relative;
     right: 46px;
     top: 23px;
+    @media only screen and (max-width: 800px) {
+        width: 39px;
+        height: 30px;
+        position: relative;
+        right: 22px;
+        top: 21px;
+    }
     @media only screen and (max-width: 600px) {
         width: 25px;
         height: 20px;
@@ -224,6 +249,15 @@ export const Imagedescription = styled.p`
     width:69%;
     color:#000;
     margin:0 0 0 100px;
+    @media only screen and (max-width: 1030px) {
+        font-size:28px;
+    }
+    @media only screen and (max-width: 1000px) {
+        font-size:26px;
+    }
+    @media only screen and (max-width: 800px) {
+        font-size:23px;
+    }
     @media only screen and (max-width: 600px) {
         font-size:17px;
         align-items:center;
@@ -248,12 +282,49 @@ fill: #FF4040;
 position: relative;
     left: 130px;
     top: -21px;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1000px) {
+        position: relative;
+        left: 101px;
+        top: -21px;
+    }
+    @media only screen and (max-width: 800px) {
+        width: 39px;
+        height: 30px;
+        position: relative;
+        left: 428px;
+        top: -21px;
+    }
+    
+    @media only screen and (max-width: 605px) {
         width: 25px;
         height: 20px;
         position: relative;
                 left: 169px;
                 top: -18px; 
+}
+@media only screen and (max-width: 500px) {
+    
+    position: relative;
+            left: 202px;
+            top: -18px; 
+}
+@media only screen and (max-width: 420px) {
+    
+    position: relative;
+            left: 295px;
+            top: -18px; 
+}
+@media only screen and (max-width: 395px) {
+    
+    position: relative;
+            left: 170px;
+            top: -18px; 
+}
+@media only screen and (max-width: 325px) {
+    
+    position: relative;
+            left: 48px;
+            top: -18px; 
 }
 `;
 export const DivSVG3 = styled.div`
@@ -270,13 +341,53 @@ fill: #FF4040;
 position: relative;
     left: 160px;
     top: -21px;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1300px) {
+        position: relative;
+            left: 236px;
+            top: -21px;
+    }
+    @media only screen and (max-width: 1030px) {
+        position: relative;
+            left: 103px;
+            top: -21px;
+    }
+    @media only screen and (max-width: 1000px) {
+        position: relative;
+            left: 92px;
+            top: -21px;
+    }
+    @media only screen and (max-width: 800px) {
+        width: 39px;
+        height: 30px;
+        position: relative;
+        left: 510px;
+        top: -21px;
+    }
+    @media only screen and (max-width: 605px) {
         width: 25px;
         height: 20px;
         position: relative;
                 left: 213px;
                 top: -17px;  
+}@media only screen and (max-width: 420px) {
+    
+    position: relative;
+            left: 63px;
+            top: -17px; 
 }
+@media only screen and (max-width: 395px) {
+    
+    position: relative;
+            left: 215px;
+            top: -17px; 
+}
+@media only screen and (max-width: 325px) {
+    
+    position: relative;
+            left: 120px;
+            top: -17px; 
+}
+
 `;
 export const DivSVG4 = styled.div`
 transform: rotate(
@@ -292,11 +403,52 @@ fill: #FF4040;
 position: relative;
     left: 160px;
     top: -23px;
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 1030px) {
+        position: relative;
+        left: 188px;
+        top: -23px;
+    }
+    @media only screen and (max-width: 1000px) {
+        position: relative;
+        left: 174px;
+        top: -23px;
+    }
+    @media only screen and (max-width: 800px) {
+        width: 39px;
+        height: 30px;
+        position: relative;
+        left: 445px;
+        top: -21px;
+    }
+    @media only screen and (max-width: 605px) {
         width: 25px;
         height: 20px;
         position: relative;
                 left: 175px;
                 top: -17px;  
+}
+@media only screen and (max-width: 420px) {
+    
+    position: relative;
+            left: 83px;
+            top: -17px; 
+}
+@media only screen and (max-width: 385px) {
+    
+    position: relative;
+            left: 114px;
+            top: -17px; 
+}
+@media only screen and (max-width: 362px) {
+    
+    position: relative;
+            left: 176px;
+            top: -17px; 
+}
+@media only screen and (max-width: 322px) {
+    
+    position: relative;
+            left: 83px;
+            top: -17px; 
 }
 `;

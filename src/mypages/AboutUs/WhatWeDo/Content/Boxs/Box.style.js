@@ -12,14 +12,21 @@ export const Innercontainer = styled.div`
 height:450px;
 width:100%;
 background-color:#eef2f5;
+@media only screen and (max-width: 800px){
+    height:auto;
+}
 @media only screen and (max-width: 600px) {
    width: 100%;
-   height: 305px;
+   height: auto;
 }
 `;
 export const Images = styled.img`
 height:400px;
 width:100%;
+@media only screen and (max-width: 1000px) {      
+    height:auto;
+    
+}
 @media only screen and (max-width: 600px) {      
     display: none;
     
@@ -29,7 +36,7 @@ export const ImagesMobile = styled.img`
 display: none;
 @media only screen and (max-width: 600px) {      
     width:100%;
-    height:225px;
+    height:auto;
     display:flex;
 }
 `;
@@ -41,9 +48,15 @@ export const ContentOnImage = styled.h1`
     color: white;
     width:690px;
     font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    @media only screen and (max-width: 800px) {  
+        position: absolute;
+            top: 183px;
+            left: 66px;
+       }
+
     @media only screen and (max-width: 600px) {      
         position: absolute;
-    top:185px;
+    top:168px;
     left: 24px;
     font-size: 23.5px;
     color: white;
@@ -61,6 +74,9 @@ font-weight: 650;
 margin:13px 50px;
 color:#005C9C;
  font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+ @media only screen and (max-width: 800px) {      
+    padding-bottom:1rem;     
+}
  @media only screen and (max-width: 600px) {      
     margin: 13px 16px;     
 }
