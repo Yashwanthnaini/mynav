@@ -126,7 +126,8 @@ margin-right: auto;
 border-radius:50%;
 over-flow:hidden;
 @media only screen and (max-width: 600px) {
-    height:190px;
+    height:181px;
+    width:181px;
    
 
 }
