@@ -281,6 +281,10 @@ export const Imagedescription = styled.p`
     
     width:90%;
 }
+@media only screen and (max-width: 435px) {
+    
+    width:73%;
+}
 `;
 export const DivSVG2 = styled.div`
 transform: rotate(
@@ -377,16 +381,34 @@ position: relative;
             left: 295px;
             top: -18px; 
 }
+@media only screen and (max-width: 405px) {
+    
+    position: relative;
+            left: 46px;
+            top: -18px; 
+}
 @media only screen and (max-width: 395px) {
     
     position: relative;
-            left: 170px;
+            left: 66px;
+            top: -18px; 
+}
+@media only screen and (max-width: 365px) {
+    
+    position: relative;
+            left: 168px;
+            top: -18px; 
+}
+@media only screen and (max-width: 350px) {
+    
+    position: relative;
+            left: 201px;
             top: -18px; 
 }
 @media only screen and (max-width: 325px) {
     
     position: relative;
-            left: 48px;
+            left: 66px;
             top: -18px; 
 }
 `;
@@ -476,7 +498,7 @@ position: relative;
 @media only screen and (max-width: 325px) {
     
     position: relative;
-            left: 120px;
+            left: 92px;
             top: -17px; 
 }
 
@@ -573,7 +595,7 @@ position: relative;
             left: 176px;
             top: -17px; 
 }
-@media only screen and (max-width: 322px) {
+@media only screen and (max-width: 325px) {
     
     position: relative;
             left: 83px;
