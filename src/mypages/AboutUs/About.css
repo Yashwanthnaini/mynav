@@ -58,9 +58,9 @@
     
     visibility: visible;
     opacity: 1;
-    height:auto;
+    height:255.5px;
     transform: translateY(0);
-    transition: 500ms;
+    transition:all 500ms;
     
 }
 .dropdown_menu,.selected {
