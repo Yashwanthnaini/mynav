@@ -34,7 +34,7 @@ const  WhatWeDo = () => {
             <Box>
             <InnerBox1>
                 
-                <Images src={"https://static.wixstatic.com/media/11062b_ab01ac081db248c991e1c4ae79d90355~mv2.jpg/v1/fill/w_1470,h_617,al_c,q_85,usm_0.66_1.00_0.01/11062b_ab01ac081db248c991e1c4ae79d90355~mv2.webp"}></Images>
+                <Images src={"https://static.wixstatic.com/media/11062b_ab01ac081db248c991e1c4ae79d90355~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/11062b_ab01ac081db248c991e1c4ae79d90355~mv2.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle>
                     Agriculture and Livelihood Cooperatives
@@ -46,7 +46,7 @@ const  WhatWeDo = () => {
             </InnerBox1>
 
             <InnerBox1>
-            <Images src={"https://static.wixstatic.com/media/nsplsh_656d3067376c47462d6967~mv2_d_6000_2304_s_2.jpg/v1/fill/w_469,h_180,al_c,q_80,usm_0.66_1.00_0.01/Image-empty-state.webp"}></Images>
+            <Images src={"https://static.wixstatic.com/media/nsplsh_656d3067376c47462d6967~mv2_d_6000_2304_s_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/Image-empty-state.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle>
                     
@@ -58,7 +58,7 @@ const  WhatWeDo = () => {
                 </Imagecontent>
             </InnerBox1>
             <InnerBox1>
-            <Images src={"https://static.wixstatic.com/media/nsplsh_6d704e37786a4b515f4e73~mv2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_6d704e37786a4b515f4e73~mv2.webp"}></Images>
+            <Images src={"https://static.wixstatic.com/media/nsplsh_6d704e37786a4b515f4e73~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_6d704e37786a4b515f4e73~mv2.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle>
                     
@@ -75,7 +75,7 @@ const  WhatWeDo = () => {
             <Box>
             <InnerBox1>
                 
-                <Images src={"https://static.wixstatic.com/media/fabd499db1e54f5292311a0ba1913ea7.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/fabd499db1e54f5292311a0ba1913ea7.webp"}></Images>
+                <Images src={"https://static.wixstatic.com/media/fabd499db1e54f5292311a0ba1913ea7.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/fabd499db1e54f5292311a0ba1913ea7.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle>
                     Education, Employment and Skills
@@ -87,7 +87,7 @@ const  WhatWeDo = () => {
             </InnerBox1>
 
             <InnerBox1>
-            <Images src={"https://static.wixstatic.com/media/ad69a2abe15749a9a62bbfb83c3003c7.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/ad69a2abe15749a9a62bbfb83c3003c7.webp"}></Images>
+            <Images src={"https://static.wixstatic.com/media/ad69a2abe15749a9a62bbfb83c3003c7.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/ad69a2abe15749a9a62bbfb83c3003c7.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle>
                     
@@ -99,7 +99,7 @@ const  WhatWeDo = () => {
                 </Imagecontent>
             </InnerBox1>
             <InnerBox1>
-            <Images src={"https://static.wixstatic.com/media/nsplsh_ad0a072b3efa45d980ca78666a1e6491~mv2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_ad0a072b3efa45d980ca78666a1e6491~mv2.webp"}></Images>
+            <Images src={"https://static.wixstatic.com/media/nsplsh_ad0a072b3efa45d980ca78666a1e6491~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_ad0a072b3efa45d980ca78666a1e6491~mv2.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle>
                     
@@ -115,7 +115,7 @@ const  WhatWeDo = () => {
             <Box>
             <InnerBox1>
                 
-                <Images src={"https://static.wixstatic.com/media/cc959ab171974ae3826592a76e5815fa.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/cc959ab171974ae3826592a76e5815fa.webp"}></Images>
+                <Images src={"https://static.wixstatic.com/media/cc959ab171974ae3826592a76e5815fa.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/cc959ab171974ae3826592a76e5815fa.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle >
                     Holistic Health and Nutrition
@@ -127,7 +127,7 @@ const  WhatWeDo = () => {
             </InnerBox1>
 
             <InnerBox1>
-            <Images src={"https://static.wixstatic.com/media/36fd244f102744f4acc109fb237e24f2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/36fd244f102744f4acc109fb237e24f2.webp"}></Images>
+            <Images src={"https://static.wixstatic.com/media/36fd244f102744f4acc109fb237e24f2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/36fd244f102744f4acc109fb237e24f2.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle>
                     
@@ -139,7 +139,7 @@ const  WhatWeDo = () => {
                 </Imagecontent>
             </InnerBox1>
             <InnerBox1>
-            <Images src={"https://static.wixstatic.com/media/nsplsh_577675546e587a31685363~mv2_d_3000_1976_s_2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_577675546e587a31685363~mv2_d_3000_1976_s_2.webp"}></Images>
+            <Images src={"https://static.wixstatic.com/media/nsplsh_577675546e587a31685363~mv2_d_3000_1976_s_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_577675546e587a31685363~mv2_d_3000_1976_s_2.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle>
                     
@@ -155,7 +155,7 @@ const  WhatWeDo = () => {
             <Box>
             <InnerBox1>
                 
-                <Images src={"https://static.wixstatic.com/media/nsplsh_f8982786c58740a4928e42475c81c64e~mv2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_f8982786c58740a4928e42475c81c64e~mv2.webp"}></Images>
+                <Images src={"https://static.wixstatic.com/media/nsplsh_f8982786c58740a4928e42475c81c64e~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_f8982786c58740a4928e42475c81c64e~mv2.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle>
                     Rights, Policies and Social Protection
@@ -167,7 +167,7 @@ const  WhatWeDo = () => {
             </InnerBox1>
 
             <InnerBox1>
-            <Images src={"https://static.wixstatic.com/media/nsplsh_3630704c43427a35766959~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/Image-empty-state.webp"}></Images>
+            <Images src={"https://static.wixstatic.com/media/nsplsh_3630704c43427a35766959~mv2_d_4032_3024_s_4_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/Image-empty-state.webp"}></Images>
                 <Imagecontent>
                     <Imagetitle>
                     
