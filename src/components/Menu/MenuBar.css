@@ -27,14 +27,15 @@
 .menu-slide.close{
     opacity: 0;
     visibility: hidden;
-    transform: translateX(1rem) ;
+    transform: translateX(0) ;
     transition: all 300ms;
     width: 0;
 }
 .menu-slide.open{
     opacity: 1;
+    width: auto;
     visibility: visible;
-    transform: translateX(0) ;
+    transform: translateX(1rem) ;
     transition: 500ms;
 }
 

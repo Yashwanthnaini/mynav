@@ -224,6 +224,12 @@ fill: #FF4040;
 position: relative;
     right: 46px;
     top: 23px;
+    @media only screen and (max-width: 1300px) {
+        
+        position: relative;
+        right: 46px;
+        top: 23px;
+    }
     @media only screen and (max-width: 800px) {
         width: 39px;
         height: 30px;
@@ -280,8 +286,13 @@ stroke: #ED1566;
 stroke-opacity: 1;
 fill: #FF4040;
 position: relative;
-    left: 130px;
+    left: 330px;
     top: -21px;
+    @media only screen and (max-width: 1300px) {
+        position: relative;
+        left: 130px;
+        top: -21px;
+    }
     @media only screen and (max-width: 1000px) {
         position: relative;
         left: 101px;
@@ -339,7 +350,7 @@ stroke: #ED1566;
 stroke-opacity: 1;
 fill: #FF4040;
 position: relative;
-    left: 160px;
+    left: 414px;
     top: -21px;
     @media only screen and (max-width: 1300px) {
         position: relative;
@@ -401,8 +412,13 @@ stroke: #ED1566;
 stroke-opacity: 1;
 fill: #FF4040;
 position: relative;
-    left: 160px;
+    left: 336px;
     top: -23px;
+    @media only screen and (max-width: 1300px) {
+        position: relative;
+        left: 160px;
+        top: -23px;
+    }
     @media only screen and (max-width: 1030px) {
         position: relative;
         left: 188px;
