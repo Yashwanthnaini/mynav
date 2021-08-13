@@ -120,13 +120,33 @@
     
     }
 }
+@media (max-width:2000px) {
+   
+    .About-Imagebar ul{
+        width: 1480px;
+        position: absolute;
+    bottom: 1px;
+    left: 215px;
+    
+    }
+}
+@media (max-width:1700px) {
+   
+    .About-Imagebar ul{
+        
+        position: absolute;
+    bottom: 1px;
+    left: 85px;
+    
+    }
+}
 @media (max-width:1440px) {
    
     .About-Imagebar ul{
         width: 1200px;
         position: absolute;
     bottom: 1px;
-    left: 130px;
+    left: 116px;
     
     }
 }
@@ -163,7 +183,7 @@
         object-position: 50% 50%;
         }
     .About-Imagebar ul{
-        width: 1000px;
+        width: 990px;
         position: absolute;
     bottom: 1px;
     left: 14px;
@@ -203,6 +223,11 @@
     bottom: 1px;
     left: 10px;
 }}
+@media (max-width: 650px){
+    .About-Imagebar ul {
+        width: 620px;
+        
+    }}
 @media (max-width: 605px){
     .About-Imagebar ul {
         width: 590px;

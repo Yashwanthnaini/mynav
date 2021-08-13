@@ -237,6 +237,12 @@ position: relative;
         right: 22px;
         top: 21px;
     }
+    @media only screen and (max-width: 725px) {
+        
+        position: relative;
+        right: 42px;
+        top: 21px;
+    }
     @media only screen and (max-width: 600px) {
         width: 25px;
         height: 20px;
@@ -288,11 +294,38 @@ fill: #FF4040;
 position: relative;
     left: 330px;
     top: -21px;
+    @media only screen and (max-width: 1700px) {
+        position: relative;
+        left: 391px;
+        top: -21px;
+    }
+    @media only screen and (max-width: 1450px) {
+        position: relative;
+        left: 130px;
+        top: -21px;
+    }
+    @media only screen and (max-width: 1370px) {
+        position: relative;
+        left: 326px;
+        top: -21px;
+    }
     @media only screen and (max-width: 1300px) {
         position: relative;
         left: 130px;
         top: -21px;
     }
+    
+    @media only screen and (max-width: 1280px) {
+        position: relative;
+        left: 91px;
+        top: -21px;
+    }
+    @media only screen and (max-width: 1050px) {
+        position: relative;
+        left: 108px;
+        top: -21px;
+    }
+
     @media only screen and (max-width: 1000px) {
         position: relative;
         left: 101px;
@@ -305,7 +338,12 @@ position: relative;
         left: 428px;
         top: -21px;
     }
+    @media only screen and (max-width: 645px) {
     
+        position: relative;
+                left: 338px;
+                top: -21px; 
+    }
     @media only screen and (max-width: 605px) {
         width: 25px;
         height: 20px;
@@ -319,6 +357,7 @@ position: relative;
             left: 202px;
             top: -18px; 
 }
+
 @media only screen and (max-width: 420px) {
     
     position: relative;
@@ -352,6 +391,16 @@ fill: #FF4040;
 position: relative;
     left: 414px;
     top: -21px;
+    @media only screen and (max-width: 2000px) {
+        position: relative;
+            left: 183px;
+            top: -21px;
+    }
+    @media only screen and (max-width: 1900px) {
+        position: relative;
+            left: 414px;
+            top: -21px;
+    }
     @media only screen and (max-width: 1300px) {
         position: relative;
             left: 236px;
@@ -374,13 +423,27 @@ position: relative;
         left: 510px;
         top: -21px;
     }
+    @media only screen and (max-width: 725px) {
+    
+        position: relative;
+                left: 301px;
+                top: -17px; 
+    }
+    @media only screen and (max-width: 645px) {
+    
+        position: relative;
+                left: 353px;
+                top: -17px; 
+    }
+
     @media only screen and (max-width: 605px) {
         width: 25px;
         height: 20px;
         position: relative;
                 left: 213px;
                 top: -17px;  
-}@media only screen and (max-width: 420px) {
+}
+@media only screen and (max-width: 420px) {
     
     position: relative;
             left: 63px;
@@ -414,6 +477,26 @@ fill: #FF4040;
 position: relative;
     left: 336px;
     top: -23px;
+    @media only screen and (max-width: 2000px) {
+        position: relative;
+        left: 156px;
+        top: -23px;
+    }
+    @media only screen and (max-width: 1900px) {
+        position: relative;
+        left: 336px;
+        top: -23px;
+    }
+    @media only screen and (max-width: 1450px) {
+        position: relative;
+        left: 158px;
+        top: -23px;
+    }
+    @media only screen and (max-width: 1370px) {
+        position: relative;
+        left: 335px;
+        top: -23px;
+    }
     @media only screen and (max-width: 1300px) {
         position: relative;
         left: 160px;
@@ -435,6 +518,12 @@ position: relative;
         position: relative;
         left: 445px;
         top: -21px;
+    }
+    @media only screen and (max-width: 645px) {
+    
+        position: relative;
+                left: 303px;
+                top: -21px; 
     }
     @media only screen and (max-width: 605px) {
         width: 25px;
