@@ -59,6 +59,7 @@
     
     visibility: visible;
     opacity: 1;
+    height:auto;
     transform: translateY(0);
     transition: 500ms;
     
