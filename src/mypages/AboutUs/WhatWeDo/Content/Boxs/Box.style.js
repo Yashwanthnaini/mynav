@@ -48,11 +48,14 @@ export const ContentOnImage = styled.h1`
     color: white;
     width:690px;
     font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
-    @media only screen and (max-width: 800px) {  
+    @media only screen and (max-width: 1000px) {  
+        font-size:38px;
         position: absolute;
-            top: 183px;
-            left: 66px;
+        top: 183px;
+        left: 23px;
+   }
        }
+   
 
     @media only screen and (max-width: 600px) {      
         position: absolute;

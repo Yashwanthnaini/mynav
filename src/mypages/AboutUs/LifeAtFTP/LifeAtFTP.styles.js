@@ -270,14 +270,16 @@ export const Imagedescription = styled.p`
     @media only screen and (max-width: 800px) {
         font-size:23px;
     }
-    @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 610px) {
         font-size:17px;
         align-items:center;
         text-align: left;
-        margin-left:10%;
-        width:90%;
-
-
+        margin-left:15%;
+        width:77%;
+}
+@media only screen and (max-width: 590px) {
+    
+    width:90%;
 }
 `;
 export const DivSVG2 = styled.div`
@@ -299,6 +301,11 @@ position: relative;
         left: 391px;
         top: -21px;
     }
+    @media only screen and (max-width: 1650px) {
+        position: relative;
+        left: 508px;
+        top: -21px;
+    }
     @media only screen and (max-width: 1450px) {
         position: relative;
         left: 130px;
@@ -315,11 +322,17 @@ position: relative;
         top: -21px;
     }
     
-    @media only screen and (max-width: 1280px) {
+    @media only screen and (max-width: 1281px) {
         position: relative;
         left: 91px;
         top: -21px;
     }
+    @media only screen and (max-width: 1279.99px) {
+        position: relative;
+        left: 127px;
+        top: -21px;
+    }
+
     @media only screen and (max-width: 1050px) {
         position: relative;
         left: 108px;
@@ -400,6 +413,11 @@ position: relative;
         position: relative;
             left: 414px;
             top: -21px;
+    }
+    @media only screen and (max-width: 1650px) {
+        position: relative;
+        left: 708px;
+        top: -21px;
     }
     @media only screen and (max-width: 1300px) {
         position: relative;
@@ -485,6 +503,11 @@ position: relative;
     @media only screen and (max-width: 1900px) {
         position: relative;
         left: 336px;
+        top: -23px;
+    }
+    @media only screen and (max-width: 1650px) {
+        position: relative;
+        left: 552px;
         top: -23px;
     }
     @media only screen and (max-width: 1450px) {

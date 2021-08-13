@@ -40,7 +40,7 @@ const App = () => {
                             tabIndex="-1"
                             aria-modal="true"
                             aria-describedby="menu-modal--body-1"
-                            style={{position: "fixed", width: "100%" ,height: "100vh", left: "0px", top: "0px"}}
+                            style={{position: "fixed", width: "100%" ,height: "100vh", left: "0px", top: "0px", transform: "translateX(0%) translateZ(0px)"}}
                         >
                             <MenuBar 
                                 setSideMenuOpen={setSideMenuOpen}
@@ -56,7 +56,7 @@ const App = () => {
                             tabIndex="-1"
                             aria-modal="true"
                             aria-describedby="menu-modal--body-1"
-                            style={{position: "fixed" ,height: "100vh", left: "0px", top: "0px"}}
+                            style={{position: "fixed",height: "100vh", left: "0px", top: "0px", transform: "translateX(0%) translateZ(0px)"}}
                         >
                             <MenuBar 
                                 setSideMenuOpen={setSideMenuOpen}

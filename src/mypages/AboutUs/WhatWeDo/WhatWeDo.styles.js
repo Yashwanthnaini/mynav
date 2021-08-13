@@ -93,7 +93,7 @@ padding:12.5px;
 }
 `;
 export const Images = styled.img`
-height:160px;
+height:auto;
 width:100%;
 margin-left: auto;
 margin-right: auto;
