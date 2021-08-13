@@ -8,7 +8,7 @@ function Box4() {
             
             <Container>
                 <Innercontainer>
-                    <ImagesMobile src={"https://static.wixstatic.com/media/fabd499db1e54f5292311a0ba1913ea7.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/fabd499db1e54f5292311a0ba1913ea7.webp"}></ImagesMobile>  
+                    <ImagesMobile src={"https://static.wixstatic.com/media/fabd499db1e54f5292311a0ba1913ea7.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/fabd499db1e54f5292311a0ba1913ea7.webp"}></ImagesMobile>  
                     <Images src={"https://static.wixstatic.com/media/fabd499db1e54f5292311a0ba1913ea7.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/fabd499db1e54f5292311a0ba1913ea7.webp"}></Images>
                     <ContentOnImage>Education, Employment and Skills</ContentOnImage>
                     <Imagecaption >Operations<Symbol><ArrowForwardIosIcon style={{height:'14px',width:'25px'}}/></Symbol>Education, Employment and Skills</Imagecaption>

@@ -8,7 +8,7 @@ function Box10() {
             
             <Container>
                 <Innercontainer>
-                    <ImagesMobile src={"https://static.wixstatic.com/media/nsplsh_f8982786c58740a4928e42475c81c64e~mv2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_f8982786c58740a4928e42475c81c64e~mv2.webp"}></ImagesMobile>  
+                    <ImagesMobile src={"https://static.wixstatic.com/media/nsplsh_f8982786c58740a4928e42475c81c64e~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_f8982786c58740a4928e42475c81c64e~mv2.webp"}></ImagesMobile>  
                     <Images src={"https://static.wixstatic.com/media/nsplsh_f8982786c58740a4928e42475c81c64e~mv2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_f8982786c58740a4928e42475c81c64e~mv2.webp"}></Images>
                     <ContentOnImage>Rights, Policies and Social Protection</ContentOnImage>
                     <Imagecaption >Operations<Symbol><ArrowForwardIosIcon style={{height:'14px',width:'25px'}}/></Symbol>Rights, Policies and Social Protection</Imagecaption>

@@ -8,7 +8,7 @@ function Box8() {
             
             <Container>
                 <Innercontainer>
-                    <ImagesMobile src={"https://static.wixstatic.com/media/36fd244f102744f4acc109fb237e24f2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/36fd244f102744f4acc109fb237e24f2.webp"}></ImagesMobile>  
+                    <ImagesMobile src={"https://static.wixstatic.com/media/36fd244f102744f4acc109fb237e24f2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/36fd244f102744f4acc109fb237e24f2.webp"}></ImagesMobile>  
                     <Images src={"https://static.wixstatic.com/media/36fd244f102744f4acc109fb237e24f2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/36fd244f102744f4acc109fb237e24f2.webp"}></Images>
                     <ContentOnImage>Inclusive Governance and Transparency</ContentOnImage>
                     <Imagecaption >Operations<Symbol><ArrowForwardIosIcon style={{height:'14px',width:'25px'}}/></Symbol>Inclusive Governance and Transparency</Imagecaption>

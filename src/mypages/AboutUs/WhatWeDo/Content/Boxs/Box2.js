@@ -8,7 +8,7 @@ function Box2() {
             
             <Container>
                 <Innercontainer>
-                    <ImagesMobile src={"https://static.wixstatic.com/media/nsplsh_656d3067376c47462d6967~mv2_d_6000_2304_s_2.jpg/v1/fill/w_469,h_180,al_c,q_80,usm_0.66_1.00_0.01/Image-empty-state.webp"}></ImagesMobile>  
+                    <ImagesMobile src={"https://static.wixstatic.com/media/nsplsh_656d3067376c47462d6967~mv2_d_6000_2304_s_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/Image-empty-state.webp"}></ImagesMobile>  
                     <Images src={"https://static.wixstatic.com/media/nsplsh_656d3067376c47462d6967~mv2_d_6000_2304_s_2.jpg/v1/fill/w_1287,h_411,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_656d3067376c47462d6967~mv2_d_6000_2304_s_2.webp"}></Images>
                     <ContentOnImage>Culture, Heritage and Society</ContentOnImage>
                     <Imagecaption >Operations<Symbol><ArrowForwardIosIcon style={{height:'14px',width:'25px'}}/></Symbol>Culture, Heritage and Society</Imagecaption>

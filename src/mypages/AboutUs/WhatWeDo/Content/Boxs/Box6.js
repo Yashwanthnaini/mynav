@@ -8,7 +8,7 @@ function Box6() {
             
             <Container>
                 <Innercontainer>
-                    <ImagesMobile src={"https://static.wixstatic.com/media/nsplsh_ad0a072b3efa45d980ca78666a1e6491~mv2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_ad0a072b3efa45d980ca78666a1e6491~mv2.webp"}></ImagesMobile>  
+                    <ImagesMobile src={"https://static.wixstatic.com/media/nsplsh_ad0a072b3efa45d980ca78666a1e6491~mv2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_ad0a072b3efa45d980ca78666a1e6491~mv2.webp"}></ImagesMobile>  
                     <Images src={"https://static.wixstatic.com/media/nsplsh_ad0a072b3efa45d980ca78666a1e6491~mv2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_ad0a072b3efa45d980ca78666a1e6491~mv2.webp"}></Images>
                     <ContentOnImage>Equality, Growth & Distribution of Prosperity</ContentOnImage>
                     <Imagecaption >Operations<Symbol><ArrowForwardIosIcon style={{height:'14px',width:'25px'}}/></Symbol>Equality, Growth & Distribution of Prosperity</Imagecaption>

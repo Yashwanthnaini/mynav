@@ -8,7 +8,7 @@ function Box9() {
             
             <Container>
                 <Innercontainer>
-                    <ImagesMobile src={"https://static.wixstatic.com/media/nsplsh_577675546e587a31685363~mv2_d_3000_1976_s_2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_577675546e587a31685363~mv2_d_3000_1976_s_2.webp"}></ImagesMobile>  
+                    <ImagesMobile src={"https://static.wixstatic.com/media/nsplsh_577675546e587a31685363~mv2_d_3000_1976_s_2.jpg/v1/fill/w_640,h_450,al_c,q_80,usm_0.66_1.00_0.01/nsplsh_577675546e587a31685363~mv2_d_3000_1976_s_2.webp"}></ImagesMobile>  
                     <Images src={"https://static.wixstatic.com/media/nsplsh_577675546e587a31685363~mv2_d_3000_1976_s_2.jpg/v1/fill/w_1895,h_617,al_c,q_85,usm_0.66_1.00_0.01/nsplsh_577675546e587a31685363~mv2_d_3000_1976_s_2.webp"}></Images>
                     <ContentOnImage>Research, Technology and Innovation</ContentOnImage>
                     <Imagecaption >Operations<Symbol><ArrowForwardIosIcon style={{height:'14px',width:'25px'}}/></Symbol>Research, Technology and Innovation</Imagecaption>
