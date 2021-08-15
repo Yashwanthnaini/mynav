@@ -1,3 +1,7 @@
-.spacing-xs-5{
-    padding: 20px 10px;
+center .ln-icon{
+    color: var(--body-link-color);
+    
+}
+center .ln-icon:hover{
+    color: #000;
 }

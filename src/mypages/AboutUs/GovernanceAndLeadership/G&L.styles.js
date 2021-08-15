@@ -1,21 +1,12 @@
 import styled from 'styled-components'
-export const Total = styled.div`
- background-color: transparent;
-@media only screen and (max-width: 600px) {
-     margin-left:auto;
-     margin-right:auto;
-     background-color: transparent;
-}
+export const Container1 = styled.div`
 
-`;
-
-export const Container = styled.div`
-padding:3rem;
+padding:4rem 3rem 3rem 3rem;
 @media only screen and (max-width: 1040px) {
     padding:3rem 10rem 10rem 10rem;
 }
 @media only screen and (max-width: 880px) {
-    padding:2rem;
+    padding:4rem 2rem 2rem 2rem;
 }
 @media only screen and (max-width: 600px) {
     padding:2rem 5rem 5rem 5rem;
@@ -24,52 +15,8 @@ padding:3rem;
     padding:1rem;
 }
 `;
-export const Box = styled.div`
-margin-top: 0px;
-margin-left: auto;
-    margin-right: auto;
-    margin-bottom:93px;
-    width: 86.5%;
-    height: auto;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: space-around;
-    -webkit-flex-wrap: nowrap;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    @media only screen and (max-width: 1030px) {
-        width:95%
-    }
-    @media only screen and (max-width: 800px) {
-        width:98%
-    }
-    @media only screen and (max-width: 600px) {
-        flex-direction: column;
-        margin-left: auto;
-    margin-right: auto;  
-    margin-bottom :0px ;
-    width:86.5%;
-    height: auto;
 
-}
-   
 
-}
-    
-    
-`;
-export const Display = styled.div`
-@media only screen and (max-width: 600px) {
-   display :flex ;
-}
-`;
 export const InnerBox1 = styled.div`
 background-color: var(--bg-overlay-color);
 height:300px;
@@ -128,9 +75,124 @@ export const BoxDescription = styled.p`
 
 }
 `;
-export const Images = styled.img`
-height:auto;
+export const MiddleTitle = styled.span`
+font-family: palatino linotype,serif;
+font-size:42px;
+    @media only screen and (max-width: 600px) {
+    font-size: 32px;
+}
+`;
+export const Line2 = styled.div`
+margin:1rem;
+width: 32px;
+height: 5px;
+--lnw: 3px;
+--brd: 15,15,15;
+--alpha-brd: 1;
+transform-origin: center 1.5px;
+border-top: var(--lnw,2px) solid rgba(var(--brd,var(--color_15)),var(--alpha-brd,1));
+    @media only screen and (max-width: 600px) {
+   
+
+
+}
+`;
+export const Container2 = styled.div`
+
+padding:5rem;
+align-items:center;
+text-align:center;
+@media only screen and (max-width: 1040px) {
+    padding:3rem 10rem 10rem 10rem;
+}
+@media only screen and (max-width: 880px) {
+    padding:4rem 2rem 2rem 2rem;
+}
+@media only screen and (max-width: 600px) {
+    padding:2rem 5rem 5rem 5rem;
+}
+@media only screen and (max-width: 480px) {
+    padding:1rem;
+}
+`;
+export const Member = styled.div`
+
+
 width:100%;
+height:400px;
+@media only screen and (max-width: 1030px){
+    
+}
+@media only screen and (max-width: 800px){
+    
+}
+@media only screen and (max-width: 600px) {
+    
+
+}
+`;
+export const MemberImage = styled.div`
+
+
+width:100%;
+@media only screen and (max-width: 1030px){
+    
+}
+@media only screen and (max-width: 800px){
+    
+}
+@media only screen and (max-width: 600px) {
+    
+
+}
+`;
+export const MemberName = styled.p`
+
+
+width:100%;
+font-size:20px;
+line-height:0.8em;
+font-family: didot-w01-italic,serif;
+@media only screen and (max-width: 1030px){
+    
+}
+@media only screen and (max-width: 800px){
+    
+}
+@media only screen and (max-width: 600px) {
+    
+
+}
+`;
+export const MemberDetails = styled.p`
+
+padding-left:20%;
+width:80%;
+font-size:14px;
+line-height:1.3em;
+height:auto;
+font-family: helvetica-w01-light,helvetica-w02-light,sans-serif;
+@media only screen and (max-width: 1030px){
+    
+}
+@media only screen and (max-width: 800px){
+    
+}
+@media only screen and (max-width: 600px) {
+    
+    height:auto;
+
+}
+`;
+
+
+
+export const Images = styled.img`
+height:200px;
+width:200px;
+object-fit: cover;
+border-radius:50%;
+over-flow:hidden;
 margin-left: auto;
 margin-right: auto;
 @media only screen and (max-width: 800px) {
@@ -146,244 +208,3 @@ margin-right: auto;
 }
 
 `;
-export const Imagecontent = styled.div`
-display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height:220px;
-     padding: 0px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    padding-bottom:0px;
-    @media only screen and (max-width: 600px) {
-    
-}
-`;
-export const Imagetitle = styled.h5`
-    font-size:16.5px;
-    line-height: 1.2;
-    font-weight: bold;
-    font-weight: 650;
-    height: 37px;
-    margin-top:10px;
-    margin-bottom: 0px;
-    letter-spacing: 0.1px;
-    padding-right:10px;
-    font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
-    @media only screen and (max-width: 600px) {
-
-
-
-}
-
-
-
-`;
-export const Imagedescription = styled.p`
-    font-size:14.09px;
-    line-height: 1.4em;
-    font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
-    height:105px;
-    color:#383232f7;
-    @media only screen and (max-width: 600px) {
-   
-
-
-}
-`;
-export const Button = styled.button`
-width: 100%;
-height: 38px;
-border-radius:3px;
-background-color:#005c9c;
-margin-bottom: 0px;
-margin-top: auto;
-color: white;
-font-weight: bold;
-border:none;
-:hover{
-background-color:#268bd2;
-}
-`;
-
-{/*export const InnerBox2 = styled.div`
-height:100%;
-width:90%;
-border:0.5px solid black;
-box-shadow:;
-margin-top: auto;
-margin-bottom:auto;
-margin-left:auto;
-margin-right: auto;
-@media only screen and (max-width: 600px) {
-   display :flex ;
-   width:auto;
-   height:auto;
-   
-
-}
-
-`;
-
-
-export const Images = styled.img`
-height:177px;
-width:80%;
-margin-left: auto;
-margin-right: auto;
-@media only screen and (max-width: 600px) {
-   
-   width:27%;
-   height:65px;
-
-
-}
-
-`;
-export const Imagecaption = styled.p`
-font-weight: 650;
-    text-transform: uppercase;
-    color: #005c9c;
-    font-size:13px;
-    @media only screen and (max-width: 600px) {
-   display: none;
-
-
-}
-    
-
-`;
-export const Imagecontent = styled.div`
-display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    height:292px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    @media only screen and (max-width: 600px) {
-    height:auto;
-    padding-left: 20px;
-
-
-
-
-}
-
-`;
-export const Imagetitle = styled.h3`
-    font-size:20px;
-    line-height: 1.15;
-    font-weight: bold;
-    font-weight: 650;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    @media only screen and (max-width: 600px) {
-    font-size: 16px;
-
-
-}
-}
-
-
-`;
-export const Imagedescription = styled.p`
-    display: block;
-    font-size:14.09px;
-    width:90%;
-    line-height: 1.6em;
-    font-family: "Neue Helvetica W01", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    height: auto;
-    @media only screen and (max-width: 600px) {
-   display: none;
-
-
-}
-`;
-export const ImageBottomcaption = styled.div`
- margin-top: auto;
- margin-bottom: 5px;
- @media only screen and (max-width: 600px) {
-   margin-top:5px;
-   margin-bottom: 0px;
-
-}
-
-`;
-export const Author = styled.span`
-    color: #84919c;
-    font-size: 0.800em;
-    line-height: 1.4;
-    font-weight: 650;
-`;
-export const Date = styled.span`
-    color: #84919c;
-    font-size:13px;
-    line-height: 1.4;
-`;
-export const Pageno = styled.div`
-margin:40px 0px;
-height:40px;
-width:90%;
-border:1px solid #e6dfdf;
-margin-left: auto;
-    margin-right: auto;
-    display: flex;
-
-`;
-export const Prev = styled.div`
-height:auto;
-width:11%;
-border-right:1px solid #e6dfdf;
-padding-top: 10px;
-padding-bottom:10px;
-text-align: center;
-font-size:12px;
-font-weight: bold;
-color:#d5e0e8;
-@media only screen and (max-width: 600px) {
-   width:25%;
-
-}
-`;
-export const Number = styled.div`
-height:auto;
-width:78%;
-border-right:1px solid #e6dfdf;
-padding-top: 10px;
-padding-bottom:10px;
-text-align: center;
-font-size:12px;
-font-weight: bold;
-color:#d5e0e8;
-@media only screen and (max-width: 600px) {
-   width:50%;
-
-}
-`;
-export const Next = styled.div`
-height:auto;
-width:11%;
-padding-top: 10px;
-padding-bottom:10px;
-text-align: center;
-font-size:12px;
-font-weight: bold;
-color:black;
-@media only screen and (max-width: 600px) {
-   width:25%;
-
-}
-
-`;*/}
-
