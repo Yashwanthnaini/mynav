@@ -134,7 +134,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>                           
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     href="https://www.linkedin.com/in/yuraj-kanni-067978145/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -164,7 +164,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     href="https://www.linkedin.com/in/prashanth-reddy-loka-219a67161/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -191,7 +191,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>                           
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     href="https://www.linkedin.com/in/sravanmathangi/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -218,7 +218,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>                           
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     href="https://www.linkedin.com/in/uday-kumar-dumma-abaa191a6/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -243,7 +243,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     href="https://www.linkedin.com/in/gajam-jyothsna-254a611a8/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -268,7 +268,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>                           
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     href="https://www.linkedin.com/in/vineethkumargogu/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -292,7 +292,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -316,7 +316,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>                           
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     href="https://www.linkedin.com/in/pranaya-dongari-076208180/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -340,7 +340,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -364,7 +364,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>                           
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     href="https://www.linkedin.com/in/naresh-pentala-3022151b9/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -388,7 +388,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -410,7 +410,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>                           
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -434,7 +434,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -458,7 +458,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>                           
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -480,7 +480,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -505,7 +505,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>                           
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -529,7 +529,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
@@ -551,7 +551,7 @@ const  GovernanceAndLeadership = () => {
                             </MemberDetails>                           
                             <center>
                                 <a className="ln-icon" 
-                                     href="https://www.facebook.com/forthepeoplengo/">
+                                     >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 
