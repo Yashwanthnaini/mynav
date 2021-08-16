@@ -137,6 +137,16 @@ const  GovernanceAndLeadership = () => {
                                      href="https://www.linkedin.com/in/yuraj-kanni-067978145/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                </a>
+                                
                                 
                             </center>                             
                         </Member>                                                
@@ -167,6 +177,15 @@ const  GovernanceAndLeadership = () => {
                                      href="https://www.linkedin.com/in/prashanth-reddy-loka-219a67161/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                </a>
                                 
                             </center>  
                         </Member>                                                
@@ -194,7 +213,15 @@ const  GovernanceAndLeadership = () => {
                                      href="https://www.linkedin.com/in/sravanmathangi/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
-                                
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                </a>
                             </center>                             
                         </Member>                                                
                     </Grid>
@@ -221,6 +248,15 @@ const  GovernanceAndLeadership = () => {
                                      href="https://www.linkedin.com/in/uday-kumar-dumma-abaa191a6/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                </a>
                                 
                             </center>                             
                         </Member>                                                
@@ -245,6 +281,15 @@ const  GovernanceAndLeadership = () => {
                                 <a className="ln-icon" 
                                      href="https://www.linkedin.com/in/gajam-jyothsna-254a611a8/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
+                                </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>  
@@ -271,6 +316,15 @@ const  GovernanceAndLeadership = () => {
                                      href="https://www.linkedin.com/in/vineethkumargogu/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                </a>
                                 
                             </center>                             
                         </Member>                                                
@@ -294,6 +348,15 @@ const  GovernanceAndLeadership = () => {
                                 <a className="ln-icon" 
                                      >
                                 <Icon  icon="mdi:linkedin" width="42"    />
+                                </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>  
@@ -319,6 +382,15 @@ const  GovernanceAndLeadership = () => {
                                      href="https://www.linkedin.com/in/pranaya-dongari-076208180/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                </a>
                                 
                             </center>                             
                         </Member>                                                
@@ -342,6 +414,15 @@ const  GovernanceAndLeadership = () => {
                                 <a className="ln-icon" 
                                      >
                                 <Icon  icon="mdi:linkedin" width="42"    />
+                                </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>  
@@ -367,6 +448,15 @@ const  GovernanceAndLeadership = () => {
                                      href="https://www.linkedin.com/in/naresh-pentala-3022151b9/">
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                </a>
                                 
                             </center>                             
                         </Member>                                                
@@ -391,6 +481,15 @@ const  GovernanceAndLeadership = () => {
                                      >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                </a>
                                 
                             </center>  
                         </Member>                                                
@@ -412,6 +511,15 @@ const  GovernanceAndLeadership = () => {
                                 <a className="ln-icon" 
                                      >
                                 <Icon  icon="mdi:linkedin" width="42"    />
+                                </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>                             
@@ -437,6 +545,15 @@ const  GovernanceAndLeadership = () => {
                                      >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                </a>
                                 
                             </center>  
                         </Member>                                                
@@ -461,6 +578,15 @@ const  GovernanceAndLeadership = () => {
                                      >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                </a>
                                 
                             </center>                             
                         </Member>                                                
@@ -482,6 +608,15 @@ const  GovernanceAndLeadership = () => {
                                 <a className="ln-icon" 
                                      >
                                 <Icon  icon="mdi:linkedin" width="42"    />
+                                </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>  
@@ -508,6 +643,15 @@ const  GovernanceAndLeadership = () => {
                                      >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                </a>
                                 
                             </center>                             
                         </Member>                                                
@@ -532,6 +676,15 @@ const  GovernanceAndLeadership = () => {
                                      >
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                </a>
                                 
                             </center>  
                         </Member>                                                
@@ -553,6 +706,15 @@ const  GovernanceAndLeadership = () => {
                                 <a className="ln-icon" 
                                      >
                                 <Icon  icon="mdi:linkedin" width="42"    />
+                                </a>
+                                <a className="insta-icon">
+                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                </a>
+                                <a className="twitter-icon">
+                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                </a>
+                                <a className="facebook-icon">
+                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>                             

@@ -1,7 +1,37 @@
+
+
+
 center .ln-icon{
     color: var(--body-link-color);
     
 }
 center .ln-icon:hover{
     color: #000;
+}
+
+
+center .insta-icon{
+    
+    color: #d32f2f;
+       
+}
+center .insta-icon:hover{
+    color: #000;
+}
+
+center .twitter-icon{
+    color: #00ACEE;
+    
+}
+center .twitter-icon:hover{
+    color: #000;
+}
+
+
+center .facebook-icon{
+    
+    color: #3B5998;    
+}
+center .facebook-icon:hover{
+color: #000;
 }
