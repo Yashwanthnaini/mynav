@@ -3,6 +3,7 @@
 
 center .ln-icon{
     color: var(--body-link-color);
+    padding: 5px;
     
 }
 center .ln-icon:hover{
@@ -11,7 +12,7 @@ center .ln-icon:hover{
 
 
 center .insta-icon{
-    
+    padding: 5px;
     color: #d32f2f;
        
 }
@@ -21,7 +22,7 @@ center .insta-icon:hover{
 
 center .twitter-icon{
     color: #00ACEE;
-    
+    padding: 5px;
 }
 center .twitter-icon:hover{
     color: #000;
@@ -29,7 +30,7 @@ center .twitter-icon:hover{
 
 
 center .facebook-icon{
-    
+    padding: 5px;
     color: #3B5998;    
 }
 center .facebook-icon:hover{
