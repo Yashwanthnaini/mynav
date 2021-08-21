@@ -26,6 +26,9 @@ const MenuBar = ({setSideMenuOpen},{sideMenuOpen}) =>{
 
     const [BecomeAPartLinksOpen , setBecomeAPartLinksOpen] = useState(true);
 
+
+    
+
     return(
         <>
             

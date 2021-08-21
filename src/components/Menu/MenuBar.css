@@ -570,6 +570,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0;
+    overflow: scroll;
 }
 
 .menu .wef-101qvj8 {
