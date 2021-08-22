@@ -61,7 +61,7 @@ height:auto;
 width:100%;
 border:1px solid rgb(196 201 229);
 box-shadow: 0 1px 4px 0 rgb(196 201 229);
-padding:1rem;
+padding: 0 1rem;
 @media only screen and (max-width: 1030px){
     
 }

@@ -29,7 +29,7 @@ const  Report = () => {
                     </BigTextContent>
                     <Line1 />
                     <InnerContainer>
-                        <Grid container direction="row" justify-content="center" spacing={2}  alignItems="center" className={classes.spacingXs2} >
+                        <Grid container direction="row" justify-content="center" spacing={1}  alignItems="center" className={classes.spacingXs2} >
                             <Grid item xs={12} sm={6} md={6} lg={4}>
                                 <InnerBox1>                    
                                     <Imagetitle>
@@ -40,7 +40,7 @@ const  Report = () => {
                                         <Imagedescription>
                                             PM Narendra Modi, has addressed citizens of the nation, for the second time in the same week, at 20:00 IST on 24 March, 2020. He declared that GoI had resolved to lock down the whole country for the next 21 days....
                                         </Imagedescription>
-                                        <a href="/about/whatwedo/box1" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
+                                        <a href="/explore/reports/covid-19/report-7" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
                                     </Imagecontent>
                                     <ImageFooter>
                                         <span>
@@ -79,7 +79,7 @@ const  Report = () => {
                                         <Imagedescription>
                                             To increase access to reliable information, WHO has launched a messaging service WHO Health Alert to keep people safe from Coronavirus. This will enable WHO to provide the latest situation reports, numbers, news and information, including details...
                                         </Imagedescription>
-                                        <a href="/about/whatwedo/box1" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
+                                        <a href="/explore/reports/covid-19/report-6" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
                                     </Imagecontent>
                                     <ImageFooter>
                                         <span>
@@ -118,7 +118,7 @@ const  Report = () => {
                                         <Imagedescription>
                                             FTP would consider sharing with people the Recommendations and Advice from WHO as it is.If you are not in an area where COVID-19 is spreading or have not travelled from an area where COVID-19 is spreading...
                                         </Imagedescription>
-                                        <a href="/about/whatwedo/box1" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
+                                        <a href="/explore/reports/covid-19/report-5" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
                                     </Imagecontent>
                                     <ImageFooter>
                                         <span>
@@ -157,7 +157,7 @@ const  Report = () => {
                                         <Imagedescription>
                                             To the imploration of PM Narendra Modi, the citizens are observing the Janata Curfew. On occasion of this GoI introduced and providing people a Janata Curfew Certificate on its MyGov.in portal.
                                         </Imagedescription>
-                                        <a href="/about/whatwedo/box1" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
+                                        <a href="/explore/reports/covid-19/report-4" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
                                     </Imagecontent>
                                     <ImageFooter>
                                         <span>
@@ -196,7 +196,7 @@ const  Report = () => {
                                         <Imagedescription>
                                             For The People(FTP), to maintain authenticity produced this report very much based on the data available at World Health Organization(WHO), which is continuously being reported by....
                                         </Imagedescription>
-                                        <a href="/about/whatwedo/box1" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
+                                        <a href="/explore/reports/covid-19/report-3" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
                                     </Imagecontent>
                                     <ImageFooter>
                                         <span>
@@ -235,7 +235,7 @@ const  Report = () => {
                                         <Imagedescription>
                                             Narendra Modi, Prime Minister of India, addressed the nation at 2000 IST on 19 March 2020. He called for a self-imposed Janta curfew to be observed by Indians to stay at home from....
                                         </Imagedescription>
-                                        <a href="/about/whatwedo/box1" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
+                                        <a href="/explore/reports/covid-19/report-2" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
                                     </Imagecontent>
                                     <ImageFooter>
                                         <span>
@@ -274,7 +274,7 @@ const  Report = () => {
                                         <Imagedescription>
                                             For The People(FTP), to maintain authenticity produced this report very much based on the data available at World Health Organization(WHO), which is continuously being reported...
                                         </Imagedescription>
-                                        <a href="/about/whatwedo/box1" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
+                                        <a href="/explore/reports/covid-19/report-1" style={{textDecoration: 'none',color:'white'}}><Button>Read more</Button></a>
                                     </Imagecontent>
                                     <ImageFooter>
                                         <span>

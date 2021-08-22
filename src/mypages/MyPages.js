@@ -5,7 +5,18 @@ import "./MyPages.css";
 
 import Home from "./Home/Home.js";
 import Operations from "./Operations/Operations.js";
+
+//explore pages
 import Explore from "./Explore/Explore.js";
+//explore reports pages
+import Report1 from "./Explore/Reports/Content/OnCovid/Report1/Report1";
+import Report2 from "./Explore/Reports/Content/OnCovid/Report2/Report2";
+import Report3 from "./Explore/Reports/Content/OnCovid/Report3/Report3";
+import Report4 from "./Explore/Reports/Content/OnCovid/Report4/Report4";
+import Report5 from "./Explore/Reports/Content/OnCovid/Report5/Report5";
+import Report6 from "./Explore/Reports/Content/OnCovid/Report6/Report6";
+import Report7 from "./Explore/Reports/Content/OnCovid/Report7/Report7";
+
 import BecomeAPart from "./BecomeAPart/BecomeAPart.js"
 
 // about pages
@@ -120,6 +131,27 @@ const MyPages = () =>{
             </Route>
             <Route exact path="/explore/contact">
                 <Explore />
+            </Route>
+            <Route exact path="/explore/reports/covid-19/report-1">
+                <Report1 />
+            </Route>
+            <Route exact path="/explore/reports/covid-19/report-2">
+                <Report2 />
+            </Route>
+            <Route exact path="/explore/reports/covid-19/report-3">
+                <Report3 />
+            </Route>
+            <Route exact path="/explore/reports/covid-19/report-4">
+                <Report4 />
+            </Route>
+            <Route exact path="/explore/reports/covid-19/report-5">
+                <Report5 />
+            </Route>
+            <Route exact path="/explore/reports/covid-19/report-6">
+                <Report6 />
+            </Route>
+            <Route exact path="/explore/reports/covid-19/report-7">
+                <Report7 />
             </Route>
             
             
