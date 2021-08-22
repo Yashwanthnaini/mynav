@@ -2,8 +2,21 @@ import React from 'react';
 import {Container,BoldContent,BigTextContent ,Line1,InnerBox1,Imagetitle,Images,Imagecontent,Imagedescription,ImageFooter,Button,InnerContainer} from "./Reports.styles";
 import { Grid } from '@material-ui/core';
 import "./Reports.css"
+import { makeStyles } from "@material-ui/core/styles";
+const useStyles = makeStyles((theme) => ({
+    root: {
+      
+    },
+    spacingXs2 : {
+         padding: "0px 8px",   
+    },
+    paper: {
+     
+    }
+  }));
 
 const  Report = () => {
+    const classes = useStyles();
     return (
         <>
             <div>
@@ -16,7 +29,7 @@ const  Report = () => {
                     </BigTextContent>
                     <Line1 />
                     <InnerContainer>
-                        <Grid container direction="row" justify-content="center" spacing={2}  alignItems="center" >
+                        <Grid container direction="row" justify-content="center" spacing={2}  alignItems="center" className={classes.spacingXs2} >
                             <Grid item xs={12} sm={6} md={6} lg={4}>
                                 <InnerBox1>                    
                                     <Imagetitle>

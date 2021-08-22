@@ -4,8 +4,8 @@ padding: 2rem;
 height:auto;
 width:100%;
 
-@media only screen and (max-width: 800px) {
-   
+@media only screen and (max-width: 600px) {
+    padding: 1rem;
 }
 `;
 
@@ -18,8 +18,8 @@ font-family: 'Poppins', sans-serif;
 @media only screen and (max-width: 1000px) {
     font-size:42px;
  }
-@media only screen and (max-width: 800px) {
-    font-size:32px;
+@media only screen and (max-width: 600px) {
+    font-size:20px;
  }
 `;
 export const BigTextContent = styled.p`
@@ -32,8 +32,8 @@ font-family: 'Poppins', sans-serif;
 @media only screen and (max-width: 1000px) {
     font-size:20px;
  }
-@media only screen and (max-width: 800px) {
-    font-size:16px;
+@media only screen and (max-width: 600px) {
+    font-size:15px;
  }
 `;
 
@@ -50,8 +50,9 @@ padding-top:2rem;
 height:auto;
 width:100%;
 
-@media only screen and (max-width: 800px) {
-   
+@media only screen and (max-width: 600px) {
+    padding-top:1rem;
+
 }
 `;
 export const InnerBox1 = styled.div`
@@ -68,10 +69,8 @@ padding:1rem;
     
 }
 @media only screen and (max-width: 600px) {
-    margin-left: auto;
-    margin-right: auto;  
-    margin-bottom :30px;
-    
+    margin-bottom :2px;
+    padding:0 0.5rem 0 0.5rem;
     height:auto ;
 
 }
@@ -90,6 +89,8 @@ export const Imagetitle = styled.h5`
     
     font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
     @media only screen and (max-width: 600px) {
+        font-size:17px;
+        padding: 0.5rem 0;
 }
 `;
 
@@ -133,7 +134,7 @@ export const Imagedescription = styled.p`
     height:auto;
     color:#383232f7;
     @media only screen and (max-width: 600px) {
-
+        font-size:12px;
 }
 `;
 export const ImageFooter = styled.div`
