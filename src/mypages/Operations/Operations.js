@@ -232,7 +232,7 @@ const Operations = () => {
     </p>
     {
         !openDropdown
-            ? <ul className="dropdown_menu close">
+            ? <ul className="Operation_dropdown_menu close">
              <Link
                 to="/operations/events"
                 style={{
@@ -281,7 +281,7 @@ const Operations = () => {
         
             
         </ul>
-        : <ul className="dropdown_menu open">
+        : <ul className="Operation_dropdown_menu open">
         <Link
            to="/operations/events"
            style={{

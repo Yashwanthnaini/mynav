@@ -239,7 +239,7 @@ const BecomeAPart = () => {
         </p>
             {
             !openDropdown
-            ?<ul className="dropdown_menu close">
+            ?<ul className="Become_dropdown_menu close">
                 <Link
                 to="/becomeapart/partners"
                 style={{
@@ -288,7 +288,7 @@ const BecomeAPart = () => {
                 }
             </Link>
             </ul>           
-            :<ul className="dropdown_menu open">
+            :<ul className="Become_dropdown_menu open">
             <Link
                 to="/becomeapart/partners"
                 style={{

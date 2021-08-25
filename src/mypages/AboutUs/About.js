@@ -404,7 +404,7 @@ const About = () => {
     </p>
     {
         !openDropdown
-            ? <ul className="dropdown_menu close">
+            ? <ul className="About_dropdown_menu close">
             <Link
                 to="/about/mission"
                 style={{
@@ -481,7 +481,7 @@ const About = () => {
                 }
             </Link>
         </ul>
-        : <ul className="dropdown_menu open">
+        : <ul className="About_dropdown_menu open">
         <Link
             to="/about/mission"
             style={{

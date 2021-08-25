@@ -286,7 +286,7 @@ const Explore = () => {
     </p>
     {
         !openDropdown
-            ? <ul className="dropdown_menu close">
+            ? <ul className="Explore_dropdown_menu close">
             <Link
                 to="/explore/blog"
                 style={{
@@ -337,7 +337,7 @@ const Explore = () => {
         
     
         </ul>
-        : <ul className="dropdown_menu open">
+        : <ul className="Explore_dropdown_menu open">
         <Link
             to="/explore/blog"
             style={{
