@@ -41,15 +41,16 @@ export const ButtonBox = styled.div`
  color:white;
  min-height: auto;
  background-color: rgb(0, 92, 156);
+ padding:0.5rem;
 }
 
 @media only screen and (max-width: 600px) {
-     
+     padding:0.3rem;
 }
 
 `;
 
-export const BigButton = styled.button`
+export const BigButton = styled.div`
  width:100%;
  height:auto;
  margin-left:1rem;
