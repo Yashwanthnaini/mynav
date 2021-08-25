@@ -1,15 +1,42 @@
-.boxClose{
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-1rem);
-    transition: all 500ms;
+.boxOneClose{
+   
+    transition: height 500ms ease-out;
     height: 0;
 
 }
-.boxOpen{
-    visibility: visible;
-    opacity: 1;
-    height:auto;
-    transform: translateY(0);
-    transition:all 500ms;
+.boxOneOpen{
+    transition: height 1s ease-out;
+    height: 1304px; ;
+    
+}
+.boxTwoClose{
+   
+    transition: height 500ms ease-out;
+    height: 0;
+
+}
+.boxTwoOpen{
+    transition: height 1s ease-out;
+    height: 1000px; ;
+    
+}
+
+.normal{
+
+    transform: rotate(0deg);
+    transition: transform 400ms linear;
+}
+.rotated{
+    
+    transform: rotate(180deg);
+  transition: transform 400ms linear;
+}
+
+@media (max-width: 600px) {
+    .boxOneOpen{
+        height: 2303px;
+    }
+    .boxTwoOpen{
+        height: 2000px;
+    }
 }

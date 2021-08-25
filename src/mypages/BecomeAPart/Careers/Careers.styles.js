@@ -18,7 +18,7 @@ export const BoldContent = styled.h3`
 font-size:28px;
 color: #E24E34;
 @media only screen and (max-width: 600px) {
-     
+    font-size:17px;
 }
 
 `;
@@ -27,7 +27,7 @@ export const ContentBox = styled.div`
  width:100%;
  height:auto;
  min-height: auto;
- 
+ margin-bottom: 1rem;
 }
 
 @media only screen and (max-width: 600px) {
@@ -53,14 +53,15 @@ export const BigButton = styled.button`
  width:100%;
  height:auto;
  margin-left:1rem;
- background-color: rgb(0, 92, 156);;
+ background-color: transparent;
  border:none;
  color:white;
  text-align:left;
+ 
  font-size:18px;
  font-family: 'Secular One', sans-serif; 
 @media only screen and (max-width: 600px) {
-     
+    font-size:15px;
 }
 
 `;
@@ -70,13 +71,23 @@ export const ArrowIcon = styled.button`
  height:100%;
  padding: 0px 16px 0px 0px;
  
- background-color: rgb(0, 92, 156);
+ background-color: transparent;
  border:none;
  color:white;
  text-align:right;
+ text-align: -webkit-right;
  font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;   
 @media only screen and (max-width: 600px) {
      
 }
 
+`;
+export const VerticalLine1 = styled.div`
+margin: 1rem 0 ;
+width:100%;
+height:1px;
+background-color:#000;
+@media only screen and (max-width: 800px) {      
+    
+}
 `;

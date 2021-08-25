@@ -21,7 +21,7 @@ export const SideTitle = styled.h1`
  font-size:17px;
  line-height:1.6rem;
 @media only screen and (max-width: 600px) {
-     
+    font-size:15px;
 }
 
 `;
@@ -31,7 +31,7 @@ export const Content = styled.p`
  line-height:1.6rem;
  padding-bottom:1rem;
 @media only screen and (max-width: 600px) {
-     
+    font-size:15px;
 }
 
 `;
@@ -42,7 +42,7 @@ export const SpanTitle = styled.span`
  font-weight:bold;
  
 @media only screen and (max-width: 600px) {
-     
+    font-size:15px;
 }
 
 `;
@@ -52,7 +52,7 @@ export const SpanContent = styled.span`
  line-height:1.6rem;
  
 @media only screen and (max-width: 600px) {
-     
+    font-size:15px;
 }
 
 `;
@@ -62,7 +62,7 @@ export const ListTitle = styled.ul`
  line-height:1.6rem;
  font-weight:bold;
 @media only screen and (max-width: 600px) {
-     
+    font-size:14px;  
 }
 
 `;
@@ -73,7 +73,8 @@ export const ListItem = styled.li`
  
  height:auto;
 @media only screen and (max-width: 600px) {
-     
+    font-size:14px;
+    padding: 0.3rem 0 0.3rem 1rem;
 }
 
 `;
@@ -86,7 +87,7 @@ export const Can = styled.div`
  margin:0;
  display:flex;
 @media only screen and (max-width: 600px) {
-     
+    font-size:15px; 
 }
 
 `;
@@ -107,7 +108,15 @@ export const ALink = styled.a`
 font-weight: bold;
 font-size:16px;
 @media only screen and (max-width: 600px) {
-     
+    font-size:15px; 
+}
+
+`;
+export const Kspans = styled.span`
+
+font-size:16px;
+@media only screen and (max-width: 600px) {
+    font-size:14px; 
 }
 
 `;

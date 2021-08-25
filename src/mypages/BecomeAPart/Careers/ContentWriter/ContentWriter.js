@@ -1,11 +1,11 @@
 import React from 'react';
 
-import {Apply,ALink,InnerContainer,ContentBox,Content,Can,SideTitle,ListTitle,ListItem,SpanTitle,SpanContent} from "./ContentWriter.styles"
+import {Apply,ALink,InnerContainer,ContentBox,Content,Can,SideTitle,ListTitle,ListItem,SpanTitle,SpanContent,Kspans} from "./ContentWriter.styles"
 import "./ContentWriter.css";
 function ContentWriter() {
     return (
        <>
-        <div>
+        
             <InnerContainer>                
                 <ContentBox>
                     <SideTitle>About</SideTitle>
@@ -25,58 +25,58 @@ function ContentWriter() {
                     </ListTitle>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Conducting in-depth research on project-related topics in order to develop original content.
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Edit content produced by other members of the team.
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Ensure all-around consistency (style, fonts, images and tone).
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Analyze content marketing metrics and makes changes as needed. 
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Assisting the marketing team in developing content for advertising campaigns. 
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Conducting keyword research and using SEO best practices to increase traffic to the project website.
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Collaborate with other departments to create innovative content ideas.
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
 
@@ -87,34 +87,34 @@ function ContentWriter() {
                     </ListTitle>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Proven content writing or copywriting experience.
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Proficient in all Microsoft Office applications.
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Excellent writing skills, as well as the ability to communicate and collaborate effectively.
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Experience doing research using multiple sources
-                            </span> 
+                            </Kspans> 
                         </Can>               
                     </ListItem>
 
@@ -125,26 +125,26 @@ function ContentWriter() {
                     </ListTitle>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Utilization of smartphone and laptop for communication and easily accessible. 
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                             Strong internet connectivity required to do work.
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Dedication and Commitment.
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
 
@@ -155,67 +155,67 @@ function ContentWriter() {
                     </ListTitle>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                             Societal contribution and experience. 
-                            </span> 
+                            </Kspans> 
                         </Can>                       
                     </ListItem>
                     <ListItem>                    
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Increase employable skills such as teamwork, communication, project management, team management, collaboration, research, leadership qualities.
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 You can develop professional skills to meet the demands of the role and Organization such as personal traits, transferable skills and knowledge-based skills
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Better networking and broader horizon. 
-                            </span> 
+                            </Kspans> 
                         </Can>   
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Cultural understanding and your work will be making a significant contribution towards a better tomorrow.
-                            </span> 
+                            </Kspans> 
                         </Can>
 
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 You will understand about how corporate work culture works.
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                             You will improve skills and get experience in content writing & SEO strategies.
-                            </span> 
+                            </Kspans> 
                         </Can>
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="15" ></span>  </span>
-                            <span>
+                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <Kspans>
                                 Work Experience
-                            </span> 
+                            </Kspans> 
                         </Can>                   
                     </ListItem>
                     <Apply className="ApplyButton" style={{margin:"1rem 0 0 2rem"}}>
@@ -223,7 +223,7 @@ function ContentWriter() {
                     </Apply>
                 </ContentBox>
             </InnerContainer>
-        </div>
+        
        </>
     )
 };
