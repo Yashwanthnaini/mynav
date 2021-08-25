@@ -23,10 +23,11 @@ function Partners() {
                             <Hide><TableCell style={{border:"1px solid black" ,padding:'5px'}}><Cell><b>Engagement Tracks</b></Cell></TableCell></Hide>
                         </TableRow>
                     </TableHead>
+                    <tbody>
                          <TableRow>
                             <TableCell style={{border:"1px solid black",padding:'5px'}}><Cellb>Strategic Partner</Cellb></TableCell>
                             <TableCell style={{border:"1px solid black" ,padding:'5px'}}><Cellb>Management and Operations</Cellb></TableCell>
-                            <Hide><TableCell style={{border:"1px solid black" ,paddingTop:'45px'}} rowspan="3">
+                            <Hide><TableCell style={{border:"1px solid black" ,paddingTop:'45px'}} rowSpan="3">
                                 <Ul>
                                     <List>Corporates</List>
                                     <List>Industries</List>
@@ -36,7 +37,7 @@ function Partners() {
                                     <List>Philanthropists</List>
                                 </Ul>
                             </TableCell></Hide>
-                            <Hide><TableCell style={{border:"1px solid black" ,paddingTop:'45px'}} rowspan="3">
+                            <Hide><TableCell style={{border:"1px solid black" ,paddingTop:'45px'}} rowSpan="3">
                                 <Ul>
                                     <List>Corporate Social Responsibility</List>
                                     <List>Human Resources/Employee Engagement</List>
@@ -55,7 +56,8 @@ function Partners() {
                          <TableRow>
                             <TableCell style={{border:"1px solid black",padding:'5px' }}><Cellb>Associate Partner</Cellb></TableCell>
                             <TableCell style={{border:"1px solid black",padding:'5px'}}><Cellb>Operations</Cellb></TableCell>
-                         </TableRow>
+                        </TableRow>
+                    </tbody>     
                 </Table>
                 <br></br>
                     <Hide>

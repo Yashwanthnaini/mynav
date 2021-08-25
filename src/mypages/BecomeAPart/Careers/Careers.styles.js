@@ -66,7 +66,7 @@ export const BigButton = styled.button`
 
 `;
 
-export const ArrowIcon = styled.button`
+export const ArrowIcon = styled.div`
  width:100%;
  height:100%;
  padding: 0px 16px 0px 0px;

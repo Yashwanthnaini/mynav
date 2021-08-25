@@ -251,7 +251,7 @@ position: relative;
         top: 13px; 
 }
 `;
-export const Imagedescription = styled.p`
+export const Imagedescription = styled.div`
     font-size:33px;
     line-height: 1.7em;
     font-family: helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;

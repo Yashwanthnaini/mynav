@@ -25,7 +25,7 @@ function OpportunitiesCutor() {
                     </ListTitle>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 A detail-oriented, organized, and focused on cultivating a robust collection of Career Opportunities.
                             </Kspans> 
@@ -33,7 +33,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 Search and collect all available opportunities and events information of different categories.
                             </Kspans> 
@@ -41,7 +41,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 Developing and organizing new collections to expand and improve opportunities to the users.
                             </Kspans> 
@@ -49,7 +49,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 Ensuring that collections are properly preserved and maintained. 
                             </Kspans> 
@@ -63,7 +63,7 @@ function OpportunitiesCutor() {
                     </ListTitle>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 Comprehensive understanding of careers and their opportunities.
                             </Kspans> 
@@ -71,7 +71,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 Exceptional research and verbal and written communication skills.
                             </Kspans> 
@@ -79,7 +79,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 Ability to work independently or with other team members to achieve objectives.
                             </Kspans> 
@@ -94,7 +94,7 @@ function OpportunitiesCutor() {
                     </ListTitle>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 Utilization of smartphone and laptop for communication and easily accessible. 
                             </Kspans> 
@@ -102,7 +102,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                             Strong internet connectivity required to do work.
                             </Kspans> 
@@ -110,7 +110,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 Dedication and Commitment.
                             </Kspans> 
@@ -124,7 +124,7 @@ function OpportunitiesCutor() {
                     </ListTitle>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                             Societal contribution and experience. 
                             </Kspans> 
@@ -132,7 +132,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>                    
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 Increase employable skills such as teamwork, communication, project management, team management, collaboration, research, leadership qualities.
                             </Kspans> 
@@ -140,7 +140,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 You can develop professional skills to meet the demands of the role and Organization such as personal traits, transferable skills and knowledge-based skills
                             </Kspans> 
@@ -148,7 +148,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 Better networking and broader horizon. 
                             </Kspans> 
@@ -156,7 +156,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 Cultural understanding and your work will be making a significant contribution towards a better tomorrow.
                             </Kspans> 
@@ -165,7 +165,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 You will understand about how corporate work culture works.
                             </Kspans> 
@@ -173,7 +173,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                             You will improve skills and get experience in content writing & SEO strategies.
                             </Kspans> 
@@ -181,7 +181,7 @@ function OpportunitiesCutor() {
                     </ListItem>
                     <ListItem>
                         <Can>
-                            <span style={{padding:"1px 5px 0 0"}}><span class="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
+                            <span style={{padding:"1px 5px 0 0"}}><span className="iconify" data-icon="icon-park:dot" data-width="13" ></span>  </span>
                             <Kspans>
                                 Work Experience
                             </Kspans> 

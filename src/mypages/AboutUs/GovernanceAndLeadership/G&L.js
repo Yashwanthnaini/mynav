@@ -138,13 +138,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                                 
@@ -178,13 +178,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>  
@@ -214,13 +214,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                             </center>                             
                         </Member>                                                
@@ -249,13 +249,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>                             
@@ -283,13 +283,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>  
@@ -317,13 +317,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>                             
@@ -350,13 +350,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>  
@@ -383,13 +383,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>                             
@@ -416,13 +416,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>  
@@ -449,13 +449,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>                             
@@ -482,13 +482,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>  
@@ -513,13 +513,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>                             
@@ -546,13 +546,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>  
@@ -579,13 +579,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>                             
@@ -610,13 +610,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>  
@@ -644,13 +644,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>                             
@@ -677,13 +677,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>  
@@ -708,13 +708,13 @@ const  GovernanceAndLeadership = () => {
                                 <Icon  icon="mdi:linkedin" width="42"    />
                                 </a>
                                 <a className="insta-icon">
-                                    <span class="iconify" data-icon="mdi:instagram" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:instagram" data-width="42"></span>
                                 </a>
                                 <a className="twitter-icon">
-                                    <span class="iconify" data-icon="mdi:twitter" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:twitter" data-width="42"></span>
                                 </a>
                                 <a className="facebook-icon">
-                                    <span class="iconify" data-icon="mdi:facebook" data-width="42"></span>
+                                    <span className="iconify" data-icon="mdi:facebook" data-width="42"></span>
                                 </a>
                                 
                             </center>                             

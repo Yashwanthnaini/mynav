@@ -19,7 +19,7 @@ const Careers = () => {
                 <ContentBox>
                     <ButtonBox onClick={()=>{setBoxOneOpen(!boxOneOpen)}}>
                         <Grid container direction="row" justifyContent="space-between" alignItems="center">
-                            <Grid item xs={8} justifyContent="left" alignItems="left">
+                            <Grid item xs={8}  >
                                 <BigButton  >
                                     Content Writer
                                 </BigButton>
@@ -32,10 +32,10 @@ const Careers = () => {
                                         boxOneOpen
 
                                         ?<div className="normal" style={{width:"35px",height:"35px"}}>
-                                        <span class="iconify" data-icon="akar-icons:chevron-up" data-width="35"></span>
+                                        <span className="iconify" data-icon="akar-icons:chevron-up" data-width="35"></span>
                                         </div>
                                         :<div className="rotated" style={{width:"35px",height:"35px"}}>
-                                        <span class="iconify" data-icon="akar-icons:chevron-up" data-width="35"></span>
+                                        <span className="iconify" data-icon="akar-icons:chevron-up" data-width="35"></span>
                                         </div>
                                     }
                                 
@@ -59,7 +59,7 @@ const Careers = () => {
                 <ContentBox>
                     <ButtonBox onClick={()=>{setBoxTwoOpen(!boxTwoOpen)}}>
                         <Grid container direction="row" justifyContent="space-between" alignItems="center">
-                            <Grid item xs={8} justifyContent="left" alignItems="left">
+                            <Grid item xs={8}  >
                                 <BigButton  >
                                     Opportunities Curator
                                 </BigButton>
@@ -72,10 +72,10 @@ const Careers = () => {
                                         boxTwoOpen
 
                                         ?<div className="normal" style={{width:"35px",height:"35px"}}>
-                                        <span class="iconify" data-icon="akar-icons:chevron-up" data-width="35"></span>
+                                        <span className="iconify" data-icon="akar-icons:chevron-up" data-width="35"></span>
                                         </div>
                                         :<div className="rotated" style={{width:"35px",height:"35px"}}>
-                                        <span class="iconify" data-icon="akar-icons:chevron-up" data-width="35"></span>
+                                        <span className="iconify" data-icon="akar-icons:chevron-up" data-width="35"></span>
                                         </div>
                                     }
                                 
