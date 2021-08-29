@@ -29,9 +29,11 @@ export const ContentBox = styled.div`
  min-height: auto;
  margin-bottom: 1rem;
 }
-
-@media only screen and (max-width: 600px) {
-     
+@media only screen and (max-width: 1024px) {
+    margin-bottom: 2rem;   
+}
+@media only screen and (max-width: 800px) {
+    margin-bottom: 1rem;
 }
 
 `;
