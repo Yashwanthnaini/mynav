@@ -35,7 +35,7 @@ display: none;
 export const Content = styled.p`
 font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
 
-font-size: 15px;
+font-size: 16px;
 font-weight: lighter;
 line-height: 22.5px;
 color:#141414;
@@ -71,7 +71,7 @@ padding-left:20px   ;
 export const List = styled.li`
 font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
 letter-spacing:0.2px;
-font-size: 15px;
+font-size: 16px;
 color:black;
 font-weight: lighter;
 line-height: 22.5px;

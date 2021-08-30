@@ -16,13 +16,13 @@ font-family:helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-ser
 color:#141414;
 font-weight: 550;
 @media only screen and (max-width: 600px) {
-font-size: 17px;
+font-size: 16px;
 }
 `;
 export const Content = styled.p`
 font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
 width:100%;
-font-size: 15px;
+font-size: 16px;
 font-weight: lighter;
 line-height: 24px;
 letter-spacing:0.05px;
@@ -33,7 +33,7 @@ color:rgb(20, 20, 20);
 `;
 export const Cell = styled.div`
 text-align:center;
-font-size:15px;
+font-size:16px;
 font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
 letter-spacing:0.05px;
 @media only screen and (max-width: 600px) {
@@ -42,7 +42,7 @@ letter-spacing:0.05px;
 `;
 export const Cellb = styled.div`
 text-align:center;
-font-size:15px;
+font-size:16px;
 font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
 letter-spacing:0.05px;
 margin:30px 0px 30px 0px;
@@ -62,7 +62,7 @@ padding:0px 25px;
 export const List = styled.li`
 font-family: helvetica-w01-roman,helvetica-w02-roman,helvetica-lt-w10-roman,sans-serif;
 letter-spacing:0.2px;
-font-size: 15px;
+font-size: 16px;
 color:black;
 font-weight: lighter;
 line-height: 22.5px;
